@@ -14,7 +14,7 @@ from sqlalchemy import text
 
 from app.config import settings
 from app.db.database import SessionLocal, engine
-from app.services.scoring import refresh_all_scores
+from app.services.pipeline import run_weekly_cdi_pipeline
 
 logger = logging.getLogger(__name__)
 
@@ -28,9 +28,9 @@ _lock_conn = None
 def _run_refresh() -> None:
     db = SessionLocal()
     try:
-        refresh_all_scores(db)
+        run_weekly_cdi_pipeline(db)
     except Exception:  # noqa: BLE001
-        logger.exception("Scheduled score refresh failed")
+        logger.exception("Scheduled weekly CDI pipeline failed")
     finally:
         db.close()
 
@@ -69,18 +69,21 @@ def start_scheduler() -> None:
     _scheduler.add_job(
         _run_refresh,
         CronTrigger(
+            day_of_week=settings.cdi_refresh_cron_day,
             hour=settings.cdi_refresh_cron_hour,
             minute=settings.cdi_refresh_cron_minute,
         ),
-        id="daily_score_refresh",
+        id="weekly_cdi_pipeline",
         replace_existing=True,
         max_instances=1,
         coalesce=True,
     )
     _scheduler.start()
     logger.info(
-        "Scheduler started (leader). Daily refresh at %02d:%02d UTC",
-        settings.cdi_refresh_cron_hour, settings.cdi_refresh_cron_minute,
+        "Scheduler started (leader). Weekly CDI pipeline on %s at %02d:%02d UTC",
+        settings.cdi_refresh_cron_day,
+        settings.cdi_refresh_cron_hour,
+        settings.cdi_refresh_cron_minute,
     )
 
 

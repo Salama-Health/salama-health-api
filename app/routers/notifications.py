@@ -65,7 +65,7 @@ def get_alerts(
             .filter(
                 CDIScore.facility_id.in_(facility_ids),
                 CDIScore.is_current == True,            # noqa: E712
-                CDIScore.risk_level.in_(["warning", "danger"]),
+                CDIScore.risk_level.in_(["Medium", "High", "Critical"]),
             )
             .all()
         )
@@ -76,7 +76,7 @@ def get_alerts(
                 title=f"{cdi.hazard} risk at {fac.name}",
                 body=cdi.hazard_detail or "Climate hazard window approaching.",
                 facility_id=fac.id,
-                severity="danger" if cdi.risk_level == "danger" else "warning",
+                severity="danger" if cdi.risk_level in ("High", "Critical") else "warning",
                 created_at=cdi.scored_at or now,
             ))
 

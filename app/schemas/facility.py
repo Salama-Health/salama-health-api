@@ -20,7 +20,7 @@ class FacilityOut(CamelModel):
 
     # Latest cached CDI summary (nullable until first refresh)
     cdi_score: Optional[float] = None
-    risk: Optional[str] = None         # ok | warning | danger
+    risk: Optional[str] = None         # Low | Medium | High | Critical
     hazard: Optional[str] = None
     days_to_window: Optional[int] = None
     hazard_detail: Optional[str] = None

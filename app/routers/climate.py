@@ -6,15 +6,24 @@ Serves cached CDI scores. `/refresh` recomputes all scores in the background
 """
 from typing import Optional
 
-from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query
+from fastapi import (
+    APIRouter,
+    BackgroundTasks,
+    Depends,
+    File,
+    HTTPException,
+    Query,
+    UploadFile,
+)
 from sqlalchemy.orm import Session
 
 from app.core.security import get_current_worker
 from app.db.database import SessionLocal, get_db
 from app.db.models import CDIScore, Facility, Worker
-from app.schemas.climate import CDIComponents, CDIOut
+from app.schemas.climate import CDIComponents, CDIOut, SarUploadResult
 from app.schemas.common import Message
-from app.services import scoring
+from app.services import ingest, scoring
+from app.services.pipeline import run_weekly_cdi_pipeline
 
 router = APIRouter()
 
@@ -73,18 +82,44 @@ def get_facility_cdi(
     return _to_out(db, f, _ensure_cdi(db, f))
 
 
+@router.post("/upload-sar", response_model=SarUploadResult)
+async def upload_sar(
+    file: UploadFile = File(..., description="CSV: facility_name, VV_backscatter"),
+    db: Session = Depends(get_db),
+    current: Worker = Depends(get_current_worker),
+):
+    """
+    Weekly Sentinel-1 SAR upload (Section 2.1). Appends one VVHistory row per
+    matched facility; these feed the VV_backscatter/VV_7day_mean/VV_delta features.
+    """
+    if not (file.filename or "").lower().endswith(".csv"):
+        raise HTTPException(status_code=400, detail="Expected a .csv file")
+    raw = await file.read()
+    try:
+        text = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        raise HTTPException(status_code=400, detail="File must be UTF-8 encoded CSV")
+
+    result = ingest.store_sar_csv(db, text)
+    return SarUploadResult(matched=result["matched"], skipped=result["skipped"])
+
+
 @router.post("/refresh", response_model=Message)
 def refresh_cdi(
     background_tasks: BackgroundTasks,
     current: Worker = Depends(get_current_worker),
 ):
-    """Recompute CDI + child risk for all facilities/children in the background."""
+    """
+    Run the full weekly CDI pipeline in the background (CHIRPS + Open-Meteo +
+    recompute all CDI/risk scores). This is the endpoint the weekly scheduler
+    or an external cron calls.
+    """
     def _job():
         db = SessionLocal()
         try:
-            scoring.refresh_all_scores(db)
+            run_weekly_cdi_pipeline(db)
         finally:
             db.close()
 
     background_tasks.add_task(_job)
-    return Message(message="Score refresh queued")
+    return Message(message="Weekly CDI pipeline queued")

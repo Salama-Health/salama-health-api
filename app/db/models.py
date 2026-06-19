@@ -54,11 +54,13 @@ class Facility(Base):
 
     id          = Column(String, primary_key=True, default=new_id)
     name        = Column(String, nullable=False, index=True)
-    county      = Column(String)
+    county      = Column(String, index=True)
     state       = Column(String, index=True)
     latitude    = Column(Float)
     longitude   = Column(Float)
     elevation_m = Column(Float)
+    # OCHA/static historical flood-affected fraction — feature index 29.
+    flood_affected_norm = Column(Float, default=0.0)
     active      = Column(Boolean, default=True)
     created_at  = Column(DateTime, server_default=func.now())
 
@@ -125,7 +127,7 @@ class CDIScore(Base):
     p_cutoff         = Column(Float)
     p_ccf            = Column(Float)
     p_disp           = Column(Float)
-    risk_level       = Column(String)                     # ok | warning | danger
+    risk_level       = Column(String)                     # Low | Medium | High | Critical
     hazard           = Column(String)
     days_to_window   = Column(Integer)
     hazard_detail    = Column(Text)
@@ -182,6 +184,55 @@ class SyncRecord(Base):
     worker_id       = Column(String, ForeignKey("workers.id"), unique=True, index=True)
     last_sync       = Column(DateTime, server_default=func.now())
     pending_records = Column(Integer, default=0)
+
+
+class County(Base):
+    """
+    County reference data: CHIRPS P-code mapping + latest IDP count.
+    Facilities join to this by `Facility.county == County.name`.
+    """
+    __tablename__ = "counties"
+
+    id                  = Column(String, primary_key=True, default=new_id)
+    name                = Column(String, unique=True, nullable=False, index=True)
+    pcode               = Column(String, unique=True, index=True)   # e.g. SS0607
+    state               = Column(String, index=True)
+    idp_count           = Column(Integer, default=0)                # latest IOM DTM
+    idp_updated_at      = Column(DateTime)
+    created_at          = Column(DateTime, server_default=func.now())
+
+
+class RainfallHistory(Base):
+    """Weekly CHIRPS rainfall per county — powers rolling windows & anomalies."""
+    __tablename__ = "rainfall_history"
+
+    id            = Column(String, primary_key=True, default=new_id)
+    county        = Column(String, index=True, nullable=False)
+    observed_date = Column(DateTime, index=True)
+    year          = Column(Integer, index=True)
+    week_of_year  = Column(Integer, index=True)
+    rfh           = Column(Float)          # rainfall this dekad/week (mm)
+    rfh_avg       = Column(Float)          # long-term average same period (mm)
+    created_at    = Column(DateTime, server_default=func.now())
+
+    __table_args__ = (
+        Index("ix_rain_county_date", "county", "observed_date"),
+    )
+
+
+class VVHistory(Base):
+    """Weekly Sentinel-1 VV backscatter per facility (uploaded via /climate/upload-sar)."""
+    __tablename__ = "vv_history"
+
+    id             = Column(String, primary_key=True, default=new_id)
+    facility_id    = Column(String, ForeignKey("facilities.id"), index=True, nullable=False)
+    vv_backscatter = Column(Float)
+    observed_at    = Column(DateTime, index=True)
+    created_at     = Column(DateTime, server_default=func.now())
+
+    __table_args__ = (
+        Index("ix_vv_facility_observed", "facility_id", "observed_at"),
+    )
 
 
 class Device(Base):

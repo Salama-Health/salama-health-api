@@ -11,18 +11,27 @@ Default logins after seeding:
 from datetime import datetime, timedelta
 
 from app.db.database import Base, SessionLocal, engine
-from app.db.models import Child, Facility, Vaccination, Worker
+from app.db.models import Child, County, Facility, Vaccination, Worker
 from app.core.security import hash_pin
 from app.services.scoring import refresh_all_scores
 
 Base.metadata.create_all(bind=engine)
 
+# NOTE: PCODEs below are placeholders for the CHIRPS join — replace with the
+# real South Sudan admin-2 P-codes before relying on live CHIRPS ingestion.
+COUNTIES = [
+    {"name": "Rubkona", "pcode": "SS9201", "state": "Unity",      "idp": 120000},
+    {"name": "Koch",    "pcode": "SS9203", "state": "Unity",      "idp": 28000},
+    {"name": "Melut",   "pcode": "SS9601", "state": "Upper Nile", "idp": 41000},
+    {"name": "Malakal", "pcode": "SS9603", "state": "Upper Nile", "idp": 95000},
+]
+
 FACILITIES = [
-    {"name": "Bentiu PHCC",        "county": "Rubkona", "state": "Unity",      "lat": 9.221,  "lng": 29.801, "elev": 388.0},
-    {"name": "Nhialdiu PHCC",      "county": "Rubkona", "state": "Unity",      "lat": 9.194,  "lng": 29.789, "elev": 390.0},
-    {"name": "Meluf PHCC",         "county": "Melut",   "state": "Upper Nile", "lat": 10.453, "lng": 32.374, "elev": 398.0},
-    {"name": "Wau Shilluk Health", "county": "Malakal", "state": "Upper Nile", "lat": 9.534,  "lng": 31.659, "elev": 405.0},
-    {"name": "Koch Health Centre", "county": "Koch",    "state": "Unity",      "lat": 9.135,  "lng": 29.659, "elev": 412.0},
+    {"name": "Bentiu PHCC",        "county": "Rubkona", "state": "Unity",      "lat": 9.221,  "lng": 29.801, "elev": 388.0, "flood": 0.82},
+    {"name": "Nhialdiu PHCC",      "county": "Rubkona", "state": "Unity",      "lat": 9.194,  "lng": 29.789, "elev": 390.0, "flood": 0.74},
+    {"name": "Meluf PHCC",         "county": "Melut",   "state": "Upper Nile", "lat": 10.453, "lng": 32.374, "elev": 398.0, "flood": 0.55},
+    {"name": "Wau Shilluk Health", "county": "Malakal", "state": "Upper Nile", "lat": 9.534,  "lng": 31.659, "elev": 405.0, "flood": 0.40},
+    {"name": "Koch Health Centre", "county": "Koch",    "state": "Unity",      "lat": 9.135,  "lng": 29.659, "elev": 412.0, "flood": 0.18},
 ]
 
 WORKERS = [
@@ -48,6 +57,15 @@ CHILDREN = [
 def run():
     db = SessionLocal()
     try:
+        for cd in COUNTIES:
+            if not db.query(County).filter(County.name == cd["name"]).first():
+                db.add(County(
+                    name=cd["name"], pcode=cd["pcode"], state=cd["state"],
+                    idp_count=cd["idp"], idp_updated_at=datetime.utcnow(),
+                ))
+                print(f"  + county {cd['name']} (idp {cd['idp']})")
+        db.flush()
+
         fac_ids = {}
         for fd in FACILITIES:
             f = db.query(Facility).filter(Facility.name == fd["name"]).first()
@@ -55,7 +73,7 @@ def run():
                 f = Facility(
                     name=fd["name"], county=fd["county"], state=fd["state"],
                     latitude=fd["lat"], longitude=fd["lng"], elevation_m=fd["elev"],
-                    active=True,
+                    flood_affected_norm=fd["flood"], active=True,
                 )
                 db.add(f)
                 db.flush()

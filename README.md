@@ -36,18 +36,44 @@ Dockerfile · docker-compose.yml · gunicorn_conf.py · Makefile
 
 ## How scoring works (and why it scales)
 
-The two ML-driven scores change **slowly** (climate data is daily), so they are
+The two ML-driven scores change **slowly** (climate data is weekly), so they are
 **precomputed and cached** in Postgres rather than recomputed per request:
 
 - **CDI (Climate Disruption Index)** per facility
   `CDI = 0.35·P(flood) + 0.30·P(cutoff) + 0.20·P(CCF) + 0.15·P(disp)`
-  `P(flood)` comes from the model ensemble.
+  `P(flood)` comes from the XGBoost + RandomForest ensemble over **30 features**.
 - **IGS (Immunisation Gap Score)** per child, normalised to 0–1
   `IGS = CDI · VaccinationDebt · (1/Accessibility) · AgeUrgency`
 
-A daily job (or `POST /climate/refresh`) runs inference and writes the current
-scores. **All user-facing GET requests are O(1) Postgres reads** — independent of
-model throughput — which is what lets the box serve ~100 concurrent users.
+A weekly job (or `POST /climate/refresh`) runs the pipeline and writes the
+current scores. **All user-facing GET requests are O(1) Postgres reads** —
+independent of model throughput — which is what lets the box serve ~100
+concurrent users.
+
+CDI risk bands (per the data spec): `Low` < 0.20 ≤ `Medium` < 0.40 ≤ `High`
+< 0.60 ≤ `Critical`.
+
+## Weekly climate pipeline
+
+Implements the *Backend Data Pipeline Technical Specification*. Each Sunday
+(00:00 UTC) `run_weekly_cdi_pipeline` (`app/services/pipeline.py`):
+
+1. **CHIRPS rainfall** — downloads the subnational CSV from HDX and stores
+   per-county rainfall to `rainfall_history` (rolling windows + anomalies).
+2. **Open-Meteo** — fetches 7-day temp/humidity/ET₀ per facility (rate-limited).
+3. **Sentinel-1 SAR** — VV backscatter is uploaded out-of-band as a weekly CSV
+   via `POST /climate/upload-sar` → `vv_history`.
+4. **Score** — builds the 30-feature vector per facility, runs the ensemble,
+   assembles CDI, recomputes child IGS, and caches everything.
+
+Every external call is best-effort: missing data falls back to stored history,
+then to seasonal estimates, so a run never crashes. Drop the trained models in
+`models/` (see `models/README.md`); without them, `P(flood)` uses a documented
+rule-based fallback.
+
+The IDP feature comes from the `counties` table (`idp_count`, refreshed manually
+when IOM publishes a new DTM round); the static `flood_affected_norm` lives on
+each facility.
 
 ### Concurrency / model loading
 
@@ -119,11 +145,24 @@ make migrate                         # alembic upgrade head
 
 ### Scheduled refresh
 
-In-process scheduler is on by default (`ENABLE_SCHEDULER=true`, daily 02:00 UTC).
-To use external cron instead, set `ENABLE_SCHEDULER=false` and add:
+In-process scheduler is on by default (`ENABLE_SCHEDULER=true`) and runs the
+weekly CDI pipeline every **Sunday 00:00 UTC** (single leader across workers via
+a Postgres advisory lock). To use external cron instead, set
+`ENABLE_SCHEDULER=false` and add:
 
 ```cron
-0 2 * * *  ubuntu  cd /opt/salama-health-api && docker compose exec -T api python -m scripts.refresh_scores
+0 0 * * 0  ubuntu  cd /opt/salama-health-api && docker compose exec -T api python -m scripts.refresh_scores
+```
+
+### Weekly SAR upload
+
+Run the Earth Engine script (data spec §2.1) to produce a CSV of
+`facility_name,VV_backscatter`, then upload it:
+
+```bash
+curl -X POST -H "Authorization: Bearer <token>" \
+  -F "file=@sar_weekly.csv" \
+  https://<your-host>/climate/upload-sar
 ```
 
 ## API surface
@@ -136,7 +175,7 @@ To use external cron instead, set `ENABLE_SCHEDULER=false` and add:
 | Vaccinations | `GET /vaccinations?childId=` · `POST /vaccinations` |
 | Facilities | `GET /facilities` · `GET /facilities/{id}` · `POST /facilities` |
 | Risk Scoring | `GET /risk-scores` · `GET /risk-scores/child/{id}` |
-| Climate CDI | `GET /climate/facilities` · `GET /climate/facilities/{id}` · `POST /climate/refresh` |
+| Climate CDI | `GET /climate/facilities` · `GET /climate/facilities/{id}` · `POST /climate/upload-sar` · `POST /climate/refresh` |
 | Activity | `GET /activity` |
 | Sync | `POST /sync/upload` · `GET /sync/status` |
 | Reports | `GET /reports/summary` · `GET /reports/doses-weekly` · `GET /reports/coverage-by-vaccine` · `POST /reports/export` |

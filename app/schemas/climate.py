@@ -11,13 +11,18 @@ class CDIComponents(CamelModel):
     p_disp: float
 
 
+class SarUploadResult(CamelModel):
+    matched: int
+    skipped: list[str] = []
+
+
 class CDIOut(CamelModel):
     facility_id: str
     facility_name: str
     county: Optional[str] = None
     state: Optional[str] = None
     cdi_score: float
-    risk: str                          # ok | warning | danger
+    risk: str                          # Low | Medium | High | Critical
     hazard: str
     days_to_window: int
     hazard_detail: str

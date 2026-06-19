@@ -30,21 +30,30 @@ from sqlalchemy.orm import Session
 from app.config import settings
 from app.db.models import CDIScore, Child, Facility, RiskScore, Vaccination
 from app.ml import epi
-from app.ml.features import build_feature_vector, is_rainy_season
+from app.ml.features import (
+    FeatureInputs,
+    compute_feature_vector,
+    estimated_inputs,
+    is_rainy_season,
+)
 from app.ml.model_loader import model_manager
+from app.services import ingest
 
 logger = logging.getLogger(__name__)
 
-CHIRPS_RAIN_MAX = 103.8
+CHIRPS_RAIN_MAX = settings.chirps_rain_max
 
 
 # ── CDI helpers ───────────────────────────────────────────────────────────────
 def cdi_risk_level(cdi: float) -> str:
+    """4-level risk band per the data spec (thresholds 0.20 / 0.40 / 0.60)."""
     if cdi >= 0.60:
-        return "danger"
+        return "Critical"
     if cdi >= 0.40:
-        return "warning"
-    return "ok"
+        return "High"
+    if cdi >= 0.20:
+        return "Medium"
+    return "Low"
 
 
 def hazard_label(p_flood: float, p_ccf: float, p_disp: float) -> str:
@@ -58,11 +67,11 @@ def hazard_label(p_flood: float, p_ccf: float, p_disp: float) -> str:
 
 
 def days_to_window(cdi: float) -> int:
-    if cdi >= 0.50:
+    if cdi >= 0.60:
         return 7
     if cdi >= 0.40:
         return 14
-    if cdi >= 0.30:
+    if cdi >= 0.20:
         return 21
     return 0
 
@@ -86,9 +95,43 @@ def compute_cdi(p_flood: float, p_cutoff: float, p_ccf: float, p_disp: float) ->
     return round(0.35 * p_flood + 0.30 * p_cutoff + 0.20 * p_ccf + 0.15 * p_disp, 4)
 
 
-def score_facility(facility: Facility) -> dict:
-    """Run inference + formula for one facility. Pure (no DB writes)."""
-    vec = build_feature_vector(facility.elevation_m)
+def build_inputs(db: Session, facility: Facility, climate: Optional[dict] = None) -> FeatureInputs:
+    """
+    Assemble the model's raw inputs for a facility from stored history + (optional)
+    freshly-fetched Open-Meteo climate. Starts from seasonal estimates and
+    overlays whatever real data is available, so partial data degrades gracefully.
+    """
+    idp = ingest.get_county_idp_normalised(db, facility.county)
+    inputs = estimated_inputs(
+        elevation_m=facility.elevation_m,
+        flood_affected_norm=facility.flood_affected_norm or 0.0,
+        idp_normalised=idp,
+    )
+
+    vv = ingest.get_vv_history(db, facility.id, n=3)
+    if vv:
+        inputs.vv_history = vv
+
+    rain = ingest.get_rainfall_history(db, facility.county, weeks=5)
+    if rain:
+        inputs.rain_history = rain
+        inputs.rfh_avg = ingest.get_latest_rfh_avg(db, facility.county)
+        inputs.rainfall_climatology_mean = None  # falls back to mean(rain) in features
+
+    if climate:
+        inputs.temp_max = climate.get("temp_max", inputs.temp_max)
+        inputs.temp_min = climate.get("temp_min", inputs.temp_min)
+        inputs.humidity = climate.get("humidity", inputs.humidity)
+        inputs.et0 = climate.get("et0", inputs.et0)
+        inputs.daily_temps_max = climate.get("daily_temps_max", inputs.daily_temps_max)
+        inputs.temp_climatology_mean = None
+
+    return inputs
+
+
+def score_facility(db: Session, facility: Facility, climate: Optional[dict] = None) -> dict:
+    """Run inference + CDI assembly for one facility. Pure (no DB writes)."""
+    vec = compute_feature_vector(build_inputs(db, facility, climate))
     p_flood = model_manager.predict_flood_proba(vec)
 
     rain_mm = float(vec[6])
@@ -109,7 +152,7 @@ def score_facility(facility: Facility) -> dict:
         "hazard": hazard_label(p_flood, p_ccf, p_disp),
         "days_to_window": days_to_window(cdi),
         "hazard_detail": hazard_detail(p_flood, p_ccf, rain_mm),
-        "hazard_timeframe": "Expected to last 3 to 4 weeks" if cdi > 0.30 else "No disruption forecast",
+        "hazard_timeframe": "Expected to last 3 to 4 weeks" if cdi >= 0.20 else "No disruption forecast",
     }
 
 
@@ -184,8 +227,10 @@ def _persist_risk(db: Session, child: Child, result: dict) -> RiskScore:
     return row
 
 
-def refresh_facility_cdi(db: Session, facility: Facility, commit: bool = True) -> CDIScore:
-    row = _persist_cdi(db, facility, score_facility(facility))
+def refresh_facility_cdi(
+    db: Session, facility: Facility, climate: Optional[dict] = None, commit: bool = True
+) -> CDIScore:
+    row = _persist_cdi(db, facility, score_facility(db, facility, climate))
     if commit:
         db.commit()
     return row
@@ -199,15 +244,19 @@ def refresh_child_risk(db: Session, child: Child, commit: bool = True) -> RiskSc
     return row
 
 
-def refresh_all_scores(db: Session) -> dict:
+def refresh_all_scores(db: Session, climate_by_facility: Optional[dict] = None) -> dict:
     """
     Recompute CDI for every facility, then IGS for every child.
-    Called by the daily scheduler and the /climate/refresh endpoint.
+    Called by the weekly pipeline and the /climate/refresh endpoint.
+
+    `climate_by_facility` (optional) maps facility_id -> Open-Meteo aggregates
+    fetched by the pipeline; when omitted, scoring uses stored history + estimates.
     """
+    climate_by_facility = climate_by_facility or {}
     facilities = db.query(Facility).filter(Facility.active == True).all()  # noqa: E712
     cdi_by_facility: dict[str, float] = {}
     for f in facilities:
-        result = score_facility(f)
+        result = score_facility(db, f, climate_by_facility.get(f.id))
         _persist_cdi(db, f, result)
         cdi_by_facility[f.id] = result["cdi_score"]
     db.commit()

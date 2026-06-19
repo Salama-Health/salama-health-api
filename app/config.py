@@ -52,18 +52,42 @@ class Settings(BaseSettings):
     ensemble_weights_file: str = "ensemble_weights.json"
 
     # Optional fallback: pull models from Hugging Face Hub if not found locally.
-    hf_model_repo: str = ""                   # e.g. "mubarakabanadda/salama-cdi-models"
+    hf_model_repo: str = "MubarakB/salama-cdi-models"
 
     # If True the API refuses to start when no models are found (production).
     require_models: bool = False
 
     # ── Scoring / scheduler ─────────────────────────────────────────────────
-    # CDI depends on daily climate data, so we precompute & cache scores rather
-    # than running inference on every request (see services/scoring.py).
+    # The CDI pipeline runs WEEKLY (climate data is dekadal/weekly). Scores are
+    # precomputed & cached, so reads never run inference (see services/scoring.py).
     enable_scheduler: bool = True
-    cdi_refresh_cron_hour: int = 2            # daily CDI recompute at 02:00
+    # Weekly cron: day_of_week 0=Sunday .. 6=Saturday (APScheduler "sun".."sat")
+    cdi_refresh_cron_day: str = "sun"         # weekly run on Sunday
+    cdi_refresh_cron_hour: int = 0            # 00:00 UTC
     cdi_refresh_cron_minute: int = 0
-    score_cache_ttl_minutes: int = 60 * 6     # treat cached scores stale after 6h
+    score_cache_ttl_minutes: int = 60 * 24 * 7  # weekly freshness window
+
+    # ── Climate ingestion (Section 2 of the data spec) ───────────────────────
+    open_meteo_url: str = "https://archive-api.open-meteo.com/v1/archive"
+    open_meteo_timezone: str = "Africa/Nairobi"
+    open_meteo_request_delay_s: float = 2.0   # ~30 req/min free-tier limit
+    chirps_hdx_package_url: str = (
+        "https://data.humdata.org/api/3/action/package_show?id=ssd-rainfall-subnational"
+    )
+    # Pilot coverage (states whose counties we ingest CHIRPS for)
+    pilot_states: List[str] = ["Unity", "Jonglei", "Upper Nile"]
+
+    # Cold-chain constants (WHO upper safe storage limit + calibrated lambda)
+    cold_chain_safe_c: float = 8.0
+    ccf_lambda: float = 0.012
+    chirps_rain_max: float = 103.8            # observed max weekly rainfall (mm)
+
+    @field_validator("pilot_states", mode="before")
+    @classmethod
+    def _split_states(cls, v):
+        if isinstance(v, str):
+            return [s.strip() for s in v.split(",") if s.strip()]
+        return v
 
     # ── CORS ────────────────────────────────────────────────────────────────
     cors_origins: List[str] = ["*"]           # tighten to the app's origin in prod
