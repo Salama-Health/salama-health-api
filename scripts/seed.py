@@ -17,13 +17,13 @@ from app.services.scoring import refresh_all_scores
 
 Base.metadata.create_all(bind=engine)
 
-# NOTE: PCODEs below are placeholders for the CHIRPS join — replace with the
-# real South Sudan admin-2 P-codes before relying on live CHIRPS ingestion.
+# Real South Sudan admin-2 P-codes from the OCHA COD-AB gazetteer, verified to
+# match the WFP/CHIRPS subnational rainfall file's PCODE column.
 COUNTIES = [
-    {"name": "Rubkona", "pcode": "SS9201", "state": "Unity",      "idp": 120000},
-    {"name": "Koch",    "pcode": "SS9203", "state": "Unity",      "idp": 28000},
-    {"name": "Melut",   "pcode": "SS9601", "state": "Upper Nile", "idp": 41000},
-    {"name": "Malakal", "pcode": "SS9603", "state": "Upper Nile", "idp": 95000},
+    {"name": "Rubkona", "pcode": "SS0609", "state": "Unity",      "idp": 120000},
+    {"name": "Koch",    "pcode": "SS0603", "state": "Unity",      "idp": 28000},
+    {"name": "Melut",   "pcode": "SS0709", "state": "Upper Nile", "idp": 41000},
+    {"name": "Malakal", "pcode": "SS0707", "state": "Upper Nile", "idp": 95000},
 ]
 
 FACILITIES = [
