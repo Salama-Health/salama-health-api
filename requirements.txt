@@ -16,7 +16,9 @@ pydantic-settings==2.2.1
 # ── Auth ───────────────────────────────────────────────────────────────────
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-bcrypt==4.1.3
+# Pinned to 4.0.x: passlib 1.7.4 reads bcrypt.__about__, removed in bcrypt 4.1+,
+# which prints a harmless but noisy traceback. 4.0.1 keeps logs clean.
+bcrypt==4.0.1
 
 # ── Scheduling ─────────────────────────────────────────────────────────────
 apscheduler==3.10.4
