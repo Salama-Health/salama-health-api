@@ -25,7 +25,7 @@ apscheduler==3.10.4
 
 # ── ML / inference ─────────────────────────────────────────────────────────
 numpy==1.26.4
-scikit-learn==1.4.2
+scikit-learn==1.6.1   # must match the version the RF model was trained with
 xgboost==2.0.3
 huggingface_hub==0.23.2          # optional model fallback source
 
