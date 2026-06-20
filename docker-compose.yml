@@ -29,6 +29,11 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    # Inject the whole .env into the container, then override the few values
+    # that must differ inside compose (DB host is `db`, models path, etc.).
+    # `environment` takes precedence over `env_file`.
+    env_file:
+      - .env
     environment:
       ENVIRONMENT: production
       DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER:-salama}:${POSTGRES_PASSWORD:-salama}@db:5432/${POSTGRES_DB:-salama}
