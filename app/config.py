@@ -5,10 +5,9 @@ All settings are environment-driven (12-factor). Defaults are safe for local
 development; production values come from the environment / .env file.
 """
 from functools import lru_cache
-from typing import Annotated, List
+from typing import List
 
-from pydantic import field_validator
-from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -75,32 +74,30 @@ class Settings(BaseSettings):
         "https://data.humdata.org/api/3/action/package_show?id=ssd-rainfall-subnational"
     )
     # Pilot coverage (states whose counties we ingest CHIRPS for).
-    # NoDecode: read the raw env string and split it ourselves (see validator),
-    # so a plain comma list like "Unity,Jonglei" works without JSON quoting.
-    pilot_states: Annotated[List[str], NoDecode] = ["Unity", "Jonglei", "Upper Nile"]
+    # Stored as a plain comma separated string so any pydantic-settings version
+    # accepts it; use `pilot_states_list` for the parsed list.
+    pilot_states: str = "Unity,Jonglei,Upper Nile"
 
     # Cold-chain constants (WHO upper safe storage limit + calibrated lambda)
     cold_chain_safe_c: float = 8.0
     ccf_lambda: float = 0.012
     chirps_rain_max: float = 103.8            # observed max weekly rainfall (mm)
 
-    @field_validator("pilot_states", mode="before")
-    @classmethod
-    def _split_states(cls, v):
-        if isinstance(v, str):
-            return [s.strip() for s in v.split(",") if s.strip()]
-        return v
-
     # ── CORS ────────────────────────────────────────────────────────────────
-    # NoDecode so "*" or "https://a,https://b" parse as a comma list, not JSON.
-    cors_origins: Annotated[List[str], NoDecode] = ["*"]  # tighten in prod
+    # Comma separated string ("*" or "https://a,https://b"); see cors_origins_list.
+    cors_origins: str = "*"                   # tighten in prod
 
-    @field_validator("cors_origins", mode="before")
-    @classmethod
-    def _split_origins(cls, v):
-        if isinstance(v, str):
-            return [o.strip() for o in v.split(",") if o.strip()]
-        return v
+    @staticmethod
+    def _split_csv(value: str) -> List[str]:
+        return [v.strip() for v in value.split(",") if v.strip()]
+
+    @property
+    def cors_origins_list(self) -> List[str]:
+        return self._split_csv(self.cors_origins)
+
+    @property
+    def pilot_states_list(self) -> List[str]:
+        return self._split_csv(self.pilot_states)
 
     @property
     def is_production(self) -> bool:

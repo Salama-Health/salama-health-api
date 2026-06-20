@@ -192,7 +192,7 @@ def get_county_idp_normalised(db: Session, county: Optional[str]) -> float:
         return 0.0
     max_idp = (
         db.query(County)
-        .filter(County.state.in_(settings.pilot_states))
+        .filter(County.state.in_(settings.pilot_states_list))
         .order_by(County.idp_count.desc())
         .first()
     )
