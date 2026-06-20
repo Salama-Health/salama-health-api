@@ -5,10 +5,10 @@ All settings are environment-driven (12-factor). Defaults are safe for local
 development; production values come from the environment / .env file.
 """
 from functools import lru_cache
-from typing import List
+from typing import Annotated, List
 
 from pydantic import field_validator
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -74,8 +74,10 @@ class Settings(BaseSettings):
     chirps_hdx_package_url: str = (
         "https://data.humdata.org/api/3/action/package_show?id=ssd-rainfall-subnational"
     )
-    # Pilot coverage (states whose counties we ingest CHIRPS for)
-    pilot_states: List[str] = ["Unity", "Jonglei", "Upper Nile"]
+    # Pilot coverage (states whose counties we ingest CHIRPS for).
+    # NoDecode: read the raw env string and split it ourselves (see validator),
+    # so a plain comma list like "Unity,Jonglei" works without JSON quoting.
+    pilot_states: Annotated[List[str], NoDecode] = ["Unity", "Jonglei", "Upper Nile"]
 
     # Cold-chain constants (WHO upper safe storage limit + calibrated lambda)
     cold_chain_safe_c: float = 8.0
@@ -90,7 +92,8 @@ class Settings(BaseSettings):
         return v
 
     # ── CORS ────────────────────────────────────────────────────────────────
-    cors_origins: List[str] = ["*"]           # tighten to the app's origin in prod
+    # NoDecode so "*" or "https://a,https://b" parse as a comma list, not JSON.
+    cors_origins: Annotated[List[str], NoDecode] = ["*"]  # tighten in prod
 
     @field_validator("cors_origins", mode="before")
     @classmethod
