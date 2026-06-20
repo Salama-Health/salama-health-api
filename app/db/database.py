@@ -5,10 +5,13 @@ Uses SQLAlchemy 2.0 with a connection pool sized for many concurrent workers.
 Each Gunicorn worker process gets its own pool, so keep
     total_workers * (db_pool_size + db_max_overflow) < postgres max_connections.
 """
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 from app.config import settings
+
+# Arbitrary constant identifying the schema-creation advisory lock.
+_SCHEMA_LOCK_KEY = 911_220_418
 
 
 class Base(DeclarativeBase):
@@ -33,6 +36,23 @@ SessionLocal = sessionmaker(
     expire_on_commit=False,
     future=True,
 )
+
+
+def init_db() -> None:
+    """
+    Create tables if missing. On PostgreSQL this is guarded by a transaction
+    level advisory lock so concurrent Gunicorn workers don't race each other on
+    first boot (which previously caused a duplicate table error and a restart).
+    """
+    from app.db import models  # noqa: F401  (register metadata)
+
+    if engine.dialect.name == "postgresql":
+        with engine.begin() as conn:
+            conn.execute(text("SELECT pg_advisory_xact_lock(:k)"),
+                         {"k": _SCHEMA_LOCK_KEY})
+            Base.metadata.create_all(bind=conn)
+    else:
+        Base.metadata.create_all(bind=engine)
 
 
 def get_db():

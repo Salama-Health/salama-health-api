@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import pickle
 from pathlib import Path
 from typing import Optional
@@ -59,13 +60,19 @@ class ModelManager:
             return local
         if settings.hf_model_repo:
             try:
+                import tempfile
+
                 from huggingface_hub import hf_hub_download
 
+                # Cache to a writable temp dir: models_dir is often mounted
+                # read-only, so we must not write the HF cache under it.
+                cache_dir = os.path.join(tempfile.gettempdir(), "salama_hf_cache")
+                os.makedirs(cache_dir, exist_ok=True)
                 logger.info("Fetching %s from HF Hub %s", filename, settings.hf_model_repo)
                 downloaded = hf_hub_download(
                     settings.hf_model_repo,
                     filename,
-                    cache_dir=str(self._models_dir / ".hf_cache"),
+                    cache_dir=cache_dir,
                 )
                 return Path(downloaded)
             except Exception as exc:  # noqa: BLE001

@@ -13,7 +13,7 @@ from fastapi.responses import JSONResponse
 
 from app import __version__
 from app.config import settings
-from app.db.database import Base, engine
+from app.db.database import init_db
 from app.logging_config import configure_logging
 from app.ml.model_loader import model_manager
 from app.routers import (
@@ -43,8 +43,9 @@ async def lifespan(app: FastAPI):
     logger.info("Starting %s v%s (%s)", settings.app_name, __version__, settings.environment)
 
     # Create tables if they don't exist (Alembic owns migrations in prod, but
-    # this keeps dev / fresh deploys turnkey).
-    Base.metadata.create_all(bind=engine)
+    # this keeps dev / fresh deploys turnkey). Advisory locked so concurrent
+    # workers don't race on first boot.
+    init_db()
 
     # Load ML models into this process's memory (once).
     model_manager.load()
