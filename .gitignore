@@ -16,6 +16,9 @@ env/
 .env
 *.env
 !.env.example
+secrets/
+*.json.key
+gee-key.json
 
 # ML model artifacts (large / first-party — distributed out of band)
 models/*.pkl

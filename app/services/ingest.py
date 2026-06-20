@@ -239,3 +239,84 @@ def fetch_openmeteo_all(facilities: List[Facility]) -> Dict[str, Optional[dict]]
         out[f.id] = fetch_openmeteo(f.latitude, f.longitude)
         time.sleep(settings.open_meteo_request_delay_s)
     return out
+
+
+# ── Source A (automated): Sentinel-1 SAR via Google Earth Engine ───────────────
+def fetch_sar_all(facilities: List[Facility]) -> Dict[str, float]:
+    """
+    Headless GEE pull: mean Sentinel-1 VV backscatter (dB) within
+    `sar_buffer_m` of each facility over the last `sar_window_days`.
+
+    Returns {facility_id: vv}. Empty dict if GEE isn't configured or on failure
+    (the pipeline then keeps the previous VV / estimate). Requires a service
+    account (settings.gee_service_account + gee_key_file [+ gee_project]).
+    """
+    if not (settings.gee_service_account and settings.gee_key_file):
+        logger.info("GEE not configured; skipping automated SAR fetch")
+        return {}
+
+    coords = [(f.id, f.longitude, f.latitude)
+              for f in facilities if f.latitude is not None and f.longitude is not None]
+    if not coords:
+        return {}
+
+    try:
+        import ee
+
+        creds = ee.ServiceAccountCredentials(
+            settings.gee_service_account, settings.gee_key_file
+        )
+        ee.Initialize(creds, project=settings.gee_project or None)
+
+        now = datetime.utcnow()
+        end = ee.Date(now.strftime("%Y-%m-%d"))
+        start = end.advance(-settings.sar_window_days, "day")
+        s1 = (
+            ee.ImageCollection("COPERNICUS/S1_GRD")
+            .filterDate(start, end)
+            .filter(ee.Filter.eq("instrumentMode", "IW"))
+            .filter(ee.Filter.listContains("transmitterReceiverPolarisation", "VV"))
+            .select("VV")
+            .mean()
+        )
+
+        feats = [
+            ee.Feature(ee.Geometry.Point([lng, lat]), {"fid": fid})
+            for (fid, lng, lat) in coords
+        ]
+        fc = ee.FeatureCollection(feats)
+        buf = settings.sar_buffer_m
+
+        def _add_vv(ft):
+            v = s1.reduceRegion(
+                reducer=ee.Reducer.mean(),
+                geometry=ft.geometry().buffer(buf),
+                scale=10,
+                maxPixels=int(1e9),
+            ).get("VV")
+            return ft.set("vv", v)
+
+        info = fc.map(_add_vv).getInfo()
+        result: Dict[str, float] = {}
+        for ft in info.get("features", []):
+            props = ft.get("properties", {})
+            vv = props.get("vv")
+            if vv is not None:
+                result[props["fid"]] = float(vv)
+        logger.info("GEE SAR: got VV for %d/%d facilities", len(result), len(coords))
+        return result
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("GEE SAR fetch failed: %s", exc)
+        return {}
+
+
+def store_sar_history(db: Session, vv_by_facility: Dict[str, float],
+                      now: Optional[datetime] = None) -> int:
+    """Append one VVHistory row per facility from a {facility_id: vv} map."""
+    now = now or datetime.utcnow()
+    written = 0
+    for fid, vv in vv_by_facility.items():
+        db.add(VVHistory(facility_id=fid, vv_backscatter=vv, observed_at=now))
+        written += 1
+    db.commit()
+    return written

@@ -34,7 +34,12 @@ def run_weekly_cdi_pipeline(db: Session) -> dict:
     climate_by_facility = ingest.fetch_openmeteo_all(facilities)
     climate_ok = sum(1 for v in climate_by_facility.values() if v)
 
-    # Step 3 + 4: recompute and cache all scores using the fresh data
+    # Step 3: Sentinel-1 SAR (VV backscatter) from Earth Engine -> vv_history.
+    # No-op if GEE isn't configured; manual /climate/upload-sar still works too.
+    vv_by_facility = ingest.fetch_sar_all(facilities)
+    sar_written = ingest.store_sar_history(db, vv_by_facility) if vv_by_facility else 0
+
+    # Step 4 + 5: recompute and cache all scores using the fresh data
     result = scoring.refresh_all_scores(db, climate_by_facility)
 
     duration = (datetime.utcnow() - started).total_seconds()
@@ -43,6 +48,7 @@ def run_weekly_cdi_pipeline(db: Session) -> dict:
         "children_scored": result["children"],
         "counties_rainfall_updated": counties_written,
         "facilities_climate_fetched": climate_ok,
+        "facilities_sar_updated": sar_written,
         "duration_seconds": round(duration, 1),
         "ran_at": started.isoformat(),
     }

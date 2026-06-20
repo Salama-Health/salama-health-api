@@ -47,6 +47,9 @@ services:
       CORS_ORIGINS: ${CORS_ORIGINS:-*}
     volumes:
       - ./models:/app/models:ro
+      # GEE service-account key (only needed for automated SAR). Put the JSON at
+      # ./secrets/gee-key.json on the host and set GEE_* in .env.
+      - ./secrets:/app/secrets:ro
     expose:
       - "8000"
     # For direct access without nginx, swap `expose` for:

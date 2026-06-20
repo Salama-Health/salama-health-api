@@ -83,6 +83,15 @@ class Settings(BaseSettings):
     ccf_lambda: float = 0.012
     chirps_rain_max: float = 103.8            # observed max weekly rainfall (mm)
 
+    # ── Sentinel-1 SAR via Google Earth Engine (headless, service account) ───
+    # When set, the weekly pipeline pulls VV backscatter from GEE automatically.
+    # If unset, SAR falls back to the estimate (or the manual /climate/upload-sar).
+    gee_service_account: str = ""             # service account email
+    gee_key_file: str = ""                    # path to the SA JSON key in-container
+    gee_project: str = ""                     # GCP project registered for Earth Engine
+    sar_window_days: int = 12                 # Sentinel-1 revisit is ~6-12 days
+    sar_buffer_m: int = 500                   # averaging radius around each facility
+
     # ── CORS ────────────────────────────────────────────────────────────────
     # Comma separated string ("*" or "https://a,https://b"); see cors_origins_list.
     cors_origins: str = "*"                   # tighten in prod

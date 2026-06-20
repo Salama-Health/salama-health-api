@@ -28,6 +28,7 @@ numpy==1.26.4
 scikit-learn==1.6.1   # must match the version the RF model was trained with
 xgboost==2.0.3
 huggingface_hub==0.23.2          # optional model fallback source
+earthengine-api>=0.1.380         # headless Sentinel-1 SAR pull (service account)
 
 # ── HTTP client (live climate APIs, future use) ────────────────────────────
 httpx==0.27.0
