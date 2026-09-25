@@ -163,24 +163,30 @@ def score_facility(db: Session, facility: Facility, climate: Optional[dict] = No
 
 
 # ── IGS (child risk) helpers ──────────────────────────────────────────────────
-# Fixed band cut-offs, set once from the observed IGS distribution across all
-# 1,230 seeded children (p40 / p70 / p90). They are deliberately constants, not
-# percentiles recomputed each run: a band has to mean the same thing from one
-# week to the next, or "High" silently redefines itself as the data shifts.
+# Fixed band cut-offs, taken once from the observed IGS distribution across all
+# 1,230 seeded children (p40 / p70 / p90) under the XGBoost + RandomForest
+# ensemble. They are deliberately constants, not percentiles recomputed each
+# run: a band has to mean the same thing from one week to the next, or "High"
+# silently redefines itself as the data shifts.
 #
-# The previous cut-offs (0.90 / 0.80 / 0.72) predated any real data. The IGS is
-# soft-capped at 5.0 and then normalised, so scores cluster low - p90 is 0.212.
+# The original cut-offs (0.90 / 0.80 / 0.72) predated any real data. The IGS is
+# soft-capped at 5.0 then normalised, so scores cluster low - p90 is 0.193.
 # Those thresholds put 79 of 80 children in the bottom band, including a child
-# scoring 0.649 with six overdue doses, which makes the visit list useless.
+# scoring 0.649 with six overdue doses, which made the visit list useless.
 #
-# Resulting split: High 10.1%, Medium 19.9%, Watch 29.9%, Low 40.1%, or roughly
-# 7-14 High children per worker - a realistic weekly visit list.
+# An interim set (0.21 / 0.075 / 0.025) was derived while the RandomForest was
+# still dropped for a feature mismatch. Restoring it shifted the distribution
+# and High drifted to 8.9%, so these were re-derived against the full ensemble.
+# Any future change to the model set invalidates them the same way.
+#
+# Measured split: High 10.1%, Medium 19.8%, Watch 29.9%, Low 40.2% - on average
+# 5 High children per worker, at most 14. A realistic weekly visit list.
 #
 # Revisit once pilot data replaces the seed. The client bands independently, so
 # any change here has to be mirrored in the app.
-RISK_BAND_HIGH = 0.21
-RISK_BAND_MEDIUM = 0.075
-RISK_BAND_WATCH = 0.025
+RISK_BAND_HIGH = 0.193
+RISK_BAND_MEDIUM = 0.068
+RISK_BAND_WATCH = 0.022
 
 
 def risk_label(score: float) -> str:
