@@ -73,6 +73,35 @@ FEATURE_NAMES = [
 ]
 assert len(FEATURE_NAMES) == NUM_FEATURES
 
+# The Phase 2 Random Forest was trained on this 17-feature set, in this order,
+# taken from the Phase 2 notebook. The artifact itself was saved from a bare
+# numpy array, so it carries no feature_names_in_ and cannot confirm this -
+# the order is asserted by the training notebook, not provable from the file.
+# The loader checks n_features_in_ == 17 as a consistency check only.
+#
+# Note `latitude` and `longitude`: this model was trained on where a facility
+# sits, and neither is part of the 30-feature flood vector. They are supplied
+# separately by compute_named_features().
+RF_FEATURE_NAMES = [
+    "elevation_m",
+    "low_elevation",
+    "latitude",
+    "longitude",
+    "chirps_rainfall_mm",
+    "rainfall_roll30d",
+    "chirps_anomaly",
+    "temp_max_celsius",
+    "temp_excess_8c",
+    "ccf_risk",
+    "idp_normalised",
+    "drought_signal",
+    "water_deficit",
+    "rainy_season",
+    "month",
+    "season_sin",
+    "season_cos",
+]
+
 
 def is_rainy_season(month: int) -> bool:
     """South Sudan rainy season ~April–November."""
@@ -109,6 +138,10 @@ class FeatureInputs:
     elevation_m: float = 400.0
     idp_normalised: float = 0.0
     flood_affected_norm: float = 0.0
+    # Not part of the 30-feature flood vector; used only by the Random Forest,
+    # which was trained on facility position.
+    latitude: float = 0.0
+    longitude: float = 0.0
 
     # Date context
     now: datetime = field(default_factory=datetime.utcnow)
@@ -202,6 +235,23 @@ def compute_feature_vector(i: FeatureInputs) -> np.ndarray:
 
     assert vec.shape[0] == NUM_FEATURES, f"expected {NUM_FEATURES} features, got {vec.shape[0]}"
     return vec
+
+
+def compute_named_features(i: FeatureInputs) -> dict:
+    """
+    Every feature by name, for models trained on a different subset or order
+    than the 30-feature flood vector.
+
+    This is the full vector keyed by FEATURE_NAMES, plus `latitude` and
+    `longitude`, which the Random Forest needs and the vector does not carry.
+    Selecting by name means a model can never be silently fed the wrong column,
+    which is how the Random Forest ended up dropped in the first place.
+    """
+    vec = compute_feature_vector(i)
+    named = {name: float(value) for name, value in zip(FEATURE_NAMES, vec)}
+    named["latitude"] = float(i.latitude or 0.0)
+    named["longitude"] = float(i.longitude or 0.0)
+    return named
 
 
 def estimated_inputs(

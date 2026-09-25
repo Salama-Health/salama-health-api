@@ -30,7 +30,12 @@ from typing import Optional
 import numpy as np
 
 from app.config import settings
-from app.ml.features import FEATURE_NAMES, NUM_FEATURES
+from app.ml.features import FEATURE_NAMES, NUM_FEATURES, RF_FEATURE_NAMES
+
+# Models trained on a named subset of the features rather than the flood
+# vector's order. The list comes from the training notebook, not from the
+# artifact, so it cannot be verified against the file - see _validate_features.
+NAMED_FEATURE_SETS = {"rf": RF_FEATURE_NAMES}
 
 logger = logging.getLogger(__name__)
 
@@ -52,6 +57,7 @@ class ModelManager:
         self._origins: dict[str, str] = {}   # filename -> local | huggingface
         self._warned: set[str] = set()       # inference failures already logged
         self._widths: dict[str, int] = {}    # model key -> feature width to send
+        self._named: dict[str, list] = {}    # model key -> named feature order
 
     # ── loading ──────────────────────────────────────────────────────────────
     def _local_path(self, filename: str) -> Optional[Path]:
@@ -141,6 +147,26 @@ class ModelManager:
             )
             logger.warning(msg)
             self.issues.append(msg)
+            self._widths[key] = n
+            return True
+
+        # A model saved from a bare array carries no names, so the artifact
+        # cannot tell us which columns it wants. If the training notebook has
+        # supplied that list and the width agrees, use it - the width match is
+        # a consistency check, NOT proof the order is right. If the list is
+        # wrong the model will return plausible numbers from wrong columns, so
+        # it is recorded as an issue and surfaced in /health.
+        expected = NAMED_FEATURE_SETS.get(key)
+        if names is None and expected and n == len(expected):
+            msg = (
+                f"{name} was trained on {n} named features supplied by the "
+                f"training notebook, not by the artifact. Width agrees, but the "
+                f"order cannot be verified from the file - if the list is wrong, "
+                f"its output is wrong but still plausible."
+            )
+            logger.warning(msg)
+            self.issues.append(msg)
+            self._named[key] = list(expected)
             self._widths[key] = n
             return True
 
@@ -263,7 +289,9 @@ class ModelManager:
         self.loaded = True
 
     # ── inference ──────────────────────────────────────────────────────────────
-    def predict_flood_proba(self, feature_vector: np.ndarray) -> float:
+    def predict_flood_proba(
+        self, feature_vector: np.ndarray, named: Optional[dict] = None
+    ) -> float:
         """
         P(flood) in [0, 1] from a 30-feature vector.
         Weighted ensemble of available models; rule-based fallback otherwise.
@@ -274,15 +302,25 @@ class ModelManager:
 
         if self.xgb is not None:
             try:
-                probas.append(float(self.xgb.predict_proba(self._x_for("xgb", x))[0, 1]))
-                weights.append(self.weights.get("xgb", DEFAULT_WEIGHTS["xgb"]))
+                xi = self._x_for("xgb", x, named)
+                if xi is not None:
+                    probas.append(float(self.xgb.predict_proba(xi)[0, 1]))
+                    weights.append(self.weights.get("xgb", DEFAULT_WEIGHTS["xgb"]))
             except Exception as exc:  # noqa: BLE001
                 self._warn_once("xgb", exc)
 
         if self.rf is not None:
             try:
-                probas.append(float(self.rf.predict_proba(self._x_for("rf", x))[0, 1]))
-                weights.append(self.weights.get("rf", DEFAULT_WEIGHTS["rf"]))
+                xi = self._x_for("rf", x, named)
+                if xi is None:
+                    # Named features were not supplied by this caller. Skip
+                    # rather than guess at columns.
+                    self._warn_once("rf", RuntimeError(
+                        "named features not supplied; pass compute_named_features(inputs)"
+                    ))
+                else:
+                    probas.append(float(self.rf.predict_proba(xi)[0, 1]))
+                    weights.append(self.weights.get("rf", DEFAULT_WEIGHTS["rf"]))
             except Exception as exc:  # noqa: BLE001
                 self._warn_once("rf", exc)
 
@@ -321,12 +359,23 @@ class ModelManager:
             p += 0.1
         return float(min(p, 1.0))
 
-    def _x_for(self, key: str, x: np.ndarray) -> np.ndarray:
-        """Trim the feature vector to the width this model was trained on.
+    def _x_for(self, key: str, x: np.ndarray, named: Optional[dict] = None) -> np.ndarray:
+        """Build this model's input.
 
-        Only ever narrows, and only to a width verified by feature name at
-        load time - never pads or reorders.
+        A model with a named feature order gets its columns selected by name
+        from `named`; everything else gets the flood vector trimmed to the
+        width verified at load time. Never pads, never reorders positionally.
+        Returns None when a named model's features were not supplied, so the
+        caller skips it rather than feeding it the wrong columns.
         """
+        cols = self._named.get(key)
+        if cols is not None:
+            if not named:
+                return None
+            missing = [c for c in cols if c not in named]
+            if missing:
+                raise KeyError(f"missing named features: {missing}")
+            return np.array([[named[c] for c in cols]], dtype=np.float32)
         w = self._widths.get(key, NUM_FEATURES)
         return x if w >= x.shape[1] else x[:, :w]
 
@@ -359,6 +408,9 @@ class ModelManager:
             "expected_features": NUM_FEATURES,
             # Per-model width actually sent (a trimmed model shows < expected).
             "feature_widths": dict(self._widths),
+            # Models whose columns are selected by name from a list supplied by
+            # the training notebook rather than read from the artifact.
+            "named_feature_models": sorted(self._named),
             # What P(flood) is actually being produced by, right now.
             "predicting_with": active or "rule_based_fallback",
             # Non-empty means something is degraded — check before trusting scores.
