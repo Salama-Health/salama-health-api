@@ -8,7 +8,7 @@ from app.core.security import get_current_worker
 from app.db.database import get_db
 from app.db.models import Child, Vaccination, Worker
 from app.schemas.vaccination import VaccinationCreate, VaccinationOut
-from app.services import scoring
+from app.services import registration, scoring
 from app.services.activity_service import log_activity
 
 router = APIRouter()
@@ -49,17 +49,7 @@ def record_vaccination(
         if existing:
             return VaccinationOut.from_orm_record(existing)
 
-    record = Vaccination(
-        child_id=payload.child_id,
-        vaccine=payload.vaccine,
-        dose=payload.dose,
-        date_given=payload.date_given,
-        status=payload.status,
-        batch_number=payload.batch_number,
-        administered_by=current.id,
-        notes=payload.notes,
-        client_uuid=payload.client_uuid,
-    )
+    record = registration.build_vaccination(payload, current)
     db.add(record)
     db.commit()
     db.refresh(record)
