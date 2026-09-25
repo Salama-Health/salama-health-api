@@ -29,3 +29,8 @@ class CDIOut(CamelModel):
     hazard_timeframe: str
     components: CDIComponents
     scored_at: Optional[datetime] = None
+    # Date of the most recent Sentinel-1 reading behind this score. None means
+    # the facility has no radar history and p_flood came from seasonal
+    # estimates - a materially weaker score, since VV backscatter carries most
+    # of the flood model's weight. Clients should surface the difference.
+    sar_observed_at: Optional[datetime] = None

@@ -1,0 +1,1231 @@
+child_ref,name,born_date,gender,facility_id,worker_id,distance_km,parent_name,parent_phone,latitude,longitude,qr_code,current_location,status
+C-00001,Nyaluak Nhial,2025-01-24,F,NHIAL DIU PHCC,CHW-001,3.4,Nyathak Pal,,9.004635,29.695121,,"Nhialdiu, near the borehole",toVisit
+C-00002,Nyakuoth Pal,2024-04-13,F,NHIAL DIU PHCC,CHW-001,2.5,Nyatuach Wuor,+211 98 434 9670,9.008887,29.68841,,"Nhialdiu village, Block A",missed
+C-00003,Buom Duol,2025-04-16,M,NHIAL DIU PHCC,CHW-001,8.9,Nyaduoth Ruach,+211 91 401 5049,9.028429,29.618411,,Near Nhialdiu market,toVisit
+C-00004,Nyalam Jal,2026-03-09,F,NHIAL DIU PHCC,CHW-001,1.9,Jal Chuol,+211 98 593 1062,9.035856,29.693141,,"Nhialdiu village, by the church",toVisit
+C-00005,Nyanhial Gatluak,2026-02-02,F,NHIAL DIU PHCC,CHW-001,6.6,Gatluak Dak,+211 98 425 3435,8.995171,29.646805,,Near Nhialdiu market,missed
+C-00006,Nyaduoth Tut,2025-07-19,F,NHIAL DIU PHCC,CHW-001,3.9,Nyandit Dak,,9.033418,29.710824,,"Nhialdiu, near the borehole",toVisit
+C-00007,Yiech Jal,2024-11-26,M,NHIAL DIU PHCC,CHW-001,7.4,Nyabol Gatkuoth,+211 98 894 8880,9.047457,29.732843,,Cattle camp near Nhialdiu,toVisit
+C-00008,Chuol Machar,2024-10-13,M,NHIAL DIU PHCC,CHW-001,3.2,Machar Ter,+211 98 155 2009,9.025385,29.659982,,"Nhialdiu, near the borehole",toVisit
+C-00009,Nhial Majiok,2024-07-02,M,NHIAL DIU PHCC,CHW-001,12.4,Nyawech Kong,+211 98 430 8572,9.113407,29.70306,,Cattle camp near Nhialdiu,missed
+C-00010,Pal Majiok,2026-05-29,M,NHIAL DIU PHCC,CHW-001,2.5,Nyadak Wuor,,9.013833,29.670043,,Near Nhialdiu market,toVisit
+C-00011,Nyatuach Jal,2025-12-29,F,NHIAL DIU PHCC,CHW-001,14.7,Nyamuch Tap,,8.920697,29.673411,,Cattle camp near Nhialdiu,missed
+C-00012,Kueth Kong,2024-11-27,M,NHIAL DIU PHCC,CHW-001,3.5,Nyadak Wal,+211 91 226 3551,9.033016,29.707909,,"Nhialdiu village, by the church",toVisit
+C-00013,Nyariek Tap,2025-09-16,F,NHIAL DIU PHCC,CHW-001,2.0,Nyandit Puok,+211 98 651 3577,9.035242,29.671961,,"Nhialdiu village, Block F",visited
+C-00014,Lam Nhial,2026-06-19,M,NHIAL DIU PHCC,CHW-001,2.4,Nyaruach Gatwech,+211 98 131 7794,9.0366,29.697307,,"Nhialdiu, near the borehole",toVisit
+C-00015,Nyakim Tap,2025-01-18,F,NHIAL DIU PHCC,CHW-001,6.9,Tap Ruach,,8.991149,29.719049,,Near Nhialdiu market,visited
+C-00016,Nyabol Kuany,2026-03-13,F,NHIAL DIU PHCC,CHW-001,4.0,Kuany Bichiok,+211 91 414 4206,9.014741,29.71011,,"Nhialdiu village, Block B",toVisit
+C-00017,Nyakuoth Wuor,2025-04-17,F,NHIAL DIU PHCC,CHW-001,3.9,Wuor Ruach,+211 91 416 9511,8.998476,29.688066,,"Nhialdiu village, Block B",toVisit
+C-00018,Nyalam Lam,2025-04-23,F,NHIAL DIU PHCC,CHW-001,1.9,Lam Ruach,,9.028025,29.66958,,"Nhialdiu village, by the church",visited
+C-00019,Gatwech Thok,2025-02-15,M,NHIAL DIU PHCC,CHW-001,2.2,Nyaluak Tap,+211 92 153 9836,9.010349,29.68402,,"Nhialdiu, near the borehole",toVisit
+C-00020,Nyariek Dak,2025-03-04,F,NHIAL DIU PHCC,CHW-001,3.2,Nyakim Gatkuoth,+211 98 487 9157,9.018453,29.705319,,"Nhialdiu village, Block D",toVisit
+C-00021,Nyamuch Gach,2024-12-26,F,NHIAL DIU PHCC,CHW-001,1.6,Gach Machar,+211 91 972 4706,9.015235,29.679673,,Near Nhialdiu market,toVisit
+C-00022,Nyariek Nhial,2026-06-18,F,NHIAL DIU PHCC,CHW-001,4.8,Nyakuoth Gatwech,+211 98 508 5677,8.998345,29.662534,,Near Nhialdiu market,toVisit
+C-00023,Nyamuch Yiech,2025-10-03,F,NHIAL DIU PHCC,CHW-001,1.8,Yiech Machar,+211 92 336 8177,9.014888,29.689768,,"Nhialdiu, near the borehole",missed
+C-00024,Nyaduoth Dak,2025-09-25,F,NHIAL DIU PHCC,CHW-001,4.4,Nyatuach Thok,+211 98 459 7444,8.995381,29.675715,,"Nhialdiu, near the borehole",toVisit
+C-00025,Gai Buom,2025-12-06,M,NHIAL DIU PHCC,CHW-001,17.0,Buom Chuol,+211 92 661 7176,9.106733,29.589834,,Cattle camp near Nhialdiu,toVisit
+C-00026,Koang Riek,2024-10-27,M,NHIAL DIU PHCC,CHW-001,14.2,Nyabuay Wal,,8.969703,29.596908,,"Nhialdiu village, Block F",toVisit
+C-00027,Nyatuach Pal,2024-08-09,F,NHIAL DIU PHCC,CHW-001,6.6,Nyaluak Puok,+211 92 555 5671,8.984627,29.659896,,"Nhialdiu village, Block D",toVisit
+C-00028,Dak Jal,2024-08-06,M,NHIAL DIU PHCC,CHW-001,1.6,Jal Kueth,,9.025747,29.694988,,Near Nhialdiu market,toVisit
+C-00029,Bichiok Machar,2026-05-29,M,NHIAL DIU PHCC,CHW-001,1.2,Nyadak Reath,+211 91 782 5138,9.017928,29.68591,,"Nhialdiu village, by the church",toVisit
+C-00030,Riek Majiok,2024-10-12,M,NHIAL DIU PHCC,CHW-001,1.7,Majiok Lam,+211 92 937 6014,9.037913,29.686926,,"Nhialdiu, near the borehole",toVisit
+C-00031,Nyawech Tap,2025-06-12,F,NHIAL DIU PHCC,CHW-001,3.3,Nyakim Nhial,,9.049648,29.687295,,"Nhialdiu village, Block A",toVisit
+C-00032,Nyapal Ter,2025-10-20,F,NHIAL DIU PHCC,CHW-001,5.8,Nyayien Kong,,9.001091,29.717167,,"Nhialdiu village, Block D",toVisit
+C-00033,Duol Yien,2024-10-03,M,NHIAL DIU PHCC,CHW-001,6.8,Yien Machar,+211 92 780 2435,8.981044,29.70263,,"Nhialdiu, near the borehole",visited
+C-00034,Riek Yien,2026-07-20,M,NHIAL DIU PHCC,CHW-001,4.8,Nyayien Lam,+211 98 671 9831,9.055005,29.702704,,Near Nhialdiu market,visited
+C-00035,Biel Koang,2025-09-17,M,NHIAL DIU PHCC,CHW-001,1.4,Koang Wal,+211 92 282 9316,9.036228,29.682288,,"Nhialdiu, near the borehole",toVisit
+C-00036,Nyalam Gatkuoth,2026-05-12,F,NHIAL DIU PHCC,CHW-001,7.3,Nyawech Kuany,+211 92 737 1713,9.030593,29.630235,,Near Nhialdiu market,toVisit
+C-00037,Pal Gatluak,2025-05-21,M,NHIAL DIU PHCC,CHW-001,2.9,Nyakume Buom,+211 92 778 1494,9.030749,29.662667,,"Nhialdiu village, Block E",toVisit
+C-00038,Nyapal Kuany,2024-08-07,F,NHIAL DIU PHCC,CHW-001,4.9,Nyaduoth Koang,+211 91 387 6021,9.022805,29.718913,,Near Nhialdiu market,toVisit
+C-00039,Nyakong Kuany,2026-01-01,F,NHIAL DIU PHCC,CHW-001,3.9,Nyabol Majiok,+211 92 977 6294,9.054211,29.685553,,"Nhialdiu village, Block F",toVisit
+C-00040,Jal Koang,2025-10-26,M,NHIAL DIU PHCC,CHW-001,3.4,Nyaluak Reath,,9.002104,29.687884,,"Nhialdiu, near the borehole",toVisit
+C-00041,Nyaduoth Gach,2024-10-17,F,NHIAL DIU PHCC,CHW-001,2.9,Nyaruach Thok,,9.038118,29.700698,,"Nhialdiu, near the borehole",toVisit
+C-00042,Nyandit Yiech,2026-04-29,F,NHIAL DIU PHCC,CHW-001,2.0,Nyabuay Nhial,+211 98 207 5156,9.04006,29.679346,,"Nhialdiu, near the borehole",toVisit
+C-00043,Nhial Reath,2026-01-05,M,NHIAL DIU PHCC,CHW-001,6.0,Nyaduoth Buom,+211 92 861 7540,8.987592,29.663578,,"Nhialdiu village, by the church",visited
+C-00044,Buom Lam,2025-09-10,M,NHIAL DIU PHCC,CHW-001,1.8,Nyaduoth Pal,+211 92 838 1761,9.020851,29.695292,,"Nhialdiu village, by the church",visited
+C-00045,Tap Pal,2026-03-29,M,NHIAL DIU PHCC,CHW-001,0.7,Nyayien Kueth,+211 91 317 5520,9.022555,29.686862,,"Nhialdiu village, Block F",toVisit
+C-00046,Nyabol Gatkuoth,2026-03-04,F,NHIAL DIU PHCC,CHW-001,1.7,Nyathak Riek,,9.014228,29.686005,,"Nhialdiu village, by the church",toVisit
+C-00047,Jal Puok,2026-06-29,M,NHIAL DIU PHCC,CHW-001,7.0,Nyathak Duol,+211 92 487 4678,9.065563,29.651381,,"Nhialdiu village, by the church",missed
+C-00048,Nyakuoth Kueth,2025-12-31,F,NHIAL DIU PHCC,CHW-001,2.6,Nyapal Gatwech,,9.033088,29.700961,,"Nhialdiu village, by the church",toVisit
+C-00049,Nyakong Lam,2025-06-08,F,NHIAL DIU PHCC,CHW-001,2.0,Lam Bichiok,+211 98 752 8438,9.026944,29.668745,,"Nhialdiu village, by the church",toVisit
+C-00050,Jal Kong,2026-08-15,M,NHIAL DIU PHCC,CHW-001,1.7,Nyayien Chuol,+211 92 626 5568,9.014557,29.679425,,Near Nhialdiu market,toVisit
+C-00051,Wal Ruach,2025-06-21,M,NHIAL DIU PHCC,CHW-001,3.6,Nyawech Wal,,9.045319,29.701069,,"Nhialdiu, near the borehole",missed
+C-00052,Nyaluak Tut,2024-11-15,F,NHIAL DIU PHCC,CHW-001,3.1,Nyakuoth Gatdet,+211 92 149 3535,9.037731,29.663949,,"Nhialdiu village, by the church",toVisit
+C-00053,Nyagoa Kueth,2025-06-25,F,NHIAL DIU PHCC,CHW-001,4.1,Nyathak Nhial,+211 91 912 8760,9.036345,29.655222,,"Nhialdiu, near the borehole",toVisit
+C-00054,Ruach Yien,2025-02-25,M,NHIAL DIU PHCC,CHW-001,4.0,Nyadak Bichiok,+211 91 244 9398,9.026693,29.654134,,"Nhialdiu village, by the church",toVisit
+C-00055,Gatluak Majiok,2025-03-28,M,NHIAL DIU PHCC,CHW-001,17.1,Nyakume Tut,+211 92 633 3126,8.904971,29.660793,,Cattle camp near Nhialdiu,toVisit
+C-00056,Nyalam Kong,2025-09-28,F,NHIAL DIU PHCC,CHW-001,16.2,Nyakume Koang,+211 91 818 1107,9.08978,29.782468,,Cattle camp near Nhialdiu,toVisit
+C-00057,Nhial Wal,2024-04-06,M,NHIAL DIU PHCC,CHW-001,2.4,Nyakume Yien,+211 98 891 2976,9.028118,29.665915,,"Nhialdiu, near the borehole",visited
+C-00058,Nyamal Gatwech,2026-07-25,F,NHIAL DIU PHCC,CHW-001,0.9,Nyapal Gatluak,+211 92 800 3051,9.021758,29.678524,,"Nhialdiu, near the borehole",toVisit
+C-00059,Gach Nhial,2025-01-20,M,NHIAL DIU PHCC,CHW-001,2.5,Nyagai Machar,,9.013833,29.670043,,"Nhialdiu village, Block C",toVisit
+C-00060,Kueth Gach,2026-01-08,M,NHIAL DIU PHCC,CHW-001,9.9,Nyariek Lam,,9.087478,29.646327,,Cattle camp near Nhialdiu,toVisit
+C-00061,Riek Ruach,2026-02-26,M,NHIAL DIU PHCC,CHW-001,3.7,Nyawech Tut,,9.010591,29.70522,,"Nhialdiu village, by the church",toVisit
+C-00062,Nyariek Ruach,2026-06-28,F,NHIAL DIU PHCC,CHW-001,6.4,Nyawech Gatdet,+211 91 378 3416,8.993917,29.716689,,Near Nhialdiu market,toVisit
+C-00063,Lam Lam,2025-05-13,M,NHIAL DIU PHCC,CHW-001,2.0,Nyariek Gai,+211 91 323 3412,9.040604,29.683473,,"Nhialdiu village, by the church",toVisit
+C-00064,Nyagai Puok,2026-08-06,F,NHIAL DIU PHCC,CHW-001,8.8,Nyakim Puok,+211 91 337 1262,9.084353,29.657713,,"Nhialdiu, near the borehole",visited
+C-00065,Tut Diew,2025-08-28,M,NHIAL DIU PHCC,CHW-001,5.3,Nyakume Buom,+211 91 411 9157,9.031968,29.645088,,"Nhialdiu village, Block F",toVisit
+C-00066,Nyariek Puok,2025-01-25,F,NHIAL DIU PHCC,CHW-001,3.8,Nyaruach Diew,,9.045924,29.664091,,Near Nhialdiu market,missed
+C-00067,Nyapal Dak,2025-11-16,F,NHIAL DIU PHCC,CHW-001,3.1,Nyawech Tap,,9.020823,29.70528,,"Nhialdiu village, Block D",toVisit
+C-00068,Nyakong Wal,2025-04-16,F,NHIAL DIU PHCC,CHW-001,6.4,Nyaluak Machar,+211 92 773 2224,9.022812,29.729899,,"Nhialdiu village, Block F",toVisit
+C-00069,Majiok Tap,2024-03-05,M,NHIAL DIU PHCC,CHW-001,4.0,Tap Pal,,9.027598,29.712475,,"Nhialdiu village, Block D",toVisit
+C-00070,Nyabol Gai,2025-10-09,F,NHIAL DIU PHCC,CHW-001,2.6,Nyalam Buom,+211 92 987 4143,9.007742,29.679993,,"Nhialdiu village, by the church",toVisit
+C-00071,Nhial Lam,2024-11-27,M,NHIAL DIU PHCC,CHW-001,1.4,Nyabol Dak,+211 92 659 1473,9.022855,29.673678,,"Nhialdiu village, Block A",toVisit
+C-00072,Nyariek Majiok,2024-10-25,F,NHIAL DIU PHCC,CHW-001,2.9,Nyagoa Puok,+211 92 538 5547,9.025716,29.704478,,Near Nhialdiu market,toVisit
+C-00073,Nyaluak Diew,2026-08-06,F,NHIAL DIU PHCC,CHW-001,1.6,Nyakume Diew,+211 92 771 6410,9.033049,29.692706,,Near Nhialdiu market,toVisit
+C-00074,Nyakim Koang,2024-10-10,F,NHIAL DIU PHCC,CHW-001,2.4,Nyabuay Gach,+211 98 661 5044,9.040394,29.673324,,"Nhialdiu village, by the church",toVisit
+C-00075,Ruach Gatluak,2026-04-29,M,NHIAL DIU PHCC,CHW-001,1.5,Nyaduoth Gatdet,+211 92 945 6207,9.022386,29.693566,,"Nhialdiu village, by the church",toVisit
+C-00076,Gatwech Kong,2024-11-15,M,NHIAL DIU PHCC,CHW-001,2.1,Nyagoa Ter,,9.012541,29.676698,,Near Nhialdiu market,toVisit
+C-00077,Pal Puok,2026-09-05,M,NHIAL DIU PHCC,CHW-001,3.5,Nyagai Nhial,+211 98 730 2140,9.048337,29.695547,,Near Nhialdiu market,toVisit
+C-00078,Nyagai Nhial,2026-05-12,F,NHIAL DIU PHCC,CHW-001,3.5,Nyathak Gatwech,+211 91 855 4193,9.016051,29.659933,,"Nhialdiu village, Block B",toVisit
+C-00079,Nyamal Gach,2026-06-02,F,NHIAL DIU PHCC,CHW-001,1.9,Gach Gai,,9.029107,29.696867,,"Nhialdiu village, by the church",toVisit
+C-00080,Nyandit Koang,2025-05-23,F,NHIAL DIU PHCC,CHW-001,16.0,Nyakong Gatluak,+211 92 596 5833,8.914014,29.710379,,Cattle camp near Nhialdiu,toVisit
+C-00081,Nyalam Gai,2024-12-26,F,WAAK PHCC,CHW-009,13.1,Gai Koang,+211 91 515 1087,9.003231,29.676066,,Cattle camp near Waak,toVisit
+C-00082,Tut Bichiok,2024-04-22,M,WAAK PHCC,CHW-009,3.5,Nyagai Thok,+211 91 208 9096,8.915911,29.637595,,"Waak village, by the church",toVisit
+C-00083,Jal Koang,2025-12-30,M,WAAK PHCC,CHW-009,2.0,Nyagai Gai,+211 92 847 7519,8.935421,29.602809,,"Waak, near the borehole",toVisit
+C-00084,Buom Pal,2026-04-19,M,WAAK PHCC,CHW-009,2.7,Pal Machar,+211 91 613 6601,8.926707,29.635652,,Near Waak market,visited
+C-00085,Kueth Riek,2024-08-01,M,WAAK PHCC,CHW-009,4.5,Nyaboth Wuor,+211 91 349 4129,8.904988,29.594858,,"Waak village, by the church",toVisit
+C-00086,Lam Puok,2025-12-05,M,WAAK PHCC,CHW-009,2.1,Nyagai Ruach,+211 92 617 3750,8.928252,29.600925,,"Waak, near the borehole",toVisit
+C-00087,Nyabuay Thok,2026-02-24,F,WAAK PHCC,CHW-009,7.4,Nyakume Koang,+211 91 161 3074,8.978334,29.638225,,Cattle camp near Waak,toVisit
+C-00088,Chuol Puok,2025-02-06,M,WAAK PHCC,CHW-009,3.7,Puok Pal,+211 92 623 4686,8.925387,29.642827,,Near Waak market,toVisit
+C-00089,Nhial Koang,2024-04-02,M,WAAK PHCC,CHW-009,4.4,Nyakuoth Wuor,+211 91 839 9788,8.904867,29.636207,,Near Waak market,toVisit
+C-00090,Nyabuay Puok,2025-04-17,F,WAAK PHCC,CHW-009,1.3,Nyalam Kueth,,8.925237,29.607814,,"Waak, near the borehole",toVisit
+C-00091,Nyaruach Gatluak,2025-08-11,F,WAAK PHCC,CHW-009,2.6,Nyawech Gatdet,,8.915703,29.628848,,"Waak village, by the church",toVisit
+C-00092,Yiech Kueth,2025-02-15,M,WAAK PHCC,CHW-009,2.8,Nyatuach Yien,+211 98 741 1407,8.938968,29.59806,,"Waak village, by the church",missed
+C-00093,Nyalam Biel,2026-01-29,F,WAAK PHCC,CHW-009,2.9,Nyayien Gatluak,+211 92 656 6694,8.940132,29.597876,,"Waak village, Block F",toVisit
+C-00094,Nyakim Wal,2025-10-31,F,WAAK PHCC,CHW-009,1.3,Nyachuol Diew,,8.938941,29.617402,,Near Waak market,toVisit
+C-00095,Chuol Gai,2026-08-08,M,WAAK PHCC,CHW-009,10.0,Gai Yien,+211 98 169 8793,8.985819,29.570465,,Near Waak market,toVisit
+C-00096,Kuany Biel,2025-09-17,M,WAAK PHCC,CHW-009,4.0,Nyalam Gai,+211 98 885 6370,8.935939,29.64466,,"Waak village, by the church",toVisit
+C-00097,Nyaboth Machar,2025-03-08,F,WAAK PHCC,CHW-009,1.1,Nyandit Riek,+211 98 123 1856,8.92206,29.61386,,"Waak village, Block B",toVisit
+C-00098,Reath Gatwech,2025-10-27,M,WAAK PHCC,CHW-009,2.8,Nyachuol Lam,+211 92 323 1195,8.923113,29.635506,,"Waak village, by the church",visited
+C-00099,Nyanhial Tut,2024-07-28,F,WAAK PHCC,CHW-009,2.5,Nyamal Yiech,,8.920832,29.600274,,"Waak village, by the church",toVisit
+C-00100,Nyamal Buom,2026-04-03,F,WAAK PHCC,CHW-009,1.8,Nyadak Thok,,8.925534,29.628634,,"Waak village, by the church",toVisit
+C-00101,Nyaduoth Dak,2025-09-17,F,WAAK PHCC,CHW-009,2.5,Nyaboth Tut,+211 98 749 5369,8.92943,29.634418,,"Waak village, Block E",toVisit
+C-00102,Nyamal Machar,2025-09-01,F,WAAK PHCC,CHW-009,3.9,Machar Tut,,8.901757,29.619697,,Near Waak market,toVisit
+C-00103,Nyakuoth Yiech,2025-10-26,F,WAAK PHCC,CHW-009,3.2,Nyagai Pal,+211 98 459 6398,8.936508,29.63847,,Near Waak market,missed
+C-00104,Nyabuay Gatkuoth,2026-03-19,F,WAAK PHCC,CHW-009,4.5,Nyagoa Gatluak,,8.931008,29.583378,,"Waak village, by the church",toVisit
+C-00105,Nyakuoth Gatluak,2025-08-30,F,WAAK PHCC,CHW-009,9.6,Nyapal Duol,+211 92 301 5783,8.970123,29.559375,,Near Waak market,visited
+C-00106,Duol Wuor,2026-03-26,M,WAAK PHCC,CHW-009,3.7,Nyachuol Buom,+211 91 652 1727,8.93964,29.641208,,Near Waak market,toVisit
+C-00107,Jal Diew,2026-04-28,M,WAAK PHCC,CHW-009,2.0,Nyathak Buom,,8.932598,29.630463,,"Waak, near the borehole",toVisit
+C-00108,Nyalam Tut,2025-08-10,F,WAAK PHCC,CHW-009,8.2,Nyakim Nhial,+211 98 402 8915,8.970481,29.659431,,"Waak, near the borehole",toVisit
+C-00109,Gai Thok,2024-12-12,M,WAAK PHCC,CHW-009,3.8,Nyariek Majiok,+211 91 498 3019,8.923443,29.589178,,"Waak, near the borehole",missed
+C-00110,Yiech Lam,2026-04-17,M,WAAK PHCC,CHW-009,2.7,Nyandit Lam,+211 98 394 8103,8.911061,29.622005,,"Waak village, Block E",toVisit
+C-00111,Diew Tut,2026-06-24,M,WAAK PHCC,CHW-009,2.4,Nyakume Duol,+211 92 380 4053,8.915481,29.626223,,Near Waak market,missed
+C-00112,Diew Gatluak,2025-09-22,M,WAAK PHCC,CHW-009,1.0,Nyabuay Diew,+211 92 348 6035,8.925056,29.610559,,Near Waak market,toVisit
+C-00113,Nyakim Lam,2025-02-23,F,WAAK PHCC,CHW-009,1.5,Nyamal Pal,+211 92 446 1173,8.938192,29.609473,,"Waak village, Block C",missed
+C-00114,Nyamal Ter,2025-09-05,F,WAAK PHCC,CHW-009,5.7,Nyamuch Koang,+211 91 311 3490,8.901476,29.646445,,"Waak village, by the church",toVisit
+C-00115,Nyaduoth Puok,2025-07-24,F,WAAK PHCC,CHW-009,1.3,Nyagoa Jal,,8.939017,29.615965,,"Waak village, by the church",toVisit
+C-00116,Ter Nhial,2024-12-18,M,WAAK PHCC,CHW-009,2.5,Nyathak Bichiok,+211 98 737 8465,8.918731,29.630689,,Near Waak market,toVisit
+C-00117,Kong Biel,2026-05-28,M,WAAK PHCC,CHW-009,7.2,Nyakong Kueth,,8.88044,29.632848,,"Waak, near the borehole",toVisit
+C-00118,Reath Gai,2026-05-18,M,WAAK PHCC,CHW-009,2.6,Nyayien Yiech,+211 92 829 9048,8.911452,29.620705,,"Waak village, by the church",toVisit
+C-00119,Nyabol Wuor,2026-04-24,F,WAAK PHCC,CHW-009,1.6,Nyamuch Tap,+211 92 358 1686,8.937246,29.607397,,"Waak village, by the church",visited
+C-00120,Nhial Pal,2025-08-21,M,WAAK PHCC,CHW-009,3.2,Nyagai Buom,,8.950735,29.625638,,Near Waak market,toVisit
+C-00121,Nyabuay Chuol,2025-04-27,F,WAAK PHCC,CHW-009,1.2,Nyalam Biel,,8.928402,29.607517,,"Waak village, by the church",missed
+C-00122,Nyamal Jal,2026-03-16,F,WAAK PHCC,CHW-009,1.1,Nyatuach Tut,,8.933088,29.623411,,"Waak village, Block B",missed
+C-00123,Gatluak Gatwech,2025-03-12,M,WAAK PHCC,CHW-009,12.7,Nyakim Riek,+211 98 952 1721,9.01635,29.586474,,Cattle camp near Waak,toVisit
+C-00124,Nyaluak Pal,2025-08-24,F,WAAK PHCC,CHW-009,4.8,Nyachuol Kong,+211 92 735 1357,8.928563,29.651182,,Near Waak market,toVisit
+C-00125,Jal Kueth,2025-02-28,M,WAAK PHCC,CHW-009,3.7,Nyaluak Kuany,+211 92 493 5307,8.910992,29.596894,,"Waak, near the borehole",toVisit
+C-00126,Nyabuay Bichiok,2024-06-29,F,WAAK PHCC,CHW-009,13.6,Nyagai Puok,+211 91 107 4368,9.027233,29.606843,,Cattle camp near Waak,toVisit
+C-00127,Nyayien Kueth,2026-05-18,F,WAAK PHCC,CHW-009,1.0,Nyaboth Nhial,+211 91 811 1641,8.922451,29.616536,,"Waak village, Block E",toVisit
+C-00128,Nyagai Tap,2025-03-31,F,WAAK PHCC,CHW-009,2.7,Nyandit Duol,+211 92 375 1378,8.944134,29.603025,,Near Waak market,toVisit
+C-00129,Nyachuol Gatkuoth,2025-01-11,F,WAAK PHCC,CHW-009,3.4,Nyamal Riek,+211 91 922 6101,8.948116,29.632486,,"Waak village, Block F",toVisit
+C-00130,Nyapal Diew,2024-12-28,F,WAAK PHCC,CHW-009,3.9,Diew Chuol,+211 98 582 6864,8.935398,29.644032,,"Waak village, Block A",toVisit
+C-00131,Tut Lam,2025-10-11,M,CARE BENTIU,CHW-003,11.6,Nyakume Tut,+211 91 116 3826,9.278513,29.714044,,"Bentiu village, Block D",toVisit
+C-00132,Pal Ruach,2025-08-05,M,CARE BENTIU,CHW-003,2.7,Nyaduoth Biel,+211 91 291 7196,9.269499,29.7814,,"Bentiu IDP site, Sector 1",missed
+C-00133,Biel Nhial,2026-08-17,M,CARE BENTIU,CHW-003,1.4,Nyathak Koang,+211 98 129 9140,9.266012,29.797123,,"Bentiu IDP site, Sector 5",toVisit
+C-00134,Nyaboth Thok,2025-10-25,F,CARE BENTIU,CHW-003,1.7,Nyagoa Wuor,,9.264339,29.786507,,"Bentiu, near the borehole",toVisit
+C-00135,Majiok Gatluak,2025-08-11,M,CARE BENTIU,CHW-003,0.9,Nyayien Yien,+211 98 826 3283,9.253611,29.789532,,"Bentiu IDP site, Sector 4",toVisit
+C-00136,Kueth Wuor,2024-12-09,M,CARE BENTIU,CHW-003,15.0,Nyachuol Biel,+211 91 554 7919,9.211886,29.695643,,Near Bentiu market,toVisit
+C-00137,Gatluak Jal,2025-09-30,M,CARE BENTIU,CHW-003,1.4,Jal Chuol,,9.26397,29.801938,,"Bentiu IDP site, Sector 2",toVisit
+C-00138,Kueth Kuany,2025-06-18,M,CARE BENTIU,CHW-003,1.3,Nyaboth Gatluak,+211 91 878 4581,9.264667,29.791951,,"Bentiu IDP site, Sector 1",toVisit
+C-00139,Nyakong Pal,2025-06-10,F,CARE BENTIU,CHW-003,2.4,Nyakuoth Wal,+211 92 284 1847,9.244145,29.782896,,"Bentiu, near the borehole",toVisit
+C-00140,Thok Pal,2025-05-01,M,CARE BENTIU,CHW-003,1.1,Pal Gai,+211 98 829 5822,9.249185,29.799683,,"Bentiu IDP site, Sector 1",toVisit
+C-00141,Ruach Nhial,2026-02-23,M,CARE BENTIU,CHW-003,2.9,Nyakume Dak,+211 92 786 6310,9.27578,29.802559,,"Bentiu IDP site, Sector 2",visited
+C-00142,Ter Bichiok,2025-05-21,M,CARE BENTIU,CHW-003,1.2,Nyakuoth Tap,,9.255773,29.804389,,"Bentiu IDP site, Sector 3",toVisit
+C-00143,Nyawech Tut,2024-08-28,F,CARE BENTIU,CHW-003,1.4,Nyaluak Chuol,+211 91 337 3112,9.253538,29.805536,,"Bentiu IDP site, Sector 5",toVisit
+C-00144,Nyandit Riek,2025-08-23,F,CARE BENTIU,CHW-003,1.5,Riek Gatwech,+211 91 822 1069,9.263911,29.788132,,"Bentiu IDP site, Sector 5",toVisit
+C-00145,Nyachuol Gach,2025-08-03,F,CARE BENTIU,CHW-003,0.5,Nyaruach Kueth,+211 98 249 2650,9.252475,29.795034,,"Bentiu IDP site, Sector 4",toVisit
+C-00146,Diew Biel,2026-03-05,M,CARE BENTIU,CHW-003,0.3,Nyayien Yiech,+211 91 687 5353,9.256991,29.797592,,"Bentiu IDP site, Sector 3",toVisit
+C-00147,Gai Ruach,2025-10-09,M,CARE BENTIU,CHW-003,1.5,Nyaduoth Bichiok,+211 92 671 7113,9.249768,29.786702,,"Bentiu IDP site, Sector 1",toVisit
+C-00148,Nyawech Dak,2025-11-10,F,CARE BENTIU,CHW-003,3.4,Nyaduoth Gai,+211 92 815 5964,9.248336,29.819202,,"Bentiu village, by the church",toVisit
+C-00149,Nyatuach Tap,2025-09-15,F,CARE BENTIU,CHW-003,0.9,Nyamuch Chuol,+211 91 112 3414,9.259224,29.80135,,"Bentiu village, by the church",visited
+C-00150,Nyakong Jal,2026-04-23,F,CARE BENTIU,CHW-003,3.0,Nyamal Diew,+211 91 653 1321,9.23604,29.803978,,"Bentiu IDP site, Sector 5",toVisit
+C-00151,Ruach Yiech,2026-09-17,M,CARE BENTIU,CHW-003,1.8,Nyabol Reath,,9.267589,29.801597,,"Bentiu IDP site, Sector 4",visited
+C-00152,Nyathak Tap,2026-05-24,F,CARE BENTIU,CHW-003,2.7,Nyawech Gatkuoth,+211 92 630 6270,9.237287,29.790328,,Near Bentiu market,missed
+C-00153,Nyapal Lam,2025-08-11,F,CARE BENTIU,CHW-003,10.2,Nyabuay Majiok,+211 91 952 4435,9.312179,29.843706,,"Bentiu, near the borehole",toVisit
+C-00154,Duol Bichiok,2025-11-04,M,CARE BENTIU,CHW-003,15.0,Nyakong Reath,+211 92 944 7427,9.34618,29.735174,,Near Bentiu market,toVisit
+C-00155,Nyadak Gai,2026-04-18,F,CARE BENTIU,CHW-003,1.3,Nyandit Dak,+211 98 710 5899,9.264053,29.800533,,"Bentiu IDP site, Sector 2",toVisit
+C-00156,Nyakong Yiech,2024-11-27,F,CARE BENTIU,CHW-003,2.8,Yiech Ter,+211 92 295 6153,9.274183,29.786699,,"Bentiu village, Block F",toVisit
+C-00157,Yien Tap,2026-03-19,M,CARE BENTIU,CHW-003,1.4,Nyawech Puok,+211 91 808 5719,9.246122,29.797563,,"Bentiu IDP site, Sector 2",toVisit
+C-00158,Jal Reath,2026-01-22,M,CARE BENTIU,CHW-003,2.0,Nyabuay Jal,+211 98 229 6707,9.269815,29.7999,,"Bentiu IDP site, Sector 2",missed
+C-00159,Nyabuay Buom,2024-08-19,F,CARE BENTIU,CHW-003,1.0,Buom Wuor,+211 91 195 8567,9.255227,29.788373,,"Bentiu IDP site, Sector 3",toVisit
+C-00160,Gach Yiech,2024-12-05,M,CARE BENTIU,CHW-003,0.4,Nyakong Diew,+211 91 421 7725,9.258744,29.794645,,"Bentiu IDP site, Sector 3",toVisit
+C-00161,Nyamal Majiok,2026-04-20,F,CARE BENTIU,CHW-003,0.9,Nyapal Riek,+211 92 285 7516,9.258002,29.789369,,"Bentiu IDP site, Sector 4",toVisit
+C-00162,Nyakim Riek,2024-11-11,F,CARE BENTIU,CHW-003,2.1,Nyaboth Riek,,9.271049,29.797525,,"Bentiu IDP site, Sector 3",toVisit
+C-00163,Nyariek Majiok,2025-08-30,F,CARE BENTIU,CHW-003,1.8,Majiok Machar,,9.245339,29.788185,,"Bentiu village, Block E",visited
+C-00164,Nyawech Gatkuoth,2025-11-19,F,CARE BENTIU,CHW-003,1.1,Nyachuol Gatwech,+211 98 907 2767,9.250308,29.80119,,"Bentiu IDP site, Sector 5",visited
+C-00165,Nyawech Biel,2024-12-30,F,CARE BENTIU,CHW-003,6.5,Nyariek Tut,+211 98 824 5268,9.250808,29.842799,,Near Bentiu market,toVisit
+C-00166,Nyakong Wal,2026-02-27,F,CARE BENTIU,CHW-003,11.8,Nyaboth Wal,+211 91 506 1540,9.309551,29.862594,,"Bentiu village, Block D",toVisit
+C-00167,Nyatuach Gatdet,2024-06-20,F,CARE BENTIU,CHW-003,3.4,Gatdet Reath,+211 91 155 8556,9.272679,29.813847,,"Bentiu, near the borehole",toVisit
+C-00168,Reath Puok,2026-05-01,M,CARE BENTIU,CHW-003,5.1,Nyayien Gach,+211 91 139 6550,9.271738,29.76196,,"Bentiu village, Block E",visited
+C-00169,Nyakume Yiech,2025-05-03,F,CARE BENTIU,CHW-003,1.7,Nyakuoth Nhial,+211 92 404 8441,9.262577,29.785137,,Near Bentiu market,visited
+C-00170,Diew Yiech,2024-09-28,M,CARE BENTIU,CHW-003,0.4,Nyakume Jal,+211 91 438 1826,9.258852,29.795033,,"Bentiu IDP site, Sector 3",missed
+C-00171,Ter Diew,2024-12-27,M,CARE BENTIU,CHW-003,2.6,Nyagoa Buom,+211 98 657 1261,9.254462,29.776711,,"Bentiu IDP site, Sector 4",visited
+C-00172,Buom Koang,2025-01-14,M,CARE BENTIU,CHW-003,0.8,Koang Reath,+211 92 844 9486,9.25917,29.790731,,"Bentiu IDP site, Sector 2",toVisit
+C-00173,Machar Majiok,2025-10-19,M,CARE BENTIU,CHW-003,0.9,Nyariek Biel,+211 92 365 6290,9.258034,29.78938,,"Bentiu village, Block D",toVisit
+C-00174,Nyagoa Kuany,2025-02-01,F,CARE BENTIU,CHW-003,1.6,Nyachuol Reath,+211 92 105 2088,9.246481,29.80218,,"Bentiu IDP site, Sector 1",toVisit
+C-00175,Yien Gatwech,2025-07-26,M,CARE BENTIU,CHW-003,2.2,Nyaruach Kuany,+211 98 475 9090,9.255394,29.779578,,"Bentiu IDP site, Sector 3",toVisit
+C-00176,Gatkuoth Yiech,2025-08-11,M,CARE BENTIU,CHW-003,7.3,Nyabol Diew,,9.208945,29.819415,,"Bentiu village, Block E",toVisit
+C-00177,Nyamal Buom,2025-05-12,F,CARE BENTIU,CHW-003,6.5,Nyathak Kuany,,9.233104,29.837023,,"Bentiu village, by the church",visited
+C-00178,Nyapal Thok,2026-04-02,F,CARE BENTIU,CHW-003,1.7,Nyalam Wal,,9.253232,29.807716,,"Bentiu IDP site, Sector 2",visited
+C-00179,Nyaruach Diew,2026-05-25,F,CARE BENTIU,CHW-003,3.4,Nyapal Machar,+211 91 712 6307,9.258846,29.770967,,"Bentiu, near the borehole",visited
+C-00180,Yiech Dak,2025-07-02,M,CARE BENTIU,CHW-003,2.7,Dak Bichiok,,9.256336,29.775916,,"Bentiu IDP site, Sector 3",visited
+C-00181,Gai Thok,2025-01-01,M,CARE RUBKONA,CHW-004,1.8,Nyagoa Yiech,+211 91 303 1845,9.28277,29.800305,,"Rubkona village, by the church",missed
+C-00182,Nyakong Lam,2026-06-27,F,CARE RUBKONA,CHW-004,1.4,Lam Majiok,+211 92 375 5354,9.291861,29.77946,,"Rubkona, near the borehole",toVisit
+C-00183,Nyandit Gatkuoth,2024-10-31,F,CARE RUBKONA,CHW-004,0.5,Gatkuoth Gatwech,+211 98 277 8720,9.288511,29.786341,,"Bentiu IDP site, Sector 5",missed
+C-00184,Chuol Yien,2026-02-21,M,CARE RUBKONA,CHW-004,1.4,Yien Machar,+211 92 526 8588,9.300212,29.788056,,"Bentiu IDP site, Sector 1",visited
+C-00185,Gach Yien,2024-07-26,M,CARE RUBKONA,CHW-004,1.0,Nyalam Tut,+211 91 831 3829,9.295956,29.785114,,"Rubkona village, by the church",toVisit
+C-00186,Nyamuch Gach,2026-09-17,F,CARE RUBKONA,CHW-004,1.4,Nyakume Duol,,9.292534,29.779596,,"Rubkona village, by the church",visited
+C-00187,Majiok Kong,2025-10-08,M,CARE RUBKONA,CHW-004,2.6,Nyagoa Buom,+211 92 228 5715,9.2992,29.806221,,"Bentiu IDP site, Sector 5",toVisit
+C-00188,Nyakuoth Gatluak,2026-03-22,F,CARE RUBKONA,CHW-004,2.3,Nyakim Puok,,9.283356,29.774265,,"Bentiu IDP site, Sector 3",toVisit
+C-00189,Yiech Majiok,2025-02-05,M,CARE RUBKONA,CHW-004,3.4,Nyakume Gai,+211 98 728 3821,9.310617,29.803327,,Near Rubkona market,toVisit
+C-00190,Majiok Chuol,2025-02-25,M,CARE RUBKONA,CHW-004,0.3,Nyaboth Dak,,9.292005,29.7883,,"Bentiu IDP site, Sector 3",toVisit
+C-00191,Nyachuol Ruach,2026-01-03,F,CARE RUBKONA,CHW-004,2.0,Nyaduoth Diew,+211 91 654 7948,9.284138,29.776312,,"Bentiu IDP site, Sector 4",toVisit
+C-00192,Bichiok Dak,2026-06-12,M,CARE RUBKONA,CHW-004,1.7,Nyagai Thok,,9.284253,29.778713,,"Bentiu IDP site, Sector 1",missed
+C-00193,Nyaduoth Gach,2025-07-09,F,CARE RUBKONA,CHW-004,1.9,Nyatuach Duol,+211 91 812 8490,9.287711,29.803189,,"Bentiu IDP site, Sector 3",toVisit
+C-00194,Duol Tut,2025-09-08,M,CARE RUBKONA,CHW-004,3.8,Tut Biel,,9.279397,29.815038,,"Rubkona village, Block A",toVisit
+C-00195,Nyakuoth Wal,2025-07-02,F,CARE RUBKONA,CHW-004,2.8,Wal Nhial,+211 98 126 4854,9.272878,29.77911,,"Bentiu IDP site, Sector 1",visited
+C-00196,Biel Yien,2026-07-06,M,CARE RUBKONA,CHW-004,2.7,Nyakuoth Kueth,,9.281426,29.807135,,"Rubkona village, by the church",toVisit
+C-00197,Duol Reath,2025-07-28,M,CARE RUBKONA,CHW-004,1.5,Nyadak Gai,,9.281215,29.783504,,"Bentiu IDP site, Sector 2",toVisit
+C-00198,Nyakuoth Puok,2024-11-09,F,CARE RUBKONA,CHW-004,4.4,Nyachuol Gatluak,+211 98 949 9560,9.321801,29.792574,,"Rubkona, near the borehole",toVisit
+C-00199,Nyanhial Wal,2026-06-03,F,CARE RUBKONA,CHW-004,4.2,Nyatuach Diew,,9.318216,29.801238,,"Rubkona village, by the church",toVisit
+C-00200,Nyachuol Yien,2024-08-22,F,CARE RUBKONA,CHW-004,0.3,Nyayien Jal,,9.29216,29.788562,,"Bentiu IDP site, Sector 4",toVisit
+C-00201,Nyanhial Biel,2025-06-01,F,CARE RUBKONA,CHW-004,2.1,Nyachuol Puok,+211 92 409 1751,9.304876,29.793416,,"Bentiu IDP site, Sector 1",visited
+C-00202,Kong Kueth,2025-02-22,M,CARE RUBKONA,CHW-004,0.4,Nyayien Thok,+211 91 852 6946,9.287535,29.788513,,"Bentiu IDP site, Sector 1",toVisit
+C-00203,Wal Gai,2026-05-14,M,CARE RUBKONA,CHW-004,1.8,Nyaluak Jal,+211 98 703 9699,9.277798,29.785795,,"Rubkona village, Block C",toVisit
+C-00204,Nyagoa Lam,2026-01-08,F,CARE RUBKONA,CHW-004,3.0,Nyadak Riek,+211 98 742 8357,9.285109,29.810836,,"Bentiu IDP site, Sector 5",toVisit
+C-00205,Nyaduoth Biel,2026-05-26,F,CARE RUBKONA,CHW-004,2.2,Nyamuch Wal,+211 91 688 9744,9.300942,29.801396,,"Bentiu IDP site, Sector 3",visited
+C-00206,Riek Wuor,2026-02-25,M,CARE RUBKONA,CHW-004,2.1,Wuor Dak,+211 92 150 5665,9.288674,29.774295,,"Bentiu IDP site, Sector 1",toVisit
+C-00207,Nyakong Tap,2025-10-02,F,CARE RUBKONA,CHW-004,4.7,Nyabol Lam,+211 98 967 5315,9.256694,29.794386,,"Rubkona village, Block C",toVisit
+C-00208,Nyaruach Yiech,2026-02-13,F,CARE RUBKONA,CHW-004,5.3,Nyaboth Buom,,9.327127,29.799568,,"Rubkona, near the borehole",toVisit
+C-00209,Nyalam Kuany,2026-02-28,F,CARE RUBKONA,CHW-004,1.9,Nyakim Tap,+211 98 629 9313,9.289561,29.775691,,"Rubkona, near the borehole",toVisit
+C-00210,Nyandit Jal,2025-04-17,F,CARE RUBKONA,CHW-004,2.1,Nyayien Tap,,9.275095,29.78963,,"Bentiu IDP site, Sector 1",toVisit
+C-00211,Nyamuch Koang,2025-10-05,F,CARE RUBKONA,CHW-004,2.2,Nyamal Gatwech,,9.285199,29.774314,,"Bentiu IDP site, Sector 4",visited
+C-00212,Nyakuoth Gatdet,2025-10-29,F,CARE RUBKONA,CHW-004,2.4,Gatdet Riek,,9.282243,29.774003,,"Bentiu IDP site, Sector 2",visited
+C-00213,Nyaruach Buom,2024-06-20,F,CARE RUBKONA,CHW-004,3.5,Nyandit Majiok,+211 91 997 7797,9.296033,29.814425,,"Rubkona village, by the church",toVisit
+C-00214,Nyaduoth Biel,2026-02-21,F,CARE RUBKONA,CHW-004,1.7,Biel Lam,+211 98 285 2278,9.284782,29.80067,,"Bentiu IDP site, Sector 1",toVisit
+C-00215,Nyawech Gatwech,2026-02-10,F,CARE RUBKONA,CHW-004,1.7,Nyachuol Thok,+211 91 933 9030,9.292903,29.777434,,"Bentiu IDP site, Sector 3",toVisit
+C-00216,Thok Chuol,2025-10-10,M,CARE RUBKONA,CHW-004,9.5,Nyaluak Gach,,9.331626,29.734288,,"Rubkona village, by the church",toVisit
+C-00217,Wal Dak,2025-06-30,M,CARE RUBKONA,CHW-004,1.1,Nyakong Ter,+211 98 958 7464,9.28693,29.782246,,"Bentiu IDP site, Sector 4",toVisit
+C-00218,Koang Gai,2026-03-07,M,CARE RUBKONA,CHW-004,1.9,Nyandit Bichiok,+211 98 178 1588,9.27773,29.795216,,"Rubkona village, Block C",toVisit
+C-00219,Ter Ruach,2026-03-10,M,CARE RUBKONA,CHW-004,1.1,Nyapal Wal,,9.290962,29.781551,,"Rubkona village, by the church",toVisit
+C-00220,Yiech Gai,2025-04-25,M,CARE RUBKONA,CHW-004,1.6,Nyakume Tut,,9.279992,29.794927,,"Rubkona, near the borehole",visited
+C-00221,Yiech Gatluak,2025-02-12,M,CARE RUBKONA,CHW-004,9.9,Nyathak Thok,+211 98 469 3566,9.247889,29.847744,,"Rubkona, near the borehole",toVisit
+C-00222,Nyakong Ruach,2025-10-14,F,CARE RUBKONA,CHW-004,7.3,Nyagai Riek,,9.334355,29.818586,,"Rubkona village, Block C",missed
+C-00223,Duol Gach,2024-10-14,M,CARE RUBKONA,CHW-004,0.6,Gach Yiech,+211 92 637 3173,9.294499,29.790251,,"Bentiu IDP site, Sector 2",toVisit
+C-00224,Nyalam Machar,2026-02-21,F,CARE RUBKONA,CHW-004,6.9,Nyalam Gach,+211 98 191 6672,9.332449,29.816178,,"Rubkona village, by the church",toVisit
+C-00225,Nyakume Machar,2025-01-31,F,CARE RUBKONA,CHW-004,2.0,Nyawech Duol,,9.296707,29.802599,,Near Rubkona market,toVisit
+C-00226,Kong Ruach,2025-10-13,M,CARE RUBKONA,CHW-004,1.7,Nyandit Gatwech,+211 91 351 9531,9.293751,29.777659,,"Rubkona village, by the church",toVisit
+C-00227,Gatluak Pal,2024-10-26,M,CARE RUBKONA,CHW-004,7.0,Pal Yien,+211 92 912 5431,9.337728,29.806783,,"Rubkona village, Block E",toVisit
+C-00228,Nyamal Yiech,2025-01-30,F,CARE RUBKONA,CHW-004,2.9,Nyayien Biel,+211 91 890 5031,9.269881,29.794386,,"Bentiu IDP site, Sector 3",toVisit
+C-00229,Lam Lam,2026-03-19,M,CARE RUBKONA,CHW-004,1.7,Nyawech Gai,+211 91 621 7617,9.301996,29.793014,,"Bentiu IDP site, Sector 5",toVisit
+C-00230,Nyachuol Koang,2026-03-15,F,CARE RUBKONA,CHW-004,2.3,Nyapal Tut,+211 98 153 6896,9.273964,29.786316,,"Rubkona village, Block A",missed
+C-00231,Jal Ruach,2025-01-04,M,NILE GANGAH B-V,CHW-005,9.2,Ruach Reath,+211 91 483 2023,9.240403,29.837574,,Cattle camp near Nile Gangah,missed
+C-00232,Nyagoa Gatdet,2026-03-19,F,NILE GANGAH B-V,CHW-005,5.4,Nyamal Wuor,+211 91 407 2494,9.30213,29.833239,,Near Nile Gangah market,toVisit
+C-00233,Nyayien Duol,2025-06-02,F,NILE GANGAH B-V,CHW-005,13.0,Nyachuol Lam,,9.218944,29.735582,,"Nile Gangah village, by the church",toVisit
+C-00234,Nyakuoth Ter,2026-01-10,F,NILE GANGAH B-V,CHW-005,0.9,Nyaboth Gach,+211 98 899 4419,9.288289,29.789713,,"Nile Gangah village, Block C",toVisit
+C-00235,Riek Kuany,2026-01-31,M,NILE GANGAH B-V,CHW-005,2.2,Nyakong Machar,+211 92 657 6446,9.295696,29.810789,,Near Nile Gangah market,toVisit
+C-00236,Nyadak Yiech,2025-04-07,F,NILE GANGAH B-V,CHW-005,2.3,Nyakume Gatkuoth,,9.306187,29.786751,,"Nile Gangah village, by the church",toVisit
+C-00237,Nyalam Ter,2025-04-16,F,NILE GANGAH B-V,CHW-005,4.1,Ter Gatluak,+211 92 845 1151,9.305367,29.821831,,"Nile Gangah, near the borehole",visited
+C-00238,Majiok Yiech,2024-08-16,M,NILE GANGAH B-V,CHW-005,17.1,Nyayien Ter,+211 92 103 9538,9.355887,29.688494,,Cattle camp near Nile Gangah,toVisit
+C-00239,Dak Nhial,2026-07-30,M,NILE GANGAH B-V,CHW-005,1.5,Nyagai Tut,+211 98 976 6489,9.297085,29.80479,,"Nile Gangah, near the borehole",visited
+C-00240,Lam Yiech,2026-03-05,M,NILE GANGAH B-V,CHW-005,2.8,Nyakume Tap,,9.275534,29.783181,,"Nile Gangah, near the borehole",visited
+C-00241,Nyaduoth Lam,2025-10-17,F,NILE GANGAH B-V,CHW-005,4.3,Nyagoa Puok,+211 91 785 1436,9.277406,29.767421,,Near Nile Gangah market,visited
+C-00242,Puok Gatluak,2026-05-17,M,NILE GANGAH B-V,CHW-005,2.4,Nyaluak Diew,+211 91 866 5638,9.30082,29.810192,,"Nile Gangah village, Block F",toVisit
+C-00243,Nyapal Thok,2023-11-11,F,NILE GANGAH B-V,CHW-005,4.3,Nyaluak Wal,+211 98 109 9627,9.302561,29.824672,,Near Nile Gangah market,toVisit
+C-00244,Nyakong Tap,2024-12-16,F,NILE GANGAH B-V,CHW-005,2.1,Nyachuol Thok,+211 92 538 6515,9.300863,29.782872,,"Nile Gangah village, Block F",toVisit
+C-00245,Puok Biel,2025-08-17,M,NILE GANGAH B-V,CHW-005,3.7,Nyapal Ter,,9.318261,29.791393,,"Nile Gangah, near the borehole",toVisit
+C-00246,Koang Duol,2026-04-13,M,NILE GANGAH B-V,CHW-005,1.9,Nyadak Koang,+211 92 776 6242,9.302426,29.786374,,"Nile Gangah village, by the church",visited
+C-00247,Nyariek Machar,2026-04-19,F,NILE GANGAH B-V,CHW-005,8.9,Nyanhial Gach,+211 98 252 8533,9.253526,29.847313,,Cattle camp near Nile Gangah,toVisit
+C-00248,Majiok Gatluak,2025-05-09,M,NILE GANGAH B-V,CHW-005,14.8,Nyaruach Gatdet,,9.186082,29.781279,,"Nile Gangah village, by the church",missed
+C-00249,Nyakim Lam,2024-12-06,F,NILE GANGAH B-V,CHW-005,1.4,Nyawech Gatluak,+211 98 908 7884,9.293404,29.785096,,Near Nile Gangah market,toVisit
+C-00250,Yiech Puok,2026-09-02,M,NILE GANGAH B-V,CHW-005,7.0,Puok Gatwech,+211 92 905 3333,9.340332,29.809377,,Near Nile Gangah market,visited
+C-00251,Jal Yiech,2025-09-14,M,NILE GANGAH B-V,CHW-005,3.4,Nyagoa Wal,,9.299147,29.818907,,"Nile Gangah, near the borehole",toVisit
+C-00252,Wuor Nhial,2026-04-04,M,NILE GANGAH B-V,CHW-005,11.3,Nyakim Yien,+211 92 981 1691,9.223635,29.840267,,Cattle camp near Nile Gangah,toVisit
+C-00253,Kuany Duol,2026-06-22,M,NILE GANGAH B-V,CHW-005,0.7,Nyachuol Riek,,9.296895,29.79487,,Near Nile Gangah market,missed
+C-00254,Nyaruach Wal,2023-05-14,F,NILE GANGAH B-V,CHW-005,1.8,Nyagoa Gatluak,,9.287851,29.807702,,"Nile Gangah, near the borehole",toVisit
+C-00255,Nyagoa Puok,2026-06-08,F,NILE GANGAH B-V,CHW-005,1.7,Nyagai Ter,+211 98 183 2752,9.303649,29.79858,,"Nile Gangah village, by the church",toVisit
+C-00256,Dak Yien,2025-06-21,M,NILE GANGAH B-V,CHW-005,4.6,Nyapal Gatdet,+211 92 188 8887,9.264636,29.776027,,Near Nile Gangah market,toVisit
+C-00257,Gatluak Dak,2024-12-27,M,NILE GANGAH B-V,CHW-005,3.0,Nyaruach Gatluak,+211 92 165 6274,9.305349,29.812322,,"Nile Gangah, near the borehole",toVisit
+C-00258,Gatdet Ter,2026-05-18,M,NILE GANGAH B-V,CHW-005,2.5,Nyaluak Ter,+211 92 382 7673,9.283652,29.811453,,"Nile Gangah village, Block B",toVisit
+C-00259,Nyagoa Reath,2026-06-07,F,NILE GANGAH B-V,CHW-005,5.3,Nyapal Chuol,+211 92 612 3053,9.301295,29.832707,,"Nile Gangah village, Block C",visited
+C-00260,Gatdet Wuor,2024-01-31,M,NILE GANGAH B-V,CHW-005,1.3,Nyaduoth Gach,,9.298105,29.802278,,"Nile Gangah village, Block F",toVisit
+C-00261,Nyanhial Lam,2026-05-10,F,NILE GANGAH B-V,CHW-005,2.9,Nyathak Kong,,9.312646,29.792986,,"Nile Gangah village, Block D",visited
+C-00262,Nyapal Yiech,2025-07-31,F,NILE GANGAH B-V,CHW-005,4.6,Yiech Duol,+211 92 131 2915,9.258741,29.796724,,Near Nile Gangah market,toVisit
+C-00263,Tap Wuor,2024-10-17,M,NILE GANGAH B-V,CHW-005,2.4,Nyagai Nhial,+211 98 944 3152,9.274569,29.794711,,Near Nile Gangah market,toVisit
+C-00264,Nyatuach Riek,2024-09-24,F,NILE GANGAH B-V,CHW-005,16.0,Nyaboth Riek,+211 91 525 7199,9.207387,29.874741,,Cattle camp near Nile Gangah,toVisit
+C-00265,Buom Lam,2024-11-28,M,NILE GANGAH B-V,CHW-005,2.1,Nyabuay Kuany,+211 92 575 5410,9.2912,29.810522,,Near Nile Gangah market,toVisit
+C-00266,Nyakim Nhial,2026-05-20,F,NILE GANGAH B-V,CHW-005,10.0,Nyathak Machar,+211 91 588 2226,9.235456,29.840662,,"Nile Gangah, near the borehole",visited
+C-00267,Kong Gatdet,2025-11-16,M,NILE GANGAH B-V,CHW-005,4.8,Nyabuay Jal,+211 98 924 1298,9.314327,29.768544,,Near Nile Gangah market,visited
+C-00268,Chuol Gach,2025-07-10,M,NILE GANGAH B-V,CHW-005,12.6,Nyagoa Buom,+211 91 962 1964,9.381787,29.782394,,Cattle camp near Nile Gangah,toVisit
+C-00269,Kong Lam,2026-04-02,M,NILE GANGAH B-V,CHW-005,4.4,Nyapal Tut,,9.319912,29.810187,,Near Nile Gangah market,toVisit
+C-00270,Nyariek Pal,2026-07-04,F,NILE GANGAH B-V,CHW-005,5.2,Nyamuch Puok,+211 98 102 9966,9.320443,29.819762,,"Nile Gangah, near the borehole",missed
+C-00271,Nyapal Tap,2025-11-29,F,NILE GANGAH B-V,CHW-005,4.7,Nyabuay Kuany,+211 91 707 3423,9.318589,29.774115,,"Nile Gangah village, by the church",toVisit
+C-00272,Nyamuch Biel,2025-11-25,F,NILE GANGAH B-V,CHW-005,7.6,Biel Tut,,9.287562,29.739868,,Near Nile Gangah market,toVisit
+C-00273,Biel Kueth,2026-03-15,M,NILE GANGAH B-V,CHW-005,4.9,Kueth Ruach,+211 98 265 5406,9.299383,29.830163,,"Nile Gangah, near the borehole",toVisit
+C-00274,Nyakume Tap,2026-03-11,F,NILE GANGAH B-V,CHW-005,0.9,Nyachuol Diew,,9.287639,29.80019,,"Nile Gangah village, Block B",visited
+C-00275,Gatwech Tap,2024-12-20,M,NILE GANGAH B-V,CHW-005,2.5,Nyaboth Jal,+211 92 770 7651,9.286894,29.77765,,"Nile Gangah, near the borehole",visited
+C-00276,Nyabol Riek,2026-04-19,F,NILE GANGAH B-V,CHW-005,8.3,Nyakong Diew,,9.340378,29.830657,,"Nile Gangah village, by the church",toVisit
+C-00277,Nyapal Yiech,2026-07-11,F,NILE GANGAH B-V,CHW-005,2.2,Nyapal Gatluak,+211 98 734 5451,9.277466,29.788461,,"Nile Gangah village, by the church",toVisit
+C-00278,Jal Kuany,2026-05-15,M,NILE GANGAH B-V,CHW-005,2.7,Nyamuch Ruach,+211 92 899 5280,9.293657,29.775566,,"Nile Gangah village, Block A",toVisit
+C-00279,Nyabuay Diew,2025-12-06,F,NILE GANGAH B-V,CHW-005,3.1,Nyachuol Yien,,9.275127,29.780199,,"Nile Gangah village, by the church",toVisit
+C-00280,Wuor Nhial,2024-12-16,M,NILE GANGAH B-V,CHW-005,3.9,Nyalam Tut,,9.266427,29.807327,,"Nile Gangah village, by the church",toVisit
+C-00281,Chuol Duol,2025-03-03,M,KHAL JAAK PHCC,CHW-006,17.3,Duol Riek,,9.322414,29.653792,,Cattle camp near Khal Jaak,visited
+C-00282,Nyaduoth Biel,2026-02-09,F,KHAL JAAK PHCC,CHW-006,7.6,Nyariek Chuol,+211 91 906 9131,9.31997,29.503244,,"Khal Jaak village, Block F",visited
+C-00283,Nyakume Gatkuoth,2025-10-07,F,KHAL JAAK PHCC,CHW-006,4.4,Gatkuoth Tap,+211 91 601 1895,9.305635,29.548214,,"Khal Jaak village, Block C",toVisit
+C-00284,Nyaboth Gatdet,2025-11-01,F,KHAL JAAK PHCC,CHW-006,8.0,Nyaduoth Kong,+211 91 615 7545,9.25858,29.592146,,Cattle camp near Khal Jaak,toVisit
+C-00285,Lam Kong,2025-10-25,M,KHAL JAAK PHCC,CHW-006,2.4,Nyalam Bichiok,+211 98 583 5650,9.293095,29.533176,,Near Khal Jaak market,visited
+C-00286,Nyaruach Yien,2025-05-15,F,KHAL JAAK PHCC,CHW-006,1.3,Nyamal Gatluak,+211 91 455 6712,9.282464,29.543467,,"Khal Jaak village, by the church",toVisit
+C-00287,Nyadak Diew,2025-01-27,F,KHAL JAAK PHCC,CHW-006,1.4,Nyaruach Gatwech,+211 92 769 2248,9.277322,29.54664,,"Khal Jaak village, Block E",toVisit
+C-00288,Lam Diew,2025-09-16,M,KHAL JAAK PHCC,CHW-006,7.3,Diew Riek,+211 98 584 7471,9.314588,29.572847,,"Khal Jaak village, by the church",toVisit
+C-00289,Pal Diew,2026-08-17,M,KHAL JAAK PHCC,CHW-006,1.7,Nyayien Koang,+211 91 747 5032,9.268702,29.526601,,Near Khal Jaak market,visited
+C-00290,Nyawech Majiok,2025-03-08,F,KHAL JAAK PHCC,CHW-006,4.4,Majiok Puok,+211 91 988 1207,9.307814,29.537219,,"Khal Jaak village, by the church",toVisit
+C-00291,Nyathak Dak,2026-03-11,F,KHAL JAAK PHCC,CHW-006,0.2,Nyakim Kong,,9.277526,29.536761,,Near Khal Jaak market,missed
+C-00292,Wal Pal,2025-10-10,M,KHAL JAAK PHCC,CHW-006,2.6,Nyamuch Jal,+211 92 669 2934,9.27575,29.517506,,Near Khal Jaak market,toVisit
+C-00293,Nyakuoth Thok,2025-09-20,F,KHAL JAAK PHCC,CHW-006,1.9,Nyakuoth Yiech,+211 92 205 3329,9.267511,29.525692,,"Khal Jaak village, Block C",toVisit
+C-00294,Riek Jal,2025-03-03,M,KHAL JAAK PHCC,CHW-006,16.1,Nyakim Jal,+211 98 922 1400,9.384293,29.579007,,Cattle camp near Khal Jaak,toVisit
+C-00295,Nyawech Biel,2024-12-23,F,KHAL JAAK PHCC,CHW-006,6.8,Nyamal Majiok,+211 92 297 9513,9.301058,29.579233,,"Khal Jaak village, by the church",toVisit
+C-00296,Nyaboth Dak,2026-01-19,F,KHAL JAAK PHCC,CHW-006,2.0,Nyakong Dak,+211 98 461 3033,9.265882,29.526199,,"Khal Jaak village, Block E",missed
+C-00297,Bichiok Majiok,2026-03-17,M,KHAL JAAK PHCC,CHW-006,2.9,Nyawech Puok,+211 91 348 1935,9.261434,29.521411,,"Khal Jaak village, Block F",toVisit
+C-00298,Thok Buom,2025-10-04,M,KHAL JAAK PHCC,CHW-006,0.8,Nyakume Gai,+211 92 271 3274,9.270358,29.536093,,"Khal Jaak village, Block B",toVisit
+C-00299,Biel Chuol,2026-01-09,M,KHAL JAAK PHCC,CHW-006,1.9,Nyatuach Koang,+211 92 194 1558,9.262462,29.537627,,Near Khal Jaak market,toVisit
+C-00300,Diew Ruach,2025-11-02,M,KHAL JAAK PHCC,CHW-006,2.3,Nyachuol Gatdet,,9.292513,29.538915,,"Khal Jaak village, by the church",toVisit
+C-00301,Nyamal Wuor,2025-06-18,F,KHAL JAAK PHCC,CHW-006,3.7,Nyamuch Reath,+211 98 544 4580,9.274296,29.509533,,"Khal Jaak village, by the church",visited
+C-00302,Tap Gatdet,2024-10-13,M,KHAL JAAK PHCC,CHW-006,10.5,Nyariek Ruach,,9.34889,29.557497,,"Khal Jaak, near the borehole",toVisit
+C-00303,Nyakume Koang,2025-05-27,F,KHAL JAAK PHCC,CHW-006,9.7,Nyagoa Tut,+211 98 316 7129,9.333725,29.576612,,"Khal Jaak village, Block C",toVisit
+C-00304,Diew Pal,2025-10-07,M,KHAL JAAK PHCC,CHW-006,1.8,Nyawech Tut,+211 92 800 4751,9.289054,29.535619,,"Khal Jaak village, Block C",toVisit
+C-00305,Nyatuach Yien,2026-05-27,F,KHAL JAAK PHCC,CHW-006,1.7,Nyakong Thok,+211 92 180 5871,9.277476,29.524153,,"Khal Jaak village, Block E",toVisit
+C-00306,Duol Koang,2026-08-14,M,KHAL JAAK PHCC,CHW-006,13.8,Nyawech Yien,+211 98 116 5958,9.20337,29.46776,,Cattle camp near Khal Jaak,toVisit
+C-00307,Nyadak Kueth,2024-09-28,F,KHAL JAAK PHCC,CHW-006,1.3,Nyadak Dak,,9.276698,29.527015,,"Khal Jaak village, Block C",toVisit
+C-00308,Nyadak Tut,2025-09-19,F,KHAL JAAK PHCC,CHW-006,4.4,Nyaruach Wal,,9.257247,29.562319,,"Khal Jaak, near the borehole",toVisit
+C-00309,Nyathak Biel,2026-06-20,F,KHAL JAAK PHCC,CHW-006,1.2,Nyakim Yiech,+211 91 869 8747,9.284758,29.536597,,"Khal Jaak, near the borehole",toVisit
+C-00310,Gatwech Kong,2025-03-05,M,KHAL JAAK PHCC,CHW-006,2.7,Nyayien Yien,+211 98 300 8284,9.283588,29.554693,,"Khal Jaak, near the borehole",missed
+C-00311,Thok Gatkuoth,2025-09-19,M,KHAL JAAK PHCC,CHW-006,1.3,Nyakuoth Biel,+211 92 258 6559,9.279315,29.527569,,"Khal Jaak village, Block F",missed
+C-00312,Nyaruach Jal,2026-04-17,F,KHAL JAAK PHCC,CHW-006,6.1,Nyagai Biel,+211 91 316 5199,9.2851,29.580095,,"Khal Jaak village, Block E",toVisit
+C-00313,Ruach Reath,2024-06-10,M,KHAL JAAK PHCC,CHW-006,9.5,Reath Lam,+211 92 200 3475,9.256779,29.469937,,Cattle camp near Khal Jaak,toVisit
+C-00314,Nyamal Thok,2026-04-13,F,KHAL JAAK PHCC,CHW-006,3.3,Nyathak Thok,+211 91 608 8953,9.2994,29.531603,,"Khal Jaak, near the borehole",toVisit
+C-00315,Nyamal Tap,2024-04-11,F,KHAL JAAK PHCC,CHW-006,8.7,Nyaboth Thok,,9.213944,29.544783,,"Khal Jaak village, by the church",toVisit
+C-00316,Kuany Kueth,2025-04-12,M,KHAL JAAK PHCC,CHW-006,4.2,Kueth Gatdet,+211 92 772 6848,9.294115,29.561145,,Near Khal Jaak market,toVisit
+C-00317,Buom Dak,2025-09-24,M,KHAL JAAK PHCC,CHW-006,11.4,Nyamal Wuor,+211 98 814 5883,9.198952,29.50788,,"Khal Jaak village, Block B",toVisit
+C-00318,Nyalam Duol,2025-11-09,F,KHAL JAAK PHCC,CHW-006,4.4,Nyabuay Reath,,9.26589,29.506072,,Near Khal Jaak market,visited
+C-00319,Nyagoa Biel,2025-11-28,F,KHAL JAAK PHCC,CHW-006,10.5,Nyamuch Nhial,+211 92 763 2780,9.344917,29.56841,,"Khal Jaak village, Block B",visited
+C-00320,Ter Wal,2026-05-25,M,KHAL JAAK PHCC,CHW-006,3.3,Nyariek Dak,+211 98 468 1951,9.257292,29.521753,,Near Khal Jaak market,toVisit
+C-00321,Diew Jal,2024-10-27,M,KHAL JAAK PHCC,CHW-006,10.7,Jal Bichiok,+211 98 579 1016,9.214279,29.489792,,Cattle camp near Khal Jaak,visited
+C-00322,Bichiok Nhial,2026-08-05,M,KHAL JAAK PHCC,CHW-006,2.3,Nyakong Gatkuoth,+211 91 334 9246,9.290814,29.528734,,"Khal Jaak, near the borehole",toVisit
+C-00323,Tut Puok,2026-06-12,M,KHAL JAAK PHCC,CHW-006,4.8,Puok Kuany,+211 98 559 4188,9.242806,29.545975,,"Khal Jaak village, by the church",toVisit
+C-00324,Gatdet Kuany,2025-06-07,M,KHAL JAAK PHCC,CHW-006,2.6,Nyariek Nhial,,9.266968,29.519916,,"Khal Jaak, near the borehole",toVisit
+C-00325,Nyakuoth Kuany,2025-10-18,F,KHAL JAAK PHCC,CHW-006,6.1,Nyayien Ruach,+211 92 434 8799,9.299796,29.574018,,"Khal Jaak village, by the church",visited
+C-00326,Nyakong Reath,2026-08-16,F,KHAL JAAK PHCC,CHW-006,0.8,Nyaduoth Diew,+211 91 287 5184,9.276753,29.542296,,"Khal Jaak village, by the church",visited
+C-00327,Nyamuch Gach,2024-12-27,F,KHAL JAAK PHCC,CHW-006,6.2,Gach Gatluak,+211 91 265 1312,9.236583,29.557606,,"Khal Jaak, near the borehole",toVisit
+C-00328,Wal Riek,2024-01-28,M,KHAL JAAK PHCC,CHW-006,4.3,Nyandit Chuol,,9.281332,29.567443,,"Khal Jaak, near the borehole",toVisit
+C-00329,Nyaduoth Puok,2026-04-24,F,KHAL JAAK PHCC,CHW-006,2.7,Nyayien Duol,+211 91 623 6603,9.256687,29.537694,,"Khal Jaak, near the borehole",toVisit
+C-00330,Pal Thok,2026-04-23,M,KHAL JAAK PHCC,CHW-006,5.6,Nyapal Buom,,9.280889,29.495883,,"Khal Jaak, near the borehole",visited
+C-00331,Nyaduoth Lam,2025-09-26,F,REANG PHCC,CHW-007,0.6,Nyakume Puok,+211 92 504 1547,9.352913,29.488065,,"Reang, near the borehole",toVisit
+C-00332,Puok Kong,2025-10-14,M,REANG PHCC,CHW-007,6.2,Nyagai Yien,+211 98 505 5318,9.326061,29.457257,,"Reang village, by the church",visited
+C-00333,Nyakim Kuany,2025-02-15,F,REANG PHCC,CHW-007,3.2,Kuany Lam,,9.334843,29.49788,,"Reang village, Block D",toVisit
+C-00334,Duol Kong,2026-08-09,M,REANG PHCC,CHW-007,2.1,Nyanhial Majiok,+211 92 462 7951,9.34752,29.478036,,"Reang village, by the church",toVisit
+C-00335,Nyakume Pal,2025-06-16,F,REANG PHCC,CHW-007,6.4,Pal Thok,+211 91 357 6327,9.367105,29.444738,,Near Reang market,toVisit
+C-00336,Duol Gatdet,2025-11-14,M,REANG PHCC,CHW-007,1.1,Nyamal Jal,+211 91 577 9348,9.354451,29.49799,,Near Reang market,toVisit
+C-00337,Nyaduoth Bichiok,2024-08-16,F,REANG PHCC,CHW-007,2.1,Nyalam Gach,,9.344452,29.481189,,"Reang village, Block E",toVisit
+C-00338,Duol Majiok,2025-12-09,M,REANG PHCC,CHW-007,2.2,Nyaruach Chuol,,9.35276,29.505849,,"Reang, near the borehole",toVisit
+C-00339,Majiok Yiech,2026-04-11,M,REANG PHCC,CHW-007,1.9,Nyadak Gatdet,,9.368696,29.483669,,"Reang village, by the church",toVisit
+C-00340,Gatdet Bichiok,2026-04-07,M,REANG PHCC,CHW-007,2.9,Nyaluak Kong,+211 98 380 3005,9.377201,29.48641,,"Reang, near the borehole",toVisit
+C-00341,Diew Wuor,2025-10-15,M,REANG PHCC,CHW-007,3.1,Wuor Dak,,9.342439,29.472798,,"Reang village, by the church",missed
+C-00342,Nyayien Nhial,2025-09-15,F,REANG PHCC,CHW-007,4.9,Nyaruach Gatluak,,9.348766,29.455382,,"Reang, near the borehole",toVisit
+C-00343,Majiok Lam,2025-11-02,M,REANG PHCC,CHW-007,3.7,Nyakim Gach,,9.366855,29.465301,,"Reang, near the borehole",toVisit
+C-00344,Nyakume Dak,2025-09-26,F,REANG PHCC,CHW-007,0.9,Nyakong Koang,+211 98 231 2113,9.355279,29.496695,,Near Reang market,visited
+C-00345,Yiech Buom,2026-05-09,M,REANG PHCC,CHW-007,1.2,Buom Ruach,+211 92 680 1769,9.352016,29.497671,,"Reang village, by the church",toVisit
+C-00346,Nyamal Lam,2026-07-01,F,REANG PHCC,CHW-007,4.6,Nyaluak Diew,+211 92 292 6700,9.347846,29.457876,,"Reang, near the borehole",visited
+C-00347,Duol Lam,2024-12-12,M,REANG PHCC,CHW-007,2.1,Nyariek Chuol,+211 98 438 8002,9.342955,29.483739,,"Reang village, by the church",toVisit
+C-00348,Koang Pal,2026-09-15,M,REANG PHCC,CHW-007,2.6,Nyapal Gatkuoth,,9.358511,29.471372,,"Reang village, Block C",visited
+C-00349,Puok Chuol,2026-08-18,M,REANG PHCC,CHW-007,16.8,Nyandit Gatwech,+211 91 365 7656,9.474861,29.46371,,Cattle camp near Reang,toVisit
+C-00350,Yiech Jal,2026-07-18,M,REANG PHCC,CHW-007,1.0,Nyagai Jal,+211 98 472 6042,9.363852,29.49055,,"Reang village, by the church",missed
+C-00351,Nyamuch Jal,2026-05-08,F,REANG PHCC,CHW-007,1.5,Nyathak Reath,+211 91 643 3285,9.347105,29.485126,,"Reang, near the borehole",toVisit
+C-00352,Nyanhial Biel,2026-08-28,F,REANG PHCC,CHW-007,4.3,Nyakume Machar,+211 92 670 8277,9.387482,29.493444,,Near Reang market,visited
+C-00353,Nyamal Chuol,2025-07-01,F,REANG PHCC,CHW-007,1.2,Nyamal Nhial,,9.348425,29.487561,,"Reang village, Block C",toVisit
+C-00354,Buom Nhial,2026-03-08,M,REANG PHCC,CHW-007,1.6,Nyapal Gatkuoth,,9.351433,29.479848,,"Reang village, by the church",missed
+C-00355,Pal Yien,2026-06-18,M,REANG PHCC,CHW-007,1.9,Nyathak Lam,,9.343291,29.493321,,"Reang village, by the church",toVisit
+C-00356,Nyaduoth Tap,2026-05-28,F,REANG PHCC,CHW-007,15.0,Nyachuol Buom,,9.40455,29.392046,,"Reang village, Block F",toVisit
+C-00357,Gatkuoth Tut,2025-11-25,M,REANG PHCC,CHW-007,12.2,Nyaduoth Jal,+211 91 719 5187,9.440691,29.464067,,Cattle camp near Reang,visited
+C-00358,Gach Nhial,2025-03-05,M,REANG PHCC,CHW-007,4.8,Nyakim Puok,+211 92 477 1366,9.3225,29.484664,,"Reang village, Block F",toVisit
+C-00359,Tut Pal,2026-03-06,M,REANG PHCC,CHW-007,1.7,Nyariek Tap,+211 98 231 7399,9.345122,29.494476,,"Reang village, Block E",missed
+C-00360,Nyathak Pal,2026-04-22,F,REANG PHCC,CHW-007,1.2,Nyariek Buom,+211 92 358 9729,9.350213,29.496124,,"Reang village, Block F",toVisit
+C-00361,Yien Wal,2025-10-15,M,REANG PHCC,CHW-007,0.8,Nyakim Nhial,+211 98 498 7011,9.354916,29.495843,,"Reang village, by the church",visited
+C-00362,Nyagai Gai,2026-05-28,F,REANG PHCC,CHW-007,1.7,Nyayien Gatkuoth,+211 91 587 5648,9.346457,29.48338,,Near Reang market,toVisit
+C-00363,Nyamal Tut,2026-07-03,F,REANG PHCC,CHW-007,1.8,Tut Lam,+211 92 742 4415,9.359986,29.502976,,"Reang village, by the church",toVisit
+C-00364,Nyadak Kuany,2025-01-11,F,REANG PHCC,CHW-007,0.6,Nyachuol Gatdet,,9.360094,29.48762,,"Reang, near the borehole",toVisit
+C-00365,Nyamuch Koang,2026-05-17,F,REANG PHCC,CHW-007,1.7,Nyapal Machar,+211 91 799 5491,9.36244,29.501214,,"Reang village, Block A",toVisit
+C-00366,Dak Gatwech,2026-07-05,M,REANG PHCC,CHW-007,8.9,Nyaluak Wal,+211 98 847 9269,9.296374,29.468036,,Cattle camp near Reang,toVisit
+C-00367,Nyakim Reath,2026-07-09,F,REANG PHCC,CHW-007,9.0,Nyamuch Dak,+211 91 196 6041,9.419642,29.474589,,Cattle camp near Reang,toVisit
+C-00368,Yiech Ruach,2026-03-12,M,REANG PHCC,CHW-007,4.0,Nyabol Gach,+211 92 108 4287,9.32838,29.495995,,"Reang village, by the church",toVisit
+C-00369,Buom Kong,2026-06-14,M,REANG PHCC,CHW-007,3.5,Nyaruach Wuor,+211 92 175 8293,9.356782,29.515835,,"Reang, near the borehole",toVisit
+C-00370,Ruach Yiech,2026-01-17,M,REANG PHCC,CHW-007,1.9,Nyagoa Diew,+211 92 516 9896,9.344696,29.497041,,Near Reang market,toVisit
+C-00371,Nyalam Duol,2025-08-29,F,REANG PHCC,CHW-007,2.1,Nyaduoth Koang,,9.365417,29.502773,,"Reang village, Block C",toVisit
+C-00372,Buom Ruach,2025-10-31,M,REANG PHCC,CHW-007,17.3,Nyaboth Kuany,+211 98 527 9669,9.244205,29.544871,,Cattle camp near Reang,visited
+C-00373,Nyawech Biel,2024-01-16,F,REANG PHCC,CHW-007,7.7,Nyaduoth Kong,+211 91 598 3188,9.330426,29.539838,,Near Reang market,toVisit
+C-00374,Nyathak Dak,2024-10-17,F,REANG PHCC,CHW-007,1.9,Nyagai Pal,+211 91 475 9431,9.353407,29.503753,,"Reang, near the borehole",toVisit
+C-00375,Puok Koang,2026-07-29,M,REANG PHCC,CHW-007,17.6,Nyariek Reath,+211 91 989 5040,9.386692,29.61517,,Cattle camp near Reang,toVisit
+C-00376,Nyabuay Buom,2026-02-24,F,REANG PHCC,CHW-007,3.6,Nyariek Gatluak,,9.363932,29.515509,,"Reang village, by the church",toVisit
+C-00377,Nyakuoth Yien,2026-03-11,F,REANG PHCC,CHW-007,2.7,Nyayien Kong,+211 92 120 4008,9.353774,29.470765,,"Reang, near the borehole",visited
+C-00378,Nyadak Thok,2025-12-10,F,REANG PHCC,CHW-007,14.6,Nyanhial Majiok,+211 91 306 6036,9.456379,29.456255,,Cattle camp near Reang,toVisit
+C-00379,Nyakume Buom,2026-04-12,F,REANG PHCC,CHW-007,2.6,Buom Thok,,9.372258,29.50078,,"Reang village, by the church",visited
+C-00380,Nyagoa Buom,2025-09-11,F,REANG PHCC,CHW-007,8.6,Nyakuoth Majiok,,9.309378,29.44964,,Cattle camp near Reang,toVisit
+C-00381,Biel Diew,2026-04-27,M,GUIT PHCC,CHW-008,2.5,Nyaduoth Jal,,9.17606,29.907462,,"Guit, near the borehole",visited
+C-00382,Nyagoa Gach,2026-05-29,F,GUIT PHCC,CHW-008,5.1,Nyachuol Dak,,9.122266,29.917895,,"Guit, near the borehole",toVisit
+C-00383,Nyariek Gai,2026-08-22,F,GUIT PHCC,CHW-008,13.4,Nyatuach Yien,+211 91 161 6939,9.124804,29.818852,,Cattle camp near Guit,toVisit
+C-00384,Nyagai Biel,2025-09-27,F,GUIT PHCC,CHW-008,2.6,Nyaluak Wal,,9.157983,29.891622,,"Guit village, by the church",missed
+C-00385,Nyagai Gai,2026-07-24,F,GUIT PHCC,CHW-008,1.3,Nyaruach Bichiok,,9.152698,29.918199,,Near Guit market,toVisit
+C-00386,Nyamal Wal,2025-10-06,F,GUIT PHCC,CHW-008,1.7,Nyawech Gatwech,+211 91 590 8078,9.159378,29.898237,,Near Guit market,toVisit
+C-00387,Reath Dak,2025-04-27,M,GUIT PHCC,CHW-008,7.3,Nyakong Ter,,9.155006,29.963787,,"Guit village, Block F",toVisit
+C-00388,Dak Wal,2025-09-01,M,GUIT PHCC,CHW-008,4.7,Nyakong Majiok,,9.163784,29.87674,,Near Guit market,toVisit
+C-00389,Nyaluak Tap,2026-03-25,F,GUIT PHCC,CHW-008,3.7,Tap Biel,+211 92 180 7327,9.157798,29.937606,,Near Guit market,toVisit
+C-00390,Diew Gai,2025-10-26,M,GUIT PHCC,CHW-008,9.5,Nyamal Chuol,+211 98 491 3072,9.169493,29.842179,,"Guit village, Block A",toVisit
+C-00391,Nhial Pal,2025-07-10,M,GUIT PHCC,CHW-008,3.3,Nyaduoth Bichiok,+211 98 267 9695,9.162603,29.934295,,"Guit village, by the church",missed
+C-00392,Nyadak Tut,2025-05-21,F,GUIT PHCC,CHW-008,2.1,Nyayien Gatwech,+211 98 134 2617,9.147608,29.92144,,"Guit village, by the church",visited
+C-00393,Yiech Jal,2025-08-02,M,GUIT PHCC,CHW-008,8.6,Jal Lam,,9.170773,29.9721,,"Guit village, Block B",toVisit
+C-00394,Wal Bichiok,2024-08-12,M,GUIT PHCC,CHW-008,5.5,Nyanhial Yiech,+211 92 490 6759,9.120632,29.923074,,"Guit village, by the church",toVisit
+C-00395,Nyandit Chuol,2025-10-13,F,GUIT PHCC,CHW-008,1.2,Nyawech Thok,+211 91 849 3597,9.151504,29.905195,,"Guit village, by the church",visited
+C-00396,Puok Yiech,2026-09-24,M,GUIT PHCC,CHW-008,1.0,Nyakume Bichiok,+211 92 895 4453,9.154696,29.904284,,"Guit village, Block E",visited
+C-00397,Kong Nhial,2026-06-16,M,GUIT PHCC,CHW-008,0.8,Nyabol Riek,+211 91 635 9017,9.158421,29.916439,,"Guit village, by the church",toVisit
+C-00398,Yien Wal,2026-04-27,M,GUIT PHCC,CHW-008,2.2,Nyaruach Tut,+211 98 534 8397,9.169716,29.921757,,Near Guit market,missed
+C-00399,Nyalam Kuany,2024-06-15,F,GUIT PHCC,CHW-008,14.8,Nyakim Machar,+211 98 529 4028,9.227726,29.992635,,Cattle camp near Guit,missed
+C-00400,Ter Gatkuoth,2026-06-13,M,GUIT PHCC,CHW-008,13.2,Nyayien Reath,+211 98 978 5633,9.077807,29.96195,,"Guit, near the borehole",toVisit
+C-00401,Thok Gatluak,2024-09-07,M,GUIT PHCC,CHW-008,3.6,Gatluak Nhial,,9.181387,29.922613,,"Guit village, Block B",toVisit
+C-00402,Jal Biel,2026-02-20,M,GUIT PHCC,CHW-008,3.2,Nyamal Ruach,+211 98 754 2696,9.148272,29.889568,,"Guit, near the borehole",toVisit
+C-00403,Tap Gatdet,2026-05-11,M,GUIT PHCC,CHW-008,3.0,Gatdet Dak,,9.14488,29.893436,,"Guit village, Block B",toVisit
+C-00404,Gatkuoth Kueth,2025-07-27,M,GUIT PHCC,CHW-008,2.2,Nyakuoth Jal,+211 98 542 6658,9.162334,29.895065,,"Guit, near the borehole",visited
+C-00405,Gai Tap,2024-10-01,M,GUIT PHCC,CHW-008,1.9,Nyaduoth Yiech,+211 98 567 9083,9.151987,29.898297,,"Guit village, Block A",missed
+C-00406,Puok Chuol,2025-10-11,M,GUIT PHCC,CHW-008,2.2,Nyachuol Puok,,9.142818,29.907179,,Near Guit market,toVisit
+C-00407,Nyapal Tut,2026-01-05,F,GUIT PHCC,CHW-008,3.9,Nyaluak Wal,,9.181585,29.926562,,"Guit village, Block D",toVisit
+C-00408,Nyaduoth Yiech,2025-09-28,F,GUIT PHCC,CHW-008,3.0,Nyaduoth Ter,+211 92 934 7156,9.140218,29.898608,,"Guit village, by the church",missed
+C-00409,Nyanhial Gatkuoth,2025-03-05,F,GUIT PHCC,CHW-008,5.2,Nyagoa Gatluak,,9.128697,29.887333,,"Guit village, Block D",toVisit
+C-00410,Yien Puok,2024-10-30,M,GUIT PHCC,CHW-008,1.1,Nyabol Wuor,+211 98 455 9342,9.162823,29.903998,,"Guit village, Block E",toVisit
+C-00411,Kuany Reath,2026-04-27,M,GUIT PHCC,CHW-008,4.7,Nyawech Dak,,9.142147,29.940753,,Near Guit market,toVisit
+C-00412,Nyathak Tut,2025-06-22,F,GUIT PHCC,CHW-008,4.6,Nyaruach Majiok,+211 92 738 9605,9.1479,29.942483,,"Guit village, Block F",missed
+C-00413,Lam Tut,2024-11-29,M,GUIT PHCC,CHW-008,2.2,Nyanhial Pal,+211 92 192 4697,9.149329,29.923836,,Near Guit market,toVisit
+C-00414,Tap Majiok,2026-05-31,M,GUIT PHCC,CHW-008,17.5,Nyakim Biel,+211 98 358 2198,9.050655,29.977161,,Cattle camp near Guit,toVisit
+C-00415,Nyaboth Wal,2024-09-09,F,GUIT PHCC,CHW-008,1.0,Nyaduoth Gach,+211 98 491 9607,9.156861,29.917751,,"Guit, near the borehole",toVisit
+C-00416,Nyabol Puok,2024-12-19,F,GUIT PHCC,CHW-008,3.1,Nyadak Majiok,+211 98 980 3072,9.165288,29.889101,,"Guit, near the borehole",toVisit
+C-00417,Ruach Kuany,2026-05-24,M,GUIT PHCC,CHW-008,2.9,Nyalam Biel,,9.142206,29.897105,,"Guit village, by the church",visited
+C-00418,Puok Duol,2026-07-08,M,GUIT PHCC,CHW-008,1.8,Nyaruach Wuor,+211 92 735 3542,9.146581,29.904984,,"Guit village, by the church",toVisit
+C-00419,Nyaruach Ruach,2026-02-15,F,GUIT PHCC,CHW-008,2.3,Nyayien Bichiok,,9.14394,29.90223,,"Guit village, Block F",toVisit
+C-00420,Nyapal Dak,2025-12-02,F,GUIT PHCC,CHW-008,3.5,Nyakuoth Gatkuoth,,9.171075,29.932638,,Near Guit market,toVisit
+C-00421,Nyaduoth Ter,2026-05-25,F,GUIT PHCC,CHW-008,9.8,Nyakim Reath,,9.122781,29.972432,,"Guit village, Block F",visited
+C-00422,Nyakim Pal,2026-05-26,F,GUIT PHCC,CHW-008,8.2,Nyakong Yien,,9.207073,29.94442,,Near Guit market,missed
+C-00423,Dak Yiech,2024-12-16,M,GUIT PHCC,CHW-008,15.0,Nyawech Puok,+211 92 568 4666,9.263815,29.934488,,"Guit village, Block D",toVisit
+C-00424,Ter Gatkuoth,2025-12-20,M,GUIT PHCC,CHW-008,2.3,Nyalam Kuany,,9.146774,29.922658,,"Guit village, by the church",missed
+C-00425,Nyathak Nhial,2026-03-25,F,GUIT PHCC,CHW-008,2.3,Nhial Gatluak,+211 98 163 1624,9.156433,29.893917,,"Guit village, by the church",visited
+C-00426,Nyapal Biel,2024-11-29,F,GUIT PHCC,CHW-008,2.0,Nyandit Gatdet,,9.172173,29.9066,,"Guit village, Block D",toVisit
+C-00427,Nyamal Ter,2025-08-26,F,GUIT PHCC,CHW-008,1.8,Nyachuol Wuor,,9.145415,29.909158,,"Guit, near the borehole",missed
+C-00428,Nyalam Gatwech,2025-07-25,F,GUIT PHCC,CHW-008,6.4,Nyaluak Bichiok,+211 92 615 8375,9.151731,29.956844,,"Guit, near the borehole",toVisit
+C-00429,Pal Majiok,2025-08-01,M,GUIT PHCC,CHW-008,3.4,Majiok Yien,+211 92 540 3106,9.173125,29.890829,,"Guit village, Block D",toVisit
+C-00430,Duol Pal,2026-02-17,M,GUIT PHCC,CHW-008,2.7,Nyakong Tut,,9.159904,29.930244,,"Guit village, by the church",toVisit
+C-00431,Aker Majok,2025-11-05,F,MELUF PHCC,CHW-002,4.5,Nyibol Kur,,10.458957,32.165398,,"Meluf village, by the church",toVisit
+C-00432,Kur Lual,2025-04-05,M,MELUF PHCC,CHW-002,1.6,Achol Kuol,+211 98 921 3152,10.42852,32.18199,,"Meluf, near the borehole",missed
+C-00433,Ajok Ajak,2025-10-27,F,MELUF PHCC,CHW-002,11.3,Anyieth Mayen,+211 91 122 4191,10.43983,32.107024,,Cattle camp near Meluf,visited
+C-00434,Atem Mayen,2025-12-01,M,MELUF PHCC,CHW-002,0.6,Apajok Lual,+211 91 561 9290,10.43417,32.186585,,"Meluf, near the borehole",toVisit
+C-00435,Akuol Majok,2025-03-16,F,MELUF PHCC,CHW-002,7.2,Achai Awan,+211 92 624 4651,10.399427,32.153536,,Near Meluf market,toVisit
+C-00436,Garang Majok,2026-05-26,M,MELUF PHCC,CHW-002,0.7,Amou Achiek,,10.440808,32.193302,,Near Meluf market,visited
+C-00437,Bol Majok,2025-07-12,M,MELUF PHCC,CHW-002,1.0,Adhieu Mabior,,10.443977,32.192079,,"Meluf village, by the church",toVisit
+C-00438,Lual Aguer,2025-03-16,M,MELUF PHCC,CHW-002,3.4,Aluel Garang,+211 91 484 1164,10.424619,32.211215,,"Meluf village, by the church",missed
+C-00439,Atong Akol,2026-01-08,F,MELUF PHCC,CHW-002,15.0,Awut Aguer,+211 92 970 5580,10.490036,32.093926,,"Meluf, near the borehole",toVisit
+C-00440,Abiei Ayuel,2026-04-16,F,MELUF PHCC,CHW-002,0.7,Abuk Aguer,,10.435126,32.185082,,Near Meluf market,visited
+C-00441,Ayak Maker,2025-11-06,F,MELUF PHCC,CHW-002,6.2,Aluel Awan,+211 91 619 7761,10.406999,32.156237,,"Meluf village, by the church",toVisit
+C-00442,Apajok Ajak,2025-12-08,F,MELUF PHCC,CHW-002,13.6,Ajah Aguer,+211 98 439 9179,10.343197,32.161316,,Cattle camp near Meluf,toVisit
+C-00443,Chol Atem,2025-11-17,M,MELUF PHCC,CHW-002,3.2,Nyankiir Maker,+211 92 252 4529,10.44018,32.213035,,"Meluf village, by the church",toVisit
+C-00444,Aguer Ajak,2025-09-10,M,MELUF PHCC,CHW-002,0.8,Aker Madut,+211 91 390 6472,10.437281,32.183929,,"Meluf village, by the church",toVisit
+C-00445,Achan Garang,2025-09-15,F,MELUF PHCC,CHW-002,2.9,Atong Chol,,10.419823,32.177875,,"Meluf, near the borehole",toVisit
+C-00446,Ajok Anyang,2025-08-29,F,MELUF PHCC,CHW-002,1.0,Aker Lual,,10.430636,32.192968,,"Meluf, near the borehole",visited
+C-00447,Thon Makuei,2025-02-03,M,MELUF PHCC,CHW-002,12.8,Anyieth Thon,+211 91 945 7287,10.527594,32.208171,,Cattle camp near Meluf,toVisit
+C-00448,Abul Ayuel,2025-08-27,F,MELUF PHCC,CHW-002,2.3,Ayuel Ajak,+211 92 541 2423,10.443124,32.174075,,"Meluf village, by the church",toVisit
+C-00449,Anyang Maker,2025-08-11,M,MELUF PHCC,CHW-002,1.9,Nyibol Majok,,10.423455,32.189061,,Near Meluf market,toVisit
+C-00450,Abiei Kuir,2025-05-14,F,MELUF PHCC,CHW-002,11.3,Amou Mayen,,10.357558,32.172149,,Cattle camp near Meluf,toVisit
+C-00451,Achan Alier,2025-02-06,F,MELUF PHCC,CHW-002,3.9,Abiei Alier,+211 92 403 7779,10.428584,32.217018,,"Meluf village, Block A",toVisit
+C-00452,Chol Mayen,2026-04-12,M,MELUF PHCC,CHW-002,1.3,Aluel Mayen,+211 92 259 7428,10.437441,32.180268,,"Meluf, near the borehole",toVisit
+C-00453,Ayak Ater,2024-10-09,F,MELUF PHCC,CHW-002,2.8,Ater Madut,,10.41708,32.187467,,Near Meluf market,toVisit
+C-00454,Bol Anyang,2025-11-19,M,MELUF PHCC,CHW-002,7.7,Achan Chol,,10.438099,32.246211,,Near Meluf market,toVisit
+C-00455,Akuol Chol,2026-05-09,F,MELUF PHCC,CHW-002,1.4,Abiei Malual,+211 98 988 7961,10.446136,32.194416,,"Meluf village, by the church",visited
+C-00456,Mading Ayuel,2026-05-27,M,MELUF PHCC,CHW-002,4.3,Ayen Lual,+211 92 745 4712,10.451006,32.161613,,"Meluf, near the borehole",toVisit
+C-00457,Mading Awan,2025-09-22,M,MELUF PHCC,CHW-002,1.8,Achan Majur,,10.431281,32.178016,,Near Meluf market,toVisit
+C-00458,Alier Aguer,2024-12-06,M,MELUF PHCC,CHW-002,0.7,Abuk Arok,,10.434375,32.185493,,"Meluf village, Block A",toVisit
+C-00459,Chol Akol,2024-09-21,M,MELUF PHCC,CHW-002,5.0,Apajok Lual,,10.414599,32.218387,,Near Meluf market,toVisit
+C-00460,Majur Akol,2023-08-16,M,MELUF PHCC,CHW-002,4.9,Abul Malual,+211 91 446 5667,10.472445,32.18979,,"Meluf, near the borehole",toVisit
+C-00461,Abiei Manyang,2024-12-13,F,MELUF PHCC,CHW-002,2.3,Ayen Ater,,10.453111,32.185314,,"Meluf, near the borehole",toVisit
+C-00462,Awan Atem,2023-06-20,M,MELUF PHCC,CHW-002,2.1,Ajah Jok,+211 98 294 5582,10.438607,32.205106,,"Meluf, near the borehole",toVisit
+C-00463,Awan Deng,2024-11-12,M,MELUF PHCC,CHW-002,2.0,Apajok Awan,,10.426318,32.199483,,"Meluf, near the borehole",toVisit
+C-00464,Arok Madut,2025-09-01,M,MELUF PHCC,CHW-002,16.6,Achai Garang,+211 91 921 8568,10.321301,32.159331,,Cattle camp near Meluf,toVisit
+C-00465,Madut Anyang,2025-11-25,M,MELUF PHCC,CHW-002,3.0,Amou Dau,,10.446574,32.170013,,"Meluf, near the borehole",toVisit
+C-00466,Deng Madut,2024-12-14,M,MELUF PHCC,CHW-002,0.9,Abiei Malual,+211 92 222 1582,10.439696,32.183732,,"Meluf village, Block A",toVisit
+C-00467,Maker Kuir,2025-03-18,M,MELUF PHCC,CHW-002,3.3,Adau Kuir,+211 92 726 4915,10.414326,32.196659,,"Meluf village, Block B",toVisit
+C-00468,Akon Makuei,2026-04-18,F,MELUF PHCC,CHW-002,3.6,Makuei Anyang,+211 98 608 1095,10.461834,32.197855,,"Meluf, near the borehole",toVisit
+C-00469,Abiei Mading,2025-09-17,F,MELUF PHCC,CHW-002,6.5,Nyandeng Jok,,10.45796,32.147123,,"Meluf, near the borehole",toVisit
+C-00470,Garang Kuol,2026-08-25,M,MELUF PHCC,CHW-002,1.7,Kuol Awan,+211 92 987 1126,10.424934,32.190984,,"Meluf village, Block B",visited
+C-00471,Ajah Aguer,2024-12-11,F,MELUF PHCC,CHW-002,2.1,Aguer Achiek,,10.449603,32.181073,,"Meluf village, by the church",toVisit
+C-00472,Mayen Dau,2025-06-30,M,MELUF PHCC,CHW-002,8.1,Aker Maker,+211 98 814 5049,10.40542,32.23963,,"Meluf village, Block D",toVisit
+C-00473,Kuol Awan,2024-10-31,M,MELUF PHCC,CHW-002,0.7,Adhieu Ayuel,+211 98 370 4320,10.43533,32.184998,,Near Meluf market,toVisit
+C-00474,Ayak Thon,2025-06-26,F,MELUF PHCC,CHW-002,1.6,Akon Akol,+211 98 642 8146,10.431504,32.179555,,Near Meluf market,toVisit
+C-00475,Nyibol Garang,2026-05-24,F,MELUF PHCC,CHW-002,6.5,Garang Aguer,+211 98 900 4103,10.396316,32.166406,,Cattle camp near Meluf,toVisit
+C-00476,Adut Mabior,2025-12-30,F,MELUF PHCC,CHW-002,2.5,Awut Majur,+211 98 187 7148,10.451172,32.20127,,"Meluf, near the borehole",toVisit
+C-00477,Atem Ayuel,2026-04-12,M,MELUF PHCC,CHW-002,2.5,Aker Kur,,10.450562,32.202002,,"Meluf village, by the church",toVisit
+C-00478,Dau Achiek,2024-11-25,M,MELUF PHCC,CHW-002,2.7,Achol Alier,+211 91 196 3192,10.456479,32.187687,,"Meluf, near the borehole",toVisit
+C-00479,Mabior Atem,2025-01-26,M,MELUF PHCC,CHW-002,3.2,Ajah Manyang,+211 91 794 9560,10.426338,32.169065,,Near Meluf market,missed
+C-00480,Nyankiir Bol,2025-02-04,F,MELUF PHCC,CHW-002,2.9,Akuol Lual,+211 91 660 8073,10.436765,32.211039,,"Meluf village, by the church",toVisit
+C-00481,Kuol Mading,2025-10-29,M,GIEGER PHCC,CHW-010,6.7,Achan Aguer,+211 91 977 7641,11.988575,32.709455,,"Gieger village, Block F",toVisit
+C-00482,Bol Atem,2024-11-16,M,GIEGER PHCC,CHW-010,2.6,Apajok Madut,+211 98 174 8855,12.005304,32.747368,,Near Gieger market,toVisit
+C-00483,Anyang Garang,2024-10-27,M,GIEGER PHCC,CHW-010,3.9,Garang Mading,+211 98 770 1021,11.99572,32.786978,,"Gieger village, Block B",toVisit
+C-00484,Malual Atem,2024-03-26,M,GIEGER PHCC,CHW-010,2.0,Achan Akol,+211 91 930 8904,11.999736,32.747686,,"Gieger, near the borehole",toVisit
+C-00485,Bol Achiek,2025-09-10,M,GIEGER PHCC,CHW-010,1.8,Adut Jok,+211 91 723 3616,11.980192,32.767154,,"Gieger, near the borehole",toVisit
+C-00486,Amou Awan,2026-02-27,F,GIEGER PHCC,CHW-010,2.2,Adhieu Arok,,11.975121,32.76361,,"Gieger, near the borehole",toVisit
+C-00487,Aguer Garang,2025-01-08,M,GIEGER PHCC,CHW-010,5.6,Akon Arok,,12.006095,32.796742,,"Gieger village, Block E",toVisit
+C-00488,Anyang Garang,2025-02-10,M,GIEGER PHCC,CHW-010,2.0,Atong Aguer,+211 92 672 7301,11.98314,32.771603,,Near Gieger market,toVisit
+C-00489,Adhieu Achiek,2026-05-19,F,GIEGER PHCC,CHW-010,15.0,Achiek Jok,+211 91 440 1023,12.09813,32.751465,,Near Gieger market,missed
+C-00490,Anyieth Mabior,2025-03-27,F,GIEGER PHCC,CHW-010,3.3,Achan Chol,+211 92 806 6398,11.969938,32.771422,,Near Gieger market,toVisit
+C-00491,Abul Achiek,2026-02-02,F,GIEGER PHCC,CHW-010,6.2,Nyankiir Alier,,11.946999,32.747352,,"Gieger, near the borehole",toVisit
+C-00492,Apajok Ater,2026-06-26,F,GIEGER PHCC,CHW-010,3.1,Apajok Ayuel,+211 98 848 4838,12.007842,32.744696,,"Gieger, near the borehole",missed
+C-00493,Maker Ayuel,2025-04-04,M,GIEGER PHCC,CHW-010,9.6,Amou Achiek,,12.042872,32.804727,,"Gieger, near the borehole",visited
+C-00494,Adau Manyang,2025-10-13,F,GIEGER PHCC,CHW-010,6.1,Anyieth Mading,+211 98 588 3652,11.946463,32.762707,,"Gieger village, by the church",toVisit
+C-00495,Abuk Chol,2026-01-27,F,GIEGER PHCC,CHW-010,4.2,Achan Awan,+211 92 856 3743,12.002765,32.786971,,Near Gieger market,toVisit
+C-00496,Malual Mading,2024-12-28,M,GIEGER PHCC,CHW-010,5.7,Nyandeng Mading,,11.951059,32.771349,,"Gieger village, by the church",toVisit
+C-00497,Ayuel Manyang,2026-06-01,M,GIEGER PHCC,CHW-010,14.2,Achol Awan,,11.914205,32.688782,,Cattle camp near Gieger,missed
+C-00498,Garang Manyang,2025-07-03,M,GIEGER PHCC,CHW-010,6.9,Abul Garang,+211 91 674 5253,11.947589,32.732682,,Near Gieger market,toVisit
+C-00499,Malual Akol,2024-03-10,M,GIEGER PHCC,CHW-010,12.6,Nyandeng Bol,+211 91 160 2076,11.909275,32.800792,,Cattle camp near Gieger,toVisit
+C-00500,Nyandeng Mading,2025-08-09,F,GIEGER PHCC,CHW-010,15.4,Nyibol Makuei,+211 91 266 6888,11.966237,32.869567,,Cattle camp near Gieger,toVisit
+C-00501,Ajah Chol,2024-12-30,F,GIEGER PHCC,CHW-010,1.7,Adau Lual,,11.982303,32.749266,,"Gieger village, by the church",toVisit
+C-00502,Abuk Lual,2026-04-15,F,GIEGER PHCC,CHW-010,8.2,Adhieu Jok,+211 92 913 7479,12.009793,32.701768,,"Gieger village, Block D",toVisit
+C-00503,Ajok Ajak,2026-04-29,F,GIEGER PHCC,CHW-010,1.7,Abul Aguer,+211 91 864 6676,11.987525,32.746581,,Near Gieger market,toVisit
+C-00504,Adut Kuol,2026-02-25,F,GIEGER PHCC,CHW-010,7.5,Adut Garang,,12.042007,32.774762,,"Gieger, near the borehole",missed
+C-00505,Dau Mabior,2026-06-27,M,GIEGER PHCC,CHW-010,7.8,Adhieu Garang,+211 91 837 2324,12.046262,32.753781,,"Gieger, near the borehole",toVisit
+C-00506,Abuk Kur,2026-06-16,F,GIEGER PHCC,CHW-010,1.0,Abiei Awan,+211 98 770 3419,11.990461,32.766155,,"Gieger, near the borehole",toVisit
+C-00507,Achol Maker,2026-07-22,F,GIEGER PHCC,CHW-010,3.5,Achol Ayuel,,12.008588,32.776509,,"Gieger, near the borehole",toVisit
+C-00508,Aluel Deng,2025-10-27,F,GIEGER PHCC,CHW-010,6.1,Nyandeng Chol,+211 91 676 5738,11.996455,32.803286,,Cattle camp near Gieger,visited
+C-00509,Arok Bol,2025-04-27,M,GIEGER PHCC,CHW-010,14.0,Abul Akol,+211 91 244 7813,11.954265,32.855154,,"Gieger village, by the church",toVisit
+C-00510,Arok Makuei,2025-08-22,M,GIEGER PHCC,CHW-010,4.6,Apajok Garang,+211 92 177 8407,11.961902,32.776347,,Near Gieger market,toVisit
+C-00511,Aker Deng,2026-05-30,F,GIEGER PHCC,CHW-010,12.9,Nyibol Aguer,+211 98 820 9867,12.020529,32.848658,,Cattle camp near Gieger,toVisit
+C-00512,Madut Akol,2025-11-22,M,GIEGER PHCC,CHW-010,3.4,Adau Atem,+211 92 779 8511,11.97228,32.775811,,"Gieger village, by the church",missed
+C-00513,Awan Bol,2025-08-30,M,GIEGER PHCC,CHW-010,3.7,Ayak Garang,+211 92 103 1874,11.964408,32.765477,,"Gieger, near the borehole",toVisit
+C-00514,Deng Thon,2025-03-11,M,GIEGER PHCC,CHW-010,3.9,Ayen Kuir,+211 98 476 2237,11.983889,32.730803,,Near Gieger market,missed
+C-00515,Aluel Awan,2026-01-15,F,GIEGER PHCC,CHW-010,4.0,Ayak Deng,+211 91 187 1757,11.962889,32.749536,,Near Gieger market,toVisit
+C-00516,Kuir Akol,2024-11-02,M,GIEGER PHCC,CHW-010,2.1,Ajok Deng,,11.996632,32.744756,,Near Gieger market,toVisit
+C-00517,Jok Lual,2026-06-20,M,GIEGER PHCC,CHW-010,1.8,Ajok Akol,+211 98 554 3497,11.98403,32.770423,,"Gieger village, Block E",toVisit
+C-00518,Kuol Mayen,2026-04-26,M,GIEGER PHCC,CHW-010,1.4,Adut Malual,+211 92 348 1954,11.989451,32.769072,,"Gieger village, Block B",toVisit
+C-00519,Ayuel Alier,2026-06-29,M,GIEGER PHCC,CHW-010,7.0,Ajah Bol,,11.997281,32.809864,,Cattle camp near Gieger,toVisit
+C-00520,Akuol Deng,2026-03-23,F,GIEGER PHCC,CHW-010,15.4,Adut Ater,+211 91 442 6366,12.100088,32.77517,,Cattle camp near Gieger,toVisit
+C-00521,Atong Lual,2025-08-19,F,GIEGER PHCC,CHW-010,1.1,Ayak Lual,+211 92 513 4283,11.995345,32.765008,,"Gieger village, by the church",toVisit
+C-00522,Abuk Manyang,2024-12-28,F,GIEGER PHCC,CHW-010,1.3,Ayen Kuir,,11.985789,32.750372,,"Gieger village, Block B",toVisit
+C-00523,Manyang Akol,2025-04-28,M,GIEGER PHCC,CHW-010,5.0,Aluel Dau,+211 91 978 1665,11.980994,32.794391,,Near Gieger market,missed
+C-00524,Nyibol Mayen,2026-01-17,F,GIEGER PHCC,CHW-010,3.2,Ayak Bol,,11.999567,32.737218,,"Gieger village, Block D",missed
+C-00525,Achai Chol,2025-06-11,F,GIEGER PHCC,CHW-010,4.5,Achan Garang,+211 91 613 2998,11.957866,32.76041,,"Gieger, near the borehole",toVisit
+C-00526,Akon Chol,2024-08-27,F,GIEGER PHCC,CHW-010,4.2,Chol Akol,+211 98 401 8874,12.016097,32.742667,,"Gieger village, Block E",toVisit
+C-00527,Ajah Aguer,2026-05-15,F,GIEGER PHCC,CHW-010,6.9,Ajok Majok,+211 91 360 9432,11.941116,32.751012,,Near Gieger market,visited
+C-00528,Achol Mabior,2026-03-28,F,GIEGER PHCC,CHW-010,9.1,Akuol Achiek,+211 91 675 7119,11.988772,32.825821,,Cattle camp near Gieger,visited
+C-00529,Adut Ater,2026-06-04,F,GIEGER PHCC,CHW-010,7.5,Adut Maker,+211 98 266 9584,11.940321,32.779937,,"Gieger village, Block A",visited
+C-00530,Ajak Jok,2025-10-03,M,GIEGER PHCC,CHW-010,0.9,Adau Deng,,11.996436,32.760817,,"Gieger village, by the church",toVisit
+C-00531,Nyikwer Nyikango,2026-05-22,F,KAKA PHCC,CHW-011,1.1,Anyango Othow,+211 92 172 6713,10.577412,32.149511,,"Kaka village, Block A",toVisit
+C-00532,Othow Ochan,2025-07-09,M,KAKA PHCC,CHW-011,1.5,Nyadwai Aney,+211 98 799 8698,10.587119,32.15007,,"Kaka, near the borehole",toVisit
+C-00533,Akwot Obuwa,2025-05-01,M,KAKA PHCC,CHW-011,5.5,Ayaa Awin,,10.562685,32.194123,,"Kaka village, by the church",missed
+C-00534,Akoth Akwot,2024-03-07,F,KAKA PHCC,CHW-011,1.2,Ayaa Obwony,,10.572724,32.163389,,"Kaka, near the borehole",toVisit
+C-00535,Opiew Ayang,2025-09-13,M,KAKA PHCC,CHW-011,14.4,Ayaa Akwot,,10.671614,32.205167,,Cattle camp near Kaka,toVisit
+C-00536,Otor Akol,2025-12-05,M,KAKA PHCC,CHW-011,3.5,Aduol Okony,,10.597236,32.175194,,"Kaka village, Block F",toVisit
+C-00537,Okony Ayang,2025-08-23,M,KAKA PHCC,CHW-011,2.4,Ajwang Akol,,10.596294,32.158903,,"Kaka village, Block F",toVisit
+C-00538,Anyango Ochan,2025-04-01,F,KAKA PHCC,CHW-011,1.2,Ochan Kwongo,+211 98 321 5162,10.586264,32.152531,,"Kaka village, by the church",toVisit
+C-00539,Akech Ajang,2026-05-18,F,KAKA PHCC,CHW-011,9.2,Achan Owiti,,10.608749,32.097087,,Cattle camp near Kaka,toVisit
+C-00540,Kwongo Obwony,2024-11-13,M,KAKA PHCC,CHW-011,7.4,Adhiambo Nyikango,+211 98 822 8994,10.542079,32.118306,,Cattle camp near Kaka,missed
+C-00541,Akwero Aney,2025-05-07,F,KAKA PHCC,CHW-011,5.1,Adhiambo Akol,+211 92 173 4525,10.577072,32.194738,,"Kaka village, by the church",toVisit
+C-00542,Akwot Ayang,2024-09-12,M,KAKA PHCC,CHW-011,4.5,Achieng Nyikango,+211 91 950 1879,10.609236,32.145308,,"Kaka, near the borehole",visited
+C-00543,Obuwa Ojwok,2023-08-08,M,KAKA PHCC,CHW-011,2.6,Ajwang Aney,+211 92 242 5004,10.562261,32.148954,,Near Kaka market,toVisit
+C-00544,Awin Ador,2026-05-26,M,KAKA PHCC,CHW-011,3.9,Nyikwer Aney,+211 91 505 1309,10.605539,32.147808,,"Kaka, near the borehole",toVisit
+C-00545,Achieng Ador,2026-01-29,F,KAKA PHCC,CHW-011,1.3,Ador Ador,+211 92 898 2671,10.583997,32.149299,,"Kaka village, Block D",toVisit
+C-00546,Ochan Ayang,2024-03-08,M,KAKA PHCC,CHW-011,2.6,Nyikwer Padiet,,10.591599,32.143234,,Near Kaka market,toVisit
+C-00547,Ajulo Akwot,2026-03-04,F,KAKA PHCC,CHW-011,3.6,Nyakuer Oyath,+211 98 863 1513,10.585249,32.131767,,"Kaka village, by the church",toVisit
+C-00548,Nyikwer Okech,2026-05-19,F,KAKA PHCC,CHW-011,1.2,Achieng Obwony,,10.582973,32.165246,,"Kaka village, by the church",toVisit
+C-00549,Nyadwai Padiet,2026-04-11,F,KAKA PHCC,CHW-011,2.4,Nyawelo Ogwang,+211 92 834 7479,10.595064,32.150723,,Near Kaka market,toVisit
+C-00550,Owiti Ayang,2026-05-16,M,KAKA PHCC,CHW-011,10.9,Ajwang Othow,+211 92 496 6306,10.616906,32.227432,,Near Kaka market,toVisit
+C-00551,Kwongo Okech,2025-12-26,M,KAKA PHCC,CHW-011,8.3,Nyadwai Ojwok,,10.585936,32.217851,,Cattle camp near Kaka,toVisit
+C-00552,Akwero Akwot,2026-03-23,F,KAKA PHCC,CHW-011,4.8,Akwot Othow,+211 98 665 8362,10.606469,32.178873,,Near Kaka market,toVisit
+C-00553,Obuwa Otor,2025-12-24,M,KAKA PHCC,CHW-011,2.8,Nyakuer Ador,+211 98 164 3843,10.595829,32.14598,,"Kaka village, Block E",visited
+C-00554,Nyadwai Nyikango,2025-12-04,F,KAKA PHCC,CHW-011,5.7,Adhiambo Ayang,+211 98 853 2101,10.538197,32.161696,,"Kaka village, by the church",toVisit
+C-00555,Akech Aney,2025-09-17,F,KAKA PHCC,CHW-011,7.2,Nyawelo Owiti,,10.571211,32.209582,,Near Kaka market,toVisit
+C-00556,Aduol Aney,2025-12-16,F,KAKA PHCC,CHW-011,3.6,Ayaa Oyath,+211 92 442 7536,10.555526,32.146287,,Near Kaka market,toVisit
+C-00557,Anyango Akol,2026-02-21,F,KAKA PHCC,CHW-011,3.3,Akech Ochan,,10.59573,32.174657,,"Kaka village, by the church",visited
+C-00558,Anyango Okech,2025-08-12,F,KAKA PHCC,CHW-011,0.6,Ajwang Akwot,+211 98 540 4276,10.582827,32.15956,,"Kaka village, Block F",toVisit
+C-00559,Akol Padiet,2025-02-25,M,KAKA PHCC,CHW-011,2.2,Padiet Nyikango,+211 98 761 3178,10.576963,32.141412,,"Kaka village, Block B",toVisit
+C-00560,Okony Ajang,2026-09-01,M,KAKA PHCC,CHW-011,11.5,Ayaa Akwot,,10.63548,32.219165,,Cattle camp near Kaka,missed
+C-00561,Akwero Obwony,2024-08-25,F,KAKA PHCC,CHW-011,1.9,Nyakuer Ador,,10.592488,32.16013,,"Kaka village, Block B",toVisit
+C-00562,Nyakuer Owiti,2025-02-10,F,KAKA PHCC,CHW-011,1.4,Owiti Owiti,+211 91 182 3019,10.586157,32.150104,,Near Kaka market,toVisit
+C-00563,Ogwang Awin,2025-06-27,M,KAKA PHCC,CHW-011,14.5,Adhiambo Oyath,,10.553247,32.054382,,Cattle camp near Kaka,missed
+C-00564,Othow Owiti,2026-01-27,M,KAKA PHCC,CHW-011,17.1,Akwero Awin,+211 98 245 8310,10.552175,32.035045,,Cattle camp near Kaka,toVisit
+C-00565,Awiel Nyikango,2025-12-28,F,KAKA PHCC,CHW-011,0.7,Ayaa Obuwa,+211 91 244 3732,10.577236,32.162185,,"Kaka, near the borehole",toVisit
+C-00566,Obuwa Obuwa,2026-03-18,M,KAKA PHCC,CHW-011,2.7,Akech Owiti,+211 91 438 6714,10.573371,32.138469,,Near Kaka market,toVisit
+C-00567,Ajulo Ojwok,2026-07-03,F,KAKA PHCC,CHW-011,2.0,Ajulo Ogwang,,10.567578,32.166266,,"Kaka, near the borehole",toVisit
+C-00568,Ochan Ador,2025-12-03,M,KAKA PHCC,CHW-011,2.0,Nyagwang Ayang,+211 92 761 4567,10.593144,32.154276,,Near Kaka market,toVisit
+C-00569,Nyawelo Othow,2025-08-06,F,KAKA PHCC,CHW-011,1.8,Awiel Akwot,+211 92 823 7029,10.572205,32.168604,,"Kaka village, Block E",missed
+C-00570,Akech Padiet,2026-08-31,F,KAKA PHCC,CHW-011,2.0,Awiel Ayang,,10.566039,32.15111,,"Kaka village, Block B",visited
+C-00571,Ayaa Ojwok,2025-09-08,F,KAKA PHCC,CHW-011,5.5,Nyawelo Ador,+211 91 940 8362,10.618314,32.163012,,"Kaka village, Block B",toVisit
+C-00572,Ochan Okony,2026-06-01,M,KAKA PHCC,CHW-011,4.5,Nyadwai Padiet,+211 91 397 1114,10.564135,32.128108,,"Kaka, near the borehole",toVisit
+C-00573,Akoth Okony,2026-02-27,F,KAKA PHCC,CHW-011,15.1,Okony Akol,+211 91 159 3308,10.530671,32.256565,,Cattle camp near Kaka,toVisit
+C-00574,Ochan Akwot,2026-07-03,M,KAKA PHCC,CHW-011,6.2,Akwot Aney,+211 92 853 6733,10.605135,32.194315,,Near Kaka market,toVisit
+C-00575,Nyagwang Obuwa,2026-06-27,F,KAKA PHCC,CHW-011,3.6,Akech Okech,,10.581096,32.131087,,"Kaka village, Block C",toVisit
+C-00576,Nyakuer Padiet,2025-01-13,F,KAKA PHCC,CHW-011,6.3,Achan Ajang,+211 91 707 9528,10.622979,32.169121,,Near Kaka market,toVisit
+C-00577,Ador Ador,2024-11-29,M,KAKA PHCC,CHW-011,10.5,Ador Ojwok,,10.654412,32.164511,,Cattle camp near Kaka,toVisit
+C-00578,Ojwok Owiti,2026-07-04,M,KAKA PHCC,CHW-011,15.1,Owiti Obwony,+211 91 880 4483,10.470446,32.164352,,Cattle camp near Kaka,visited
+C-00579,Achan Awin,2025-06-01,F,KAKA PHCC,CHW-011,3.0,Akello Obuwa,,10.561262,32.14491,,"Kaka village, by the church",visited
+C-00580,Okech Nyikango,2025-01-26,M,KAKA PHCC,CHW-011,3.7,Awiel Kwongo,+211 98 866 2223,10.589093,32.132265,,"Kaka, near the borehole",toVisit
+C-00581,Awiel Ador,2026-04-01,F,AWETH PHCC,CHW-012,1.3,Akwero Okony,+211 91 537 5648,10.350524,32.222632,,Near Aweth market,visited
+C-00582,Akwero Kwongo,2025-09-22,F,AWETH PHCC,CHW-012,7.1,Akech Ador,+211 98 550 9969,10.32784,32.17296,,Near Aweth market,toVisit
+C-00583,Akello Okony,2026-06-25,F,AWETH PHCC,CHW-012,3.2,Okony Ogwang,+211 91 343 3697,10.36393,32.219391,,"Aweth village, Block B",missed
+C-00584,Nyawelo Otor,2025-11-07,F,AWETH PHCC,CHW-012,6.2,Akwero Okony,+211 91 198 4282,10.297462,32.232624,,"Aweth village, by the church",toVisit
+C-00585,Kwongo Ayang,2025-01-29,M,AWETH PHCC,CHW-012,1.2,Ajulo Okony,,10.349386,32.225926,,Near Aweth market,toVisit
+C-00586,Nyagwang Kwongo,2024-11-18,F,AWETH PHCC,CHW-012,3.3,Kwongo Ador,,10.317433,32.221662,,"Aweth village, Block C",toVisit
+C-00587,Awiel Othow,2025-10-08,F,AWETH PHCC,CHW-012,8.0,Nyawelo Kwongo,+211 91 537 4440,10.287342,32.202176,,Cattle camp near Aweth,visited
+C-00588,Okony Ochan,2026-07-10,M,AWETH PHCC,CHW-012,8.8,Anyango Oyath,+211 91 427 4180,10.327011,32.160336,,Cattle camp near Aweth,toVisit
+C-00589,Obuwa Ojwok,2025-09-02,M,AWETH PHCC,CHW-012,6.8,Achan Owiti,+211 91 408 5874,10.295698,32.241762,,"Aweth, near the borehole",toVisit
+C-00590,Owiti Ochan,2026-05-26,M,AWETH PHCC,CHW-012,3.5,Achieng Aney,+211 98 668 9820,10.328254,32.201155,,"Aweth village, Block C",toVisit
+C-00591,Aduol Ayang,2026-02-26,F,AWETH PHCC,CHW-012,7.9,Nyikwer Ajang,+211 91 535 1331,10.388704,32.25504,,Near Aweth market,toVisit
+C-00592,Nyikango Ayang,2025-10-16,M,AWETH PHCC,CHW-012,1.8,Ajwang Akwot,+211 98 305 7945,10.334142,32.212095,,"Aweth, near the borehole",toVisit
+C-00593,Ayang Akol,2025-10-02,M,AWETH PHCC,CHW-012,5.0,Akech Owiti,+211 91 492 5212,10.371797,32.203877,,"Aweth village, Block D",toVisit
+C-00594,Padiet Awin,2024-12-22,M,AWETH PHCC,CHW-012,0.7,Achan Awin,+211 98 756 1637,10.344539,32.226997,,"Aweth village, by the church",toVisit
+C-00595,Akwero Okony,2025-05-18,F,AWETH PHCC,CHW-012,0.3,Okony Nyikango,,10.341806,32.221079,,Near Aweth market,toVisit
+C-00596,Obuwa Obwony,2024-12-02,M,AWETH PHCC,CHW-012,1.4,Nyagwang Ajang,,10.34529,32.213817,,"Aweth, near the borehole",toVisit
+C-00597,Nyikango Owiti,2025-01-25,M,AWETH PHCC,CHW-012,5.7,Ajwang Ogwang,+211 92 207 7719,10.324395,32.185061,,Near Aweth market,toVisit
+C-00598,Achieng Kwongo,2026-05-18,F,AWETH PHCC,CHW-012,1.1,Ayaa Akol,+211 92 785 6822,10.349,32.224441,,Near Aweth market,toVisit
+C-00599,Akello Akol,2025-09-27,F,AWETH PHCC,CHW-012,2.0,Nyadwai Ojwok,+211 91 510 7183,10.347033,32.209794,,"Aweth village, by the church",missed
+C-00600,Othow Padiet,2025-03-10,M,AWETH PHCC,CHW-012,5.4,Nyikwer Ajang,,10.330182,32.185228,,"Aweth village, by the church",toVisit
+C-00601,Owiti Awin,2025-10-08,M,AWETH PHCC,CHW-012,1.8,Nyawelo Kwongo,+211 98 929 1257,10.329264,32.228417,,"Aweth, near the borehole",missed
+C-00602,Ojwok Ajang,2026-04-08,M,AWETH PHCC,CHW-012,10.7,Nyawelo Othow,+211 92 806 6542,10.39156,32.163839,,Cattle camp near Aweth,visited
+C-00603,Awiel Obuwa,2026-05-12,F,AWETH PHCC,CHW-012,3.9,Akwero Kwongo,,10.359462,32.201486,,"Aweth village, by the church",toVisit
+C-00604,Oyath Othow,2026-05-05,M,AWETH PHCC,CHW-012,0.8,Achieng Otor,+211 98 646 6924,10.346054,32.226295,,"Aweth, near the borehole",toVisit
+C-00605,Akello Obuwa,2024-03-05,F,AWETH PHCC,CHW-012,2.1,Obuwa Padiet,+211 98 534 3832,10.331381,32.234914,,"Aweth village, by the church",toVisit
+C-00606,Nyawelo Awin,2026-04-07,F,AWETH PHCC,CHW-012,8.8,Achieng Otor,,10.394779,32.18873,,Near Aweth market,toVisit
+C-00607,Aney Akol,2026-06-06,M,AWETH PHCC,CHW-012,2.5,Akol Okony,+211 92 740 1742,10.354539,32.210901,,"Aweth, near the borehole",visited
+C-00608,Ayang Okony,2025-10-30,M,AWETH PHCC,CHW-012,3.3,Nyawelo Othow,+211 98 629 6073,10.32333,32.239168,,"Aweth village, by the church",toVisit
+C-00609,Awin Ador,2026-02-12,M,AWETH PHCC,CHW-012,4.0,Achan Ador,,10.356104,32.248246,,"Aweth, near the borehole",toVisit
+C-00610,Okech Oyath,2025-03-23,M,AWETH PHCC,CHW-012,8.2,Ajulo Okony,,10.350517,32.282499,,"Aweth village, by the church",visited
+C-00611,Opiew Kwongo,2026-06-05,M,AWETH PHCC,CHW-012,2.6,Awiel Oyath,+211 98 402 1570,10.332692,32.206193,,"Aweth, near the borehole",toVisit
+C-00612,Ayaa Oyath,2025-10-08,F,AWETH PHCC,CHW-012,1.0,Oyath Padiet,+211 98 631 1166,10.334654,32.220049,,Near Aweth market,toVisit
+C-00613,Okony Owiti,2025-11-02,M,AWETH PHCC,CHW-012,6.8,Owiti Otor,,10.294748,32.207208,,"Aweth village, by the church",toVisit
+C-00614,Ajwang Ajang,2026-04-08,F,AWETH PHCC,CHW-012,10.6,Akello Ochan,,10.387359,32.285037,,Near Aweth market,toVisit
+C-00615,Ayaa Akwot,2025-07-08,F,AWETH PHCC,CHW-012,2.5,Ajwang Ochan,+211 91 960 3744,10.32701,32.211854,,"Aweth, near the borehole",toVisit
+C-00616,Oyath Othow,2026-03-21,M,AWETH PHCC,CHW-012,1.3,Achan Okony,+211 92 219 7459,10.334035,32.217007,,Near Aweth market,visited
+C-00617,Awin Akwot,2026-01-10,M,AWETH PHCC,CHW-012,5.9,Adhiambo Oyath,+211 91 945 2502,10.382732,32.232314,,"Aweth, near the borehole",toVisit
+C-00618,Akech Oyath,2025-12-11,F,AWETH PHCC,CHW-012,3.6,Anyango Otor,,10.316623,32.231723,,"Aweth, near the borehole",toVisit
+C-00619,Achieng Ogwang,2025-09-27,F,AWETH PHCC,CHW-012,6.5,Adhiambo Otor,+211 98 855 6574,10.373654,32.257493,,Cattle camp near Aweth,toVisit
+C-00620,Nyawelo Otor,2026-04-30,F,AWETH PHCC,CHW-012,1.4,Adhiambo Nyikango,+211 98 622 1239,10.334186,32.230583,,Near Aweth market,toVisit
+C-00621,Ador Awin,2026-05-07,M,AWETH PHCC,CHW-012,2.5,Nyakuer Ochan,+211 91 663 2238,10.325202,32.214694,,"Aweth village, Block F",toVisit
+C-00622,Awin Owiti,2026-05-25,M,AWETH PHCC,CHW-012,2.1,Nyikwer Oyath,+211 91 109 8576,10.330771,32.234358,,Near Aweth market,toVisit
+C-00623,Oyath Othow,2026-04-28,M,AWETH PHCC,CHW-012,7.1,Nyagwang Padiet,+211 98 591 3740,10.306402,32.261346,,Cattle camp near Aweth,toVisit
+C-00624,Anyango Nyikango,2026-06-03,F,AWETH PHCC,CHW-012,4.8,Adhiambo Okech,+211 91 306 4185,10.343523,32.188096,,Near Aweth market,visited
+C-00625,Otor Ochan,2025-02-06,M,AWETH PHCC,CHW-012,2.1,Nyawelo Padiet,+211 92 611 5949,10.326394,32.21985,,"Aweth, near the borehole",toVisit
+C-00626,Othow Ayang,2026-05-30,M,AWETH PHCC,CHW-012,14.7,Awiel Okech,,10.345052,32.330803,,Cattle camp near Aweth,toVisit
+C-00627,Ochan Ajang,2026-05-01,M,AWETH PHCC,CHW-012,1.5,Akoth Oyath,+211 98 349 5751,10.345202,32.233376,,"Aweth village, Block B",visited
+C-00628,Aduol Okony,2025-10-01,F,AWETH PHCC,CHW-012,2.8,Akwero Aney,,10.332324,32.204743,,"Aweth, near the borehole",toVisit
+C-00629,Okony Otor,2025-03-26,M,AWETH PHCC,CHW-012,1.9,Aduol Ador,,10.329844,32.215356,,Near Aweth market,missed
+C-00630,Ador Obuwa,2025-10-31,M,AWETH PHCC,CHW-012,5.5,Ajulo Awin,+211 91 602 3111,10.302121,32.216252,,"Aweth village, by the church",toVisit
+C-00631,Akello Padiet,2026-06-22,F,WADAKON PHCC,CHW-013,5.7,Akech Obwony,+211 98 612 5306,11.641803,32.752355,,"Wadakona village, by the church",toVisit
+C-00632,Nyakuer Obuwa,2026-05-07,F,WADAKON PHCC,CHW-013,0.9,Obuwa Ochan,+211 98 519 3293,11.614518,32.727336,,"Wadakona village, Block A",toVisit
+C-00633,Achan Otor,2025-07-30,F,WADAKON PHCC,CHW-013,1.9,Achieng Ajang,,11.620278,32.734772,,"Wadakona, near the borehole",missed
+C-00634,Achan Ogwang,2026-04-14,F,WADAKON PHCC,CHW-013,3.4,Akech Kwongo,,11.584627,32.735507,,"Wadakona village, Block E",toVisit
+C-00635,Obuwa Akwot,2025-09-28,M,WADAKON PHCC,CHW-013,2.1,Anyango Ayang,+211 91 756 5982,11.622221,32.733948,,"Wadakona village, Block A",visited
+C-00636,Achan Ochan,2025-10-02,F,WADAKON PHCC,CHW-013,12.8,Nyikwer Ochan,,11.65943,32.650099,,"Wadakona village, Block E",missed
+C-00637,Othow Obuwa,2026-04-19,M,WADAKON PHCC,CHW-013,11.7,Nyagwang Akwot,+211 92 170 3229,11.555272,32.795449,,Cattle camp near Wadakona,toVisit
+C-00638,Nyawelo Okony,2025-03-31,F,WADAKON PHCC,CHW-013,9.6,Okony Okony,+211 91 438 3456,11.639414,32.665369,,Cattle camp near Wadakona,visited
+C-00639,Achieng Oyath,2024-12-08,F,WADAKON PHCC,CHW-013,3.2,Akello Ogwang,,11.586652,32.719731,,Near Wadakona market,toVisit
+C-00640,Oyath Ochan,2024-10-18,M,WADAKON PHCC,CHW-013,1.5,Ochan Opiew,+211 98 614 3157,11.618862,32.729514,,"Wadakona village, by the church",toVisit
+C-00641,Obwony Nyikango,2026-07-20,M,WADAKON PHCC,CHW-013,2.4,Achan Kwongo,+211 98 860 6347,11.603168,32.745283,,"Wadakona, near the borehole",visited
+C-00642,Achan Ador,2025-03-06,F,WADAKON PHCC,CHW-013,5.0,Ador Padiet,+211 92 669 2310,11.610373,32.765076,,"Wadakona village, by the church",toVisit
+C-00643,Ochan Ogwang,2025-09-02,M,WADAKON PHCC,CHW-013,5.8,Anyango Aney,,11.592857,32.688628,,"Wadakona village, Block E",toVisit
+C-00644,Nyikwer Padiet,2025-09-11,F,WADAKON PHCC,CHW-013,2.1,Akello Ojwok,,11.623136,32.730216,,Near Wadakona market,toVisit
+C-00645,Opiew Nyikango,2026-09-01,M,WADAKON PHCC,CHW-013,6.9,Akello Akol,+211 91 645 3031,11.657186,32.720156,,Cattle camp near Wadakona,toVisit
+C-00646,Awiel Ador,2025-10-11,F,WADAKON PHCC,CHW-013,5.8,Aduol Kwongo,,11.597361,32.7696,,"Wadakona village, Block D",toVisit
+C-00647,Nyikwer Akol,2025-08-31,F,WADAKON PHCC,CHW-013,3.7,Achieng Nyikango,+211 92 644 6542,11.584901,32.714955,,Near Wadakona market,toVisit
+C-00648,Ador Aney,2025-12-15,M,WADAKON PHCC,CHW-013,16.5,Ayaa Ochan,+211 98 676 6419,11.622603,32.848857,,Cattle camp near Wadakona,toVisit
+C-00649,Achan Kwongo,2025-10-04,F,WADAKON PHCC,CHW-013,1.8,Achieng Okony,+211 98 564 7135,11.620719,32.725246,,Near Wadakona market,visited
+C-00650,Ayang Okech,2023-12-06,M,WADAKON PHCC,CHW-013,15.0,Achieng Akol,+211 92 157 3648,11.710985,32.694438,,"Wadakona village, by the church",missed
+C-00651,Ochan Othow,2026-04-15,M,WADAKON PHCC,CHW-013,1.6,Ajwang Othow,+211 92 283 6112,11.619071,32.724703,,"Wadakona, near the borehole",toVisit
+C-00652,Okech Awin,2025-01-16,M,WADAKON PHCC,CHW-013,6.3,Akello Padiet,,11.563713,32.718643,,Cattle camp near Wadakona,toVisit
+C-00653,Akello Obuwa,2024-12-07,F,WADAKON PHCC,CHW-013,4.9,Anyango Ochan,+211 98 787 4196,11.642641,32.720803,,"Wadakona village, by the church",toVisit
+C-00654,Ajang Otor,2025-05-18,M,WADAKON PHCC,CHW-013,12.7,Akello Aney,+211 92 964 2854,11.694758,32.698247,,Cattle camp near Wadakona,visited
+C-00655,Ador Okech,2025-11-24,M,WADAKON PHCC,CHW-013,16.9,Ajulo Okech,+211 98 974 1371,11.711178,32.794621,,Cattle camp near Wadakona,missed
+C-00656,Okony Ador,2026-07-13,M,WADAKON PHCC,CHW-013,1.5,Achieng Obuwa,+211 98 543 8372,11.615887,32.736027,,"Wadakona village, by the church",toVisit
+C-00657,Akello Obuwa,2026-08-06,F,WADAKON PHCC,CHW-013,2.4,Akello Akwot,+211 98 243 6227,11.619275,32.714873,,"Wadakona village, by the church",visited
+C-00658,Akwot Otor,2025-11-03,M,WADAKON PHCC,CHW-013,8.7,Nyagwang Nyikango,,11.64031,32.783286,,Cattle camp near Wadakona,toVisit
+C-00659,Ajwang Opiew,2026-04-08,F,WADAKON PHCC,CHW-013,7.3,Adhiambo Kwongo,+211 98 907 2167,11.623756,32.677079,,"Wadakona, near the borehole",toVisit
+C-00660,Ador Ojwok,2025-10-08,M,WADAKON PHCC,CHW-013,1.0,Achieng Ador,,11.606735,32.721137,,"Wadakona, near the borehole",toVisit
+C-00661,Nyakuer Othow,2026-09-06,F,WADAKON PHCC,CHW-013,1.1,Akech Nyikango,+211 91 229 3223,11.60078,32.731444,,"Wadakona village, Block F",toVisit
+C-00662,Akol Padiet,2025-03-23,M,WADAKON PHCC,CHW-013,4.7,Akwero Padiet,,11.575452,32.719177,,"Wadakona village, Block B",toVisit
+C-00663,Aney Okech,2025-10-22,M,WADAKON PHCC,CHW-013,2.9,Ajulo Obuwa,,11.628693,32.732065,,Near Wadakona market,missed
+C-00664,Akol Nyikango,2024-10-10,M,WADAKON PHCC,CHW-013,1.4,Ajulo Akol,,11.599276,32.733338,,Near Wadakona market,visited
+C-00665,Ajang Ajang,2025-10-30,M,WADAKON PHCC,CHW-013,6.9,Ajang Okech,+211 91 229 4486,11.571328,32.762528,,Cattle camp near Wadakona,toVisit
+C-00666,Ayang Kwongo,2026-04-14,M,WADAKON PHCC,CHW-013,0.7,Anyango Okony,+211 98 773 8543,11.612737,32.730414,,"Wadakona village, by the church",toVisit
+C-00667,Oyath Akol,2026-06-06,M,WADAKON PHCC,CHW-013,12.2,Akech Obwony,+211 91 631 7938,11.646241,32.647476,,Cattle camp near Wadakona,visited
+C-00668,Obuwa Ojwok,2026-07-03,M,WADAKON PHCC,CHW-013,1.7,Ajulo Owiti,+211 92 435 2834,11.596687,32.723837,,"Wadakona, near the borehole",toVisit
+C-00669,Owiti Kwongo,2025-02-16,M,WADAKON PHCC,CHW-013,2.7,Ayaa Obuwa,+211 92 943 4095,11.592818,32.740645,,"Wadakona, near the borehole",missed
+C-00670,Othow Padiet,2024-08-05,M,WADAKON PHCC,CHW-013,2.1,Padiet Akwot,+211 98 405 3429,11.604474,32.743359,,"Wadakona, near the borehole",visited
+C-00671,Padiet Otor,2025-08-31,M,WADAKON PHCC,CHW-013,13.4,Otor Padiet,+211 92 546 9654,11.541387,32.79964,,Cattle camp near Wadakona,toVisit
+C-00672,Aduol Akwot,2025-09-28,F,WADAKON PHCC,CHW-013,3.0,Akech Othow,+211 98 170 6274,11.605963,32.706396,,"Wadakona village, by the church",toVisit
+C-00673,Akello Padiet,2026-03-11,F,WADAKON PHCC,CHW-013,1.2,Ajulo Obwony,+211 91 492 5402,11.604359,32.736316,,Near Wadakona market,visited
+C-00674,Anyango Ador,2025-01-03,F,WADAKON PHCC,CHW-013,4.0,Ayaa Obwony,+211 91 422 5040,11.636791,32.725386,,"Wadakona village, by the church",toVisit
+C-00675,Akwero Ayang,2026-08-02,F,WADAKON PHCC,CHW-013,0.7,Nyakuer Okony,+211 91 124 5705,11.608986,32.723288,,"Wadakona village, Block D",visited
+C-00676,Achan Ogwang,2026-05-20,F,WADAKON PHCC,CHW-013,4.5,Akwero Nyikango,+211 91 241 5312,11.616941,32.696501,,"Wadakona village, Block E",toVisit
+C-00677,Opiew Oyath,2026-09-15,M,WADAKON PHCC,CHW-013,14.8,Aduol Akwot,+211 92 671 8722,11.686375,32.802347,,Cattle camp near Wadakona,visited
+C-00678,Okony Otor,2025-09-14,M,WADAKON PHCC,CHW-013,2.1,Awiel Owiti,,11.594709,32.721178,,"Wadakona, near the borehole",visited
+C-00679,Obuwa Obwony,2025-11-08,M,WADAKON PHCC,CHW-013,2.8,Nyikwer Kwongo,,11.610674,32.748795,,"Wadakona village, Block F",toVisit
+C-00680,Anyango Okony,2025-08-15,F,WADAKON PHCC,CHW-013,1.2,Nyakuer Okech,+211 98 346 7604,11.60084,32.733143,,"Wadakona village, Block D",toVisit
+C-00681,Nyikango Oyath,2024-12-10,M,N.H.I,CHW-014,0.8,Oyath Ochan,+211 91 603 5852,11.615666,32.724076,,"Manyo village, Block D",toVisit
+C-00682,Nyagwang Owiti,2024-04-18,F,N.H.I,CHW-014,3.7,Anyango Aney,,11.635612,32.717634,,"Manyo village, Block C",visited
+C-00683,Obwony Opiew,2025-03-06,M,N.H.I,CHW-014,4.0,Akech Owiti,+211 91 884 8959,11.599511,32.752722,,"Manyo village, Block B",toVisit
+C-00684,Awiel Okony,2026-03-25,F,N.H.I,CHW-014,1.8,Akoth Obwony,+211 91 755 5938,11.600841,32.715971,,"Manyo village, Block E",toVisit
+C-00685,Ojwok Othow,2025-06-18,M,N.H.I,CHW-014,3.0,Aduol Akwot,+211 91 810 5842,11.589155,32.71957,,"Manyo, near the borehole",toVisit
+C-00686,Achieng Othow,2026-05-14,F,N.H.I,CHW-014,7.9,Akello Opiew,+211 91 406 1196,11.598873,32.782319,,"Manyo village, by the church",visited
+C-00687,Ajulo Okony,2024-09-28,F,N.H.I,CHW-014,3.5,Nyakuer Obwony,,11.587377,32.736649,,Near Manyo market,toVisit
+C-00688,Ajulo Opiew,2025-11-14,F,N.H.I,CHW-014,2.2,Akello Ogwang,+211 98 223 8334,11.609643,32.741502,,"Manyo village, by the church",toVisit
+C-00689,Aney Ayang,2025-04-07,M,N.H.I,CHW-014,2.7,Adhiambo Akol,+211 92 440 5703,11.601378,32.707526,,"Manyo village, by the church",toVisit
+C-00690,Ayaa Akwot,2025-01-06,F,N.H.I,CHW-014,3.7,Nyikwer Ogwang,+211 92 348 5642,11.594849,32.702938,,"Manyo village, by the church",toVisit
+C-00691,Okony Okony,2025-09-02,M,N.H.I,CHW-014,4.8,Nyagwang Oyath,+211 98 249 4865,11.609728,32.690004,,"Manyo, near the borehole",toVisit
+C-00692,Ojwok Okech,2025-03-17,M,N.H.I,CHW-014,4.3,Akech Ogwang,+211 98 516 5137,11.640286,32.732168,,Near Manyo market,toVisit
+C-00693,Nyakuer Obwony,2025-10-07,F,N.H.I,CHW-014,2.4,Akwero Ador,+211 92 473 8942,11.616426,32.741727,,Near Manyo market,toVisit
+C-00694,Nyikango Padiet,2026-06-25,M,N.H.I,CHW-014,1.8,Akoth Otor,,11.604671,32.713259,,"Manyo village, by the church",toVisit
+C-00695,Akwot Aney,2024-08-10,M,N.H.I,CHW-014,1.2,Achan Akwot,,11.618508,32.723575,,Near Manyo market,toVisit
+C-00696,Akol Ojwok,2025-07-30,M,N.H.I,CHW-014,1.9,Akwero Opiew,+211 98 546 8105,11.607183,32.711646,,"Manyo village, Block D",toVisit
+C-00697,Obwony Nyikango,2026-09-07,M,N.H.I,CHW-014,1.8,Nyikango Kwongo,+211 91 956 4726,11.597067,32.725828,,"Manyo, near the borehole",toVisit
+C-00698,Akoth Othow,2024-12-17,F,N.H.I,CHW-014,3.1,Ajulo Padiet,+211 91 647 3193,11.591313,32.712864,,Near Manyo market,toVisit
+C-00699,Okony Ayang,2025-08-26,M,N.H.I,CHW-014,14.5,Akoth Awin,+211 92 860 7696,11.694896,32.787576,,Cattle camp near Manyo,visited
+C-00700,Ayaa Kwongo,2026-03-26,F,N.H.I,CHW-014,3.5,Akello Akwot,+211 92 636 3414,11.586108,32.733491,,Near Manyo market,visited
+C-00701,Nyikwer Ogwang,2025-05-21,F,N.H.I,CHW-014,2.0,Achieng Okony,,11.613493,32.739605,,"Manyo village, Block D",toVisit
+C-00702,Aney Awin,2024-09-01,M,N.H.I,CHW-014,1.0,Anyango Okony,,11.616012,32.729424,,Near Manyo market,toVisit
+C-00703,Akello Ojwok,2025-12-19,F,N.H.I,CHW-014,2.8,Nyikwer Ayang,+211 91 938 9950,11.594281,32.738201,,Near Manyo market,missed
+C-00704,Nyawelo Obwony,2026-01-24,F,N.H.I,CHW-014,17.0,Obwony Padiet,+211 92 960 8476,11.62581,32.60128,,Cattle camp near Manyo,visited
+C-00705,Ayaa Ogwang,2026-06-03,F,N.H.I,CHW-014,5.5,Ogwang Nyikango,+211 92 907 2857,11.608094,32.684901,,"Manyo village, Block B",toVisit
+C-00706,Ogwang Aney,2026-07-05,M,N.H.I,CHW-014,2.2,Achan Opiew,+211 92 547 9726,11.621163,32.713794,,"Manyo village, Block A",toVisit
+C-00707,Aduol Ajang,2026-07-31,F,N.H.I,CHW-014,15.0,Ajang Oyath,,11.651227,32.623281,,"Manyo village, by the church",toVisit
+C-00708,Nyagwang Akwot,2024-12-21,F,N.H.I,CHW-014,2.1,Nyagwang Kwongo,+211 92 430 2991,11.597739,32.716304,,"Manyo village, by the church",toVisit
+C-00709,Nyakuer Kwongo,2025-03-03,F,N.H.I,CHW-014,5.7,Achieng Ayang,+211 92 237 6406,11.621285,32.684985,,"Manyo village, by the church",toVisit
+C-00710,Ayaa Ogwang,2026-01-02,F,N.H.I,CHW-014,1.7,Akoth Ador,+211 98 215 7455,11.622243,32.726323,,"Manyo village, by the church",toVisit
+C-00711,Aney Ojwok,2026-06-02,M,N.H.I,CHW-014,7.9,Akech Okech,+211 98 785 4494,11.562606,32.757487,,"Manyo village, Block A",toVisit
+C-00712,Nyawelo Ajang,2026-04-21,F,N.H.I,CHW-014,3.2,Achan Opiew,+211 91 898 9372,11.628054,32.740009,,"Manyo village, by the church",toVisit
+C-00713,Othow Akwot,2024-09-30,M,N.H.I,CHW-014,1.3,Akwero Aney,,11.611463,32.715868,,"Manyo, near the borehole",toVisit
+C-00714,Nyadwai Ayang,2025-05-28,F,N.H.I,CHW-014,17.1,Akello Ogwang,+211 91 150 9667,11.487956,32.708027,,Cattle camp near Manyo,toVisit
+C-00715,Obuwa Kwongo,2024-12-11,M,N.H.I,CHW-014,17.5,Ajwang Othow,+211 92 409 2028,11.5759,32.849277,,Cattle camp near Manyo,missed
+C-00716,Awin Nyikango,2025-03-24,M,N.H.I,CHW-014,3.1,Aduol Otor,,11.588136,32.720773,,"Manyo village, by the church",toVisit
+C-00717,Ayang Ayang,2025-11-02,M,N.H.I,CHW-014,5.0,Nyadwai Obwony,+211 91 917 4525,11.64602,32.727181,,Near Manyo market,toVisit
+C-00718,Okony Othow,2024-02-15,M,N.H.I,CHW-014,1.6,Othow Aney,+211 91 774 4264,11.620464,32.730332,,"Manyo, near the borehole",toVisit
+C-00719,Aduol Ador,2025-08-20,F,N.H.I,CHW-014,3.4,Anyango Othow,+211 98 686 2876,11.595696,32.74561,,"Manyo village, Block B",visited
+C-00720,Obuwa Ochan,2025-10-21,M,N.H.I,CHW-014,0.7,Nyawelo Padiet,+211 98 743 6682,11.608429,32.730204,,"Manyo, near the borehole",missed
+C-00721,Anyango Otor,2025-09-30,F,N.H.I,CHW-014,5.9,Anyango Aney,+211 91 965 7465,11.623944,32.684299,,Near Manyo market,toVisit
+C-00722,Akwot Kwongo,2025-09-15,M,N.H.I,CHW-014,6.1,Adhiambo Nyikango,+211 91 310 1502,11.634678,32.688155,,Cattle camp near Manyo,visited
+C-00723,Ajulo Obuwa,2025-10-13,F,N.H.I,CHW-014,5.7,Awiel Ochan,+211 98 258 4481,11.640318,32.696986,,"Manyo village, Block F",toVisit
+C-00724,Obwony Obwony,2025-11-22,M,N.H.I,CHW-014,3.9,Achan Akol,,11.58512,32.738614,,"Manyo village, by the church",toVisit
+C-00725,Akwot Padiet,2026-02-03,M,N.H.I,CHW-014,1.0,Ajwang Owiti,,11.613871,32.731546,,"Manyo village, by the church",visited
+C-00726,Ador Kwongo,2025-12-22,M,N.H.I,CHW-014,2.3,Achan Ogwang,+211 98 917 4389,11.60076,32.71129,,"Manyo, near the borehole",toVisit
+C-00727,Nyawelo Oyath,2024-11-16,F,N.H.I,CHW-014,6.4,Akoth Obuwa,,11.594103,32.769513,,Near Manyo market,toVisit
+C-00728,Oyath Opiew,2024-12-14,M,N.H.I,CHW-014,3.2,Akech Nyikango,+211 91 882 2873,11.588372,32.733411,,"Manyo village, Block A",toVisit
+C-00729,Ajulo Ochan,2025-12-26,F,N.H.I,CHW-014,3.1,Akech Othow,,11.601914,32.746571,,"Manyo, near the borehole",missed
+C-00730,Adhiambo Ador,2026-03-30,F,N.H.I,CHW-014,12.1,Akello Ochan,+211 92 183 1794,11.617327,32.636604,,Cattle camp near Manyo,missed
+C-00731,Opiew Oyath,2025-10-14,M,WAU SHILLUK HEALTH,CHW-015,2.3,Achan Obuwa,+211 91 658 7839,9.677822,31.747588,,Near Wau Shilluk market,toVisit
+C-00732,Nyadwai Nyikango,2025-03-11,F,WAU SHILLUK HEALTH,CHW-015,7.6,Nyadwai Awin,,9.606603,31.748216,,"Wau Shilluk, near the borehole",toVisit
+C-00733,Aduol Akol,2026-03-27,F,WAU SHILLUK HEALTH,CHW-015,8.8,Akoth Kwongo,+211 98 172 8901,9.600303,31.728372,,"Wau Shilluk, near the borehole",toVisit
+C-00734,Akol Obwony,2025-10-09,M,WAU SHILLUK HEALTH,CHW-015,1.4,Akello Ador,+211 92 520 5234,9.670391,31.750392,,"Wau Shilluk village, Block F",toVisit
+C-00735,Akech Ador,2025-01-08,F,WAU SHILLUK HEALTH,CHW-015,3.0,Anyango Akwot,+211 98 268 7287,9.658583,31.724134,,"Wau Shilluk village, by the church",toVisit
+C-00736,Ayaa Ochan,2026-09-16,F,WAU SHILLUK HEALTH,CHW-015,15.0,Adhiambo Kwongo,,9.763971,31.711455,,"Wau Shilluk, near the borehole",visited
+C-00737,Nyagwang Opiew,2026-05-25,F,WAU SHILLUK HEALTH,CHW-015,2.5,Awiel Ogwang,+211 92 670 1756,9.664922,31.727979,,Near Wau Shilluk market,toVisit
+C-00738,Owiti Ayang,2026-05-22,M,WAU SHILLUK HEALTH,CHW-015,2.5,Awiel Otor,,9.643693,31.742151,,"Wau Shilluk village, Block F",toVisit
+C-00739,Ojwok Ajang,2025-06-07,M,WAU SHILLUK HEALTH,CHW-015,5.3,Achan Okech,+211 91 556 8084,9.642695,31.779713,,Near Wau Shilluk market,toVisit
+C-00740,Nyikango Okech,2026-04-19,M,WAU SHILLUK HEALTH,CHW-015,7.1,Nyadwai Padiet,,9.711611,31.755526,,Near Wau Shilluk market,toVisit
+C-00741,Achieng Opiew,2025-04-16,F,WAU SHILLUK HEALTH,CHW-015,14.4,Opiew Akol,+211 92 383 1548,9.602546,31.83265,,Cattle camp near Wau Shilluk,toVisit
+C-00742,Nyikwer Akwot,2025-08-14,F,WAU SHILLUK HEALTH,CHW-015,3.4,Achieng Otor,+211 91 683 8442,9.637585,31.739749,,"Wau Shilluk village, Block D",visited
+C-00743,Anyango Obwony,2026-02-24,F,WAU SHILLUK HEALTH,CHW-015,6.3,Nyikwer Opiew,,9.651502,31.790856,,Cattle camp near Wau Shilluk,toVisit
+C-00744,Nyikwer Aney,2025-05-17,F,WAU SHILLUK HEALTH,CHW-015,2.5,Aduol Awin,+211 92 243 8145,9.645163,31.753959,,"Wau Shilluk, near the borehole",toVisit
+C-00745,Kwongo Othow,2026-08-02,M,WAU SHILLUK HEALTH,CHW-015,15.0,Ayaa Ador,,9.754191,31.802041,,"Wau Shilluk village, by the church",visited
+C-00746,Nyakuer Okony,2025-01-15,F,WAU SHILLUK HEALTH,CHW-015,5.8,Akello Obwony,,9.676583,31.785369,,"Wau Shilluk village, Block F",toVisit
+C-00747,Ador Obwony,2024-05-14,M,WAU SHILLUK HEALTH,CHW-015,2.4,Aduol Kwongo,+211 92 308 6074,9.64516,31.75212,,"Wau Shilluk, near the borehole",toVisit
+C-00748,Nyakuer Obuwa,2024-09-26,F,WAU SHILLUK HEALTH,CHW-015,0.9,Ajwang Ador,+211 98 367 4209,9.656719,31.750517,,"Wau Shilluk village, by the church",missed
+C-00749,Akol Akwot,2025-03-29,M,WAU SHILLUK HEALTH,CHW-015,11.6,Adhiambo Awin,,9.579074,31.730725,,Cattle camp near Wau Shilluk,toVisit
+C-00750,Nyikwer Ador,2026-02-16,F,WAU SHILLUK HEALTH,CHW-015,1.8,Akoth Ogwang,,9.67429,31.746486,,Near Wau Shilluk market,toVisit
+C-00751,Aduol Owiti,2026-05-15,F,WAU SHILLUK HEALTH,CHW-015,3.9,Owiti Okony,+211 91 533 1644,9.688295,31.737839,,"Wau Shilluk, near the borehole",visited
+C-00752,Anyango Ojwok,2026-03-18,F,WAU SHILLUK HEALTH,CHW-015,14.5,Aduol Aney,,9.728224,31.827333,,"Wau Shilluk, near the borehole",toVisit
+C-00753,Ador Ayang,2023-07-09,M,WAU SHILLUK HEALTH,CHW-015,4.5,Nyakuer Owiti,+211 92 150 4590,9.660651,31.778781,,"Wau Shilluk, near the borehole",toVisit
+C-00754,Akol Obwony,2024-12-10,M,WAU SHILLUK HEALTH,CHW-015,5.6,Nyagwang Othow,+211 92 790 9310,9.699737,31.758472,,"Wau Shilluk, near the borehole",toVisit
+C-00755,Okech Kwongo,2026-04-08,M,WAU SHILLUK HEALTH,CHW-015,2.6,Kwongo Otor,+211 92 662 6870,9.642615,31.744927,,"Wau Shilluk village, by the church",visited
+C-00756,Nyakuer Ogwang,2024-08-18,F,WAU SHILLUK HEALTH,CHW-015,2.4,Akello Owiti,,9.678455,31.743417,,"Wau Shilluk village, Block C",toVisit
+C-00757,Akoth Obwony,2025-04-29,F,WAU SHILLUK HEALTH,CHW-015,3.3,Adhiambo Ochan,+211 98 568 5174,9.663857,31.7219,,"Wau Shilluk village, Block C",toVisit
+C-00758,Ochan Otor,2025-07-21,M,WAU SHILLUK HEALTH,CHW-015,4.1,Nyikwer Othow,,9.655388,31.716527,,"Wau Shilluk village, by the church",visited
+C-00759,Ajulo Awin,2024-11-20,F,WAU SHILLUK HEALTH,CHW-015,2.1,Awin Padiet,+211 98 720 2167,9.675864,31.741606,,"Wau Shilluk village, Block E",toVisit
+C-00760,Nyikwer Ayang,2025-01-29,F,WAU SHILLUK HEALTH,CHW-015,1.8,Nyakuer Nyikango,+211 92 486 6780,9.65839,31.733072,,"Wau Shilluk village, Block B",toVisit
+C-00761,Ayang Oyath,2026-07-29,M,WAU SHILLUK HEALTH,CHW-015,1.1,Oyath Opiew,+211 92 252 5369,9.660488,31.737893,,"Wau Shilluk village, by the church",toVisit
+C-00762,Ayaa Ojwok,2025-05-29,F,WAU SHILLUK HEALTH,CHW-015,2.6,Akello Padiet,+211 91 735 2513,9.656638,31.764292,,"Wau Shilluk village, Block F",toVisit
+C-00763,Nyagwang Othow,2026-07-29,F,WAU SHILLUK HEALTH,CHW-015,14.7,Achieng Otor,,9.700159,31.645897,,"Wau Shilluk village, Block C",toVisit
+C-00764,Oyath Ogwang,2025-09-22,M,WAU SHILLUK HEALTH,CHW-015,3.9,Adhiambo Ajang,,9.68934,31.748275,,"Wau Shilluk village, Block C",toVisit
+C-00765,Ojwok Othow,2026-07-08,M,WAU SHILLUK HEALTH,CHW-015,2.7,Othow Aney,+211 98 116 5816,9.679593,31.739073,,"Wau Shilluk, near the borehole",visited
+C-00766,Nyawelo Nyikango,2025-08-24,F,WAU SHILLUK HEALTH,CHW-015,6.2,Awiel Ajang,+211 98 657 2382,9.673046,31.789631,,Cattle camp near Wau Shilluk,missed
+C-00767,Achan Kwongo,2026-01-23,F,WAU SHILLUK HEALTH,CHW-015,3.4,Akoth Oyath,+211 91 572 8159,9.648856,31.724493,,"Wau Shilluk, near the borehole",visited
+C-00768,Oyath Akwot,2025-02-24,M,WAU SHILLUK HEALTH,CHW-015,2.2,Adhiambo Padiet,+211 92 689 8843,9.676349,31.751046,,"Wau Shilluk village, Block C",visited
+C-00769,Obuwa Obuwa,2025-05-04,M,WAU SHILLUK HEALTH,CHW-015,15.0,Ajulo Aney,+211 91 402 1559,9.718778,31.652991,,Near Wau Shilluk market,toVisit
+C-00770,Nyagwang Obwony,2026-04-15,F,WAU SHILLUK HEALTH,CHW-015,3.0,Ayaa Ayang,+211 92 913 3881,9.642994,31.734266,,"Wau Shilluk village, by the church",toVisit
+C-00771,Okony Ajang,2025-04-01,M,WAU SHILLUK HEALTH,CHW-015,3.6,Ajang Aney,+211 91 924 8990,9.644861,31.766227,,"Wau Shilluk village, by the church",toVisit
+C-00772,Awin Akwot,2024-04-22,M,WAU SHILLUK HEALTH,CHW-015,4.4,Ajulo Awin,,9.630026,31.740746,,"Wau Shilluk village, Block C",toVisit
+C-00773,Ayaa Ogwang,2025-08-16,F,WAU SHILLUK HEALTH,CHW-015,1.3,Ayaa Othow,+211 98 215 1164,9.670077,31.749295,,"Wau Shilluk village, by the church",toVisit
+C-00774,Nyakuer Ajang,2025-05-19,F,WAU SHILLUK HEALTH,CHW-015,5.3,Nyakuer Akol,+211 92 796 2989,9.62398,31.737767,,"Wau Shilluk village, by the church",toVisit
+C-00775,Akol Ajang,2025-09-26,M,WAU SHILLUK HEALTH,CHW-015,11.4,Nyikwer Aney,+211 98 855 7346,9.599985,31.801332,,Cattle camp near Wau Shilluk,toVisit
+C-00776,Nyadwai Opiew,2025-02-14,F,WAU SHILLUK HEALTH,CHW-015,8.1,Nyagwang Ajang,+211 98 877 2053,9.621442,31.70265,,Cattle camp near Wau Shilluk,toVisit
+C-00777,Ayaa Awin,2026-06-01,F,WAU SHILLUK HEALTH,CHW-015,3.0,Achieng Owiti,+211 92 690 1999,9.658658,31.767654,,"Wau Shilluk, near the borehole",toVisit
+C-00778,Opiew Obwony,2026-05-14,M,WAU SHILLUK HEALTH,CHW-015,3.3,Ajulo Othow,+211 91 896 3188,9.68505,31.747656,,"Wau Shilluk, near the borehole",visited
+C-00779,Awin Aney,2026-05-16,M,WAU SHILLUK HEALTH,CHW-015,0.6,Aney Ogwang,+211 98 582 9481,9.660848,31.74153,,Near Wau Shilluk market,toVisit
+C-00780,Ajang Okech,2025-02-04,M,WAU SHILLUK HEALTH,CHW-015,4.8,Awiel Nyikango,,9.626852,31.743014,,"Wau Shilluk village, by the church",toVisit
+C-00781,Akoth Ochan,2026-02-28,F,BAM PHCC,CHW-016,1.6,Akech Ador,+211 91 940 9792,9.512502,31.66599,,Near Bam market,missed
+C-00782,Achieng Nyikango,2025-02-15,F,BAM PHCC,CHW-016,2.1,Nyadwai Kwongo,+211 91 110 6653,9.488753,31.654663,,"Bam village, Block D",toVisit
+C-00783,Ojwok Oyath,2026-02-28,M,BAM PHCC,CHW-016,3.4,Nyawelo Obwony,+211 91 161 3826,9.510974,31.682559,,"Bam, near the borehole",toVisit
+C-00784,Obwony Ador,2024-05-07,M,BAM PHCC,CHW-016,2.9,Ador Obwony,+211 91 114 7730,9.493403,31.677646,,"Bam, near the borehole",toVisit
+C-00785,Othow Opiew,2024-09-26,M,BAM PHCC,CHW-016,2.1,Opiew Nyikango,+211 98 440 7978,9.517502,31.653721,,"Bam, near the borehole",toVisit
+C-00786,Obuwa Awin,2026-04-12,M,BAM PHCC,CHW-016,2.7,Nyakuer Ochan,+211 98 313 9878,9.501178,31.678585,,"Malakal PoC site, Sector 2",missed
+C-00787,Okony Otor,2026-05-18,M,BAM PHCC,CHW-016,0.7,Nyikwer Ochan,+211 92 438 7995,9.499627,31.662498,,"Malakal PoC site, Sector 4",toVisit
+C-00788,Akoth Opiew,2025-09-16,F,BAM PHCC,CHW-016,2.0,Awiel Ojwok,,9.4893,31.65541,,"Malakal PoC site, Sector 4",visited
+C-00789,Akello Opiew,2026-04-29,F,BAM PHCC,CHW-016,3.1,Nyawelo Padiet,+211 92 213 6592,9.487127,31.674621,,"Bam, near the borehole",visited
+C-00790,Awin Opiew,2025-08-23,M,BAM PHCC,CHW-016,3.9,Anyango Ador,,9.512245,31.631959,,Near Bam market,toVisit
+C-00791,Akwero Ojwok,2026-04-05,F,BAM PHCC,CHW-016,1.5,Ayaa Ogwang,+211 92 429 7102,9.509073,31.649715,,"Malakal PoC site, Sector 5",missed
+C-00792,Nyikwer Akwot,2026-03-24,F,BAM PHCC,CHW-016,0.8,Nyadwai Ochan,+211 91 158 3399,9.508522,31.656536,,"Malakal PoC site, Sector 3",visited
+C-00793,Opiew Padiet,2025-08-07,M,BAM PHCC,CHW-016,1.4,Nyikwer Otor,+211 91 378 3582,9.504684,31.648839,,"Malakal PoC site, Sector 3",toVisit
+C-00794,Awin Padiet,2025-07-04,M,BAM PHCC,CHW-016,1.7,Nyawelo Akol,,9.514027,31.664936,,Near Bam market,toVisit
+C-00795,Okech Opiew,2025-09-29,M,BAM PHCC,CHW-016,2.8,Anyango Ayang,,9.494465,31.640564,,"Malakal PoC site, Sector 1",toVisit
+C-00796,Anyango Ojwok,2026-02-03,F,BAM PHCC,CHW-016,0.4,Aduol Othow,,9.501714,31.656516,,"Malakal PoC site, Sector 3",toVisit
+C-00797,Nyadwai Ochan,2026-03-06,F,BAM PHCC,CHW-016,0.6,Ajwang Akwot,+211 98 147 1803,9.498964,31.659238,,"Malakal PoC site, Sector 3",toVisit
+C-00798,Nyawelo Obwony,2026-07-13,F,BAM PHCC,CHW-016,2.2,Akwero Nyikango,+211 91 184 3006,9.499767,31.674647,,"Bam village, Block A",visited
+C-00799,Ojwok Ojwok,2026-05-19,M,BAM PHCC,CHW-016,2.0,Akoth Akwot,+211 91 541 3365,9.492078,31.668168,,"Malakal PoC site, Sector 4",toVisit
+C-00800,Padiet Opiew,2026-09-09,M,BAM PHCC,CHW-016,2.3,Aduol Otor,+211 98 380 1294,9.518447,31.652188,,"Malakal PoC site, Sector 4",visited
+C-00801,Ayang Othow,2025-07-13,M,BAM PHCC,CHW-016,2.9,Awiel Ojwok,+211 92 742 2262,9.524034,31.661479,,"Malakal PoC site, Sector 2",toVisit
+C-00802,Otor Owiti,2025-05-22,M,BAM PHCC,CHW-016,2.6,Owiti Obuwa,,9.500867,31.677811,,"Malakal PoC site, Sector 3",toVisit
+C-00803,Akech Kwongo,2025-09-28,F,BAM PHCC,CHW-016,3.0,Awiel Opiew,+211 98 908 6890,9.521774,31.647614,,"Malakal PoC site, Sector 3",toVisit
+C-00804,Okech Obwony,2025-04-19,M,BAM PHCC,CHW-016,15.0,Achieng Ayang,,9.611084,31.667189,,Near Bam market,toVisit
+C-00805,Obuwa Obwony,2025-04-26,M,BAM PHCC,CHW-016,0.3,Nyadwai Opiew,+211 98 357 3541,9.502189,31.657077,,"Malakal PoC site, Sector 1",toVisit
+C-00806,Akello Owiti,2026-07-06,F,BAM PHCC,CHW-016,1.3,Nyakuer Ochan,,9.493945,31.659781,,"Bam village, Block F",visited
+C-00807,Padiet Othow,2024-11-17,M,BAM PHCC,CHW-016,1.9,Akech Okony,,9.515448,31.665338,,Near Bam market,visited
+C-00808,Awiel Kwongo,2025-12-06,F,BAM PHCC,CHW-016,0.7,Kwongo Obuwa,+211 91 642 4456,9.49937,31.662203,,"Malakal PoC site, Sector 3",toVisit
+C-00809,Awin Oyath,2025-10-24,M,BAM PHCC,CHW-016,10.1,Oyath Opiew,+211 91 878 9789,9.530784,31.727305,,"Bam village, by the church",toVisit
+C-00810,Ador Ogwang,2025-02-01,M,BAM PHCC,CHW-016,1.4,Anyango Othow,+211 91 502 4886,9.511494,31.664911,,"Bam, near the borehole",toVisit
+C-00811,Othow Padiet,2026-09-11,M,BAM PHCC,CHW-016,1.6,Padiet Ochan,,9.509098,31.669065,,Near Bam market,visited
+C-00812,Ogwang Aney,2025-10-31,M,BAM PHCC,CHW-016,2.1,Aduol Ajang,+211 92 653 1464,9.503412,31.674315,,"Malakal PoC site, Sector 1",toVisit
+C-00813,Oyath Obwony,2025-02-26,M,BAM PHCC,CHW-016,0.9,Ajwang Padiet,+211 92 670 7367,9.498318,31.654734,,"Malakal PoC site, Sector 2",toVisit
+C-00814,Padiet Akwot,2026-08-10,M,BAM PHCC,CHW-016,3.3,Ajwang Ogwang,,9.514519,31.680222,,"Bam village, Block E",visited
+C-00815,Nyakuer Ajang,2026-04-07,F,BAM PHCC,CHW-016,0.9,Ajang Obwony,+211 92 629 1241,9.502288,31.665469,,"Malakal PoC site, Sector 3",visited
+C-00816,Oyath Okony,2026-07-17,M,BAM PHCC,CHW-016,2.3,Akello Obwony,+211 92 443 2534,9.519856,31.659146,,"Bam village, by the church",toVisit
+C-00817,Nyikango Ochan,2025-12-20,M,BAM PHCC,CHW-016,5.6,Aduol Ajang,+211 92 892 4043,9.510289,31.61867,,"Bam village, Block E",toVisit
+C-00818,Ojwok Ogwang,2025-05-19,M,BAM PHCC,CHW-016,1.6,Ayaa Ayang,,9.507129,31.669991,,Near Bam market,toVisit
+C-00819,Ayang Akwot,2026-01-25,M,BAM PHCC,CHW-016,0.5,Nyawelo Oyath,+211 91 506 2095,9.500033,31.660554,,"Malakal PoC site, Sector 1",toVisit
+C-00820,Okech Okech,2025-04-19,M,BAM PHCC,CHW-016,3.0,Awiel Opiew,+211 91 839 3429,9.484786,31.670326,,"Malakal PoC site, Sector 1",toVisit
+C-00821,Ogwang Ochan,2025-02-06,M,BAM PHCC,CHW-016,2.5,Aduol Awin,+211 91 554 1911,9.50171,31.677169,,"Bam village, by the church",toVisit
+C-00822,Nyikwer Ayang,2025-02-26,F,BAM PHCC,CHW-016,0.3,Nyagwang Padiet,+211 98 779 7592,9.504846,31.657458,,"Malakal PoC site, Sector 5",toVisit
+C-00823,Adhiambo Awin,2026-05-17,F,BAM PHCC,CHW-016,2.6,Ajulo Obuwa,+211 98 980 8005,9.505174,31.677872,,"Bam village, Block E",visited
+C-00824,Achan Okech,2024-03-19,F,BAM PHCC,CHW-016,5.7,Akello Ajang,+211 91 717 4213,9.462609,31.653101,,"Bam village, Block B",toVisit
+C-00825,Obuwa Ador,2025-12-17,M,BAM PHCC,CHW-016,2.6,Akech Ojwok,,9.519426,31.649327,,"Malakal PoC site, Sector 3",visited
+C-00826,Aduol Padiet,2025-12-12,F,BAM PHCC,CHW-016,1.5,Achan Otor,+211 91 671 1190,9.511811,31.652237,,"Bam, near the borehole",toVisit
+C-00827,Akello Padiet,2025-10-07,F,BAM PHCC,CHW-016,4.0,Nyadwai Nyikango,+211 92 285 8760,9.508137,31.687782,,"Bam village, by the church",toVisit
+C-00828,Ador Obuwa,2025-06-20,M,BAM PHCC,CHW-016,3.5,Achan Othow,+211 91 971 6888,9.504072,31.684534,,"Bam village, Block C",toVisit
+C-00829,Awin Obuwa,2024-12-22,M,BAM PHCC,CHW-016,1.5,Anyango Padiet,,9.509995,31.66756,,"Malakal PoC site, Sector 4",toVisit
+C-00830,Ador Opiew,2024-04-27,M,BAM PHCC,CHW-016,1.6,Ajwang Ochan,+211 98 198 5342,9.492566,31.654647,,"Bam village, by the church",toVisit
+C-00831,Ador Ojwok,2026-04-29,M,NATIONAL HEALTH INSURANCE,CHW-017,4.4,Ojwok Ojwok,,9.495665,31.648615,,"Malakal village, by the church",visited
+C-00832,Kwongo Otor,2026-06-03,M,NATIONAL HEALTH INSURANCE,CHW-017,0.9,Achan Obwony,+211 98 373 6606,9.521527,31.648193,,"Malakal village, Block E",toVisit
+C-00833,Nyikango Obuwa,2025-10-19,M,NATIONAL HEALTH INSURANCE,CHW-017,2.2,Nyakuer Ojwok,,9.522714,31.66665,,"Malakal PoC site, Sector 3",toVisit
+C-00834,Akech Akol,2025-09-29,F,NATIONAL HEALTH INSURANCE,CHW-017,4.4,Akol Obuwa,,9.511032,31.62363,,Near Malakal market,toVisit
+C-00835,Okony Aney,2026-09-04,M,NATIONAL HEALTH INSURANCE,CHW-017,2.8,Adhiambo Ogwang,+211 98 705 8200,9.5131,31.63668,,"Malakal PoC site, Sector 3",visited
+C-00836,Achieng Akol,2026-04-19,F,NATIONAL HEALTH INSURANCE,CHW-017,2.7,Akol Ojwok,,9.540591,31.665634,,"Malakal PoC site, Sector 4",toVisit
+C-00837,Ador Kwongo,2025-04-04,M,NATIONAL HEALTH INSURANCE,CHW-017,1.5,Akech Ador,+211 98 623 1112,9.524618,31.661877,,"Malakal PoC site, Sector 2",toVisit
+C-00838,Ojwok Opiew,2026-03-05,M,NATIONAL HEALTH INSURANCE,CHW-017,2.5,Nyagwang Ojwok,+211 98 219 1339,9.51165,31.642143,,"Malakal village, by the church",visited
+C-00839,Akwot Ajang,2025-10-17,M,NATIONAL HEALTH INSURANCE,CHW-017,2.1,Ayaa Okony,+211 98 692 4247,9.528773,31.635979,,"Malakal PoC site, Sector 1",toVisit
+C-00840,Nyadwai Awin,2026-02-24,F,NATIONAL HEALTH INSURANCE,CHW-017,1.2,Awin Oyath,,9.525977,31.642579,,"Malakal PoC site, Sector 1",toVisit
+C-00841,Owiti Awin,2025-02-07,M,NATIONAL HEALTH INSURANCE,CHW-017,0.9,Nyikwer Aney,+211 98 852 7843,9.532771,31.654735,,"Malakal PoC site, Sector 4",toVisit
+C-00842,Anyango Ogwang,2026-07-17,F,NATIONAL HEALTH INSURANCE,CHW-017,1.5,Nyikwer Obwony,+211 92 325 4978,9.537896,31.653266,,"Malakal village, Block D",toVisit
+C-00843,Obuwa Ayang,2026-07-29,M,NATIONAL HEALTH INSURANCE,CHW-017,0.7,Ajulo Otor,,9.523294,31.654399,,"Malakal PoC site, Sector 5",toVisit
+C-00844,Akello Padiet,2025-12-16,F,NATIONAL HEALTH INSURANCE,CHW-017,3.0,Ayaa Kwongo,+211 91 839 4182,9.526779,31.629332,,"Malakal PoC site, Sector 3",toVisit
+C-00845,Aney Ayang,2024-06-26,M,NATIONAL HEALTH INSURANCE,CHW-017,2.1,Ayang Obwony,,9.518098,31.663458,,"Malakal PoC site, Sector 5",toVisit
+C-00846,Akoth Awin,2026-01-26,F,NATIONAL HEALTH INSURANCE,CHW-017,0.8,Nyawelo Awin,+211 98 750 6082,9.529023,31.65682,,"Malakal PoC site, Sector 4",visited
+C-00847,Obuwa Owiti,2024-11-27,M,NATIONAL HEALTH INSURANCE,CHW-017,3.8,Aduol Okony,,9.541498,31.627521,,"Malakal, near the borehole",toVisit
+C-00848,Nyakuer Akwot,2025-09-03,F,NATIONAL HEALTH INSURANCE,CHW-017,1.0,Nyakuer Kwongo,+211 98 820 9678,9.530564,31.65775,,"Malakal PoC site, Sector 1",toVisit
+C-00849,Akello Obwony,2024-11-07,F,NATIONAL HEALTH INSURANCE,CHW-017,0.8,Nyakuer Okech,,9.523996,31.646438,,"Malakal PoC site, Sector 4",toVisit
+C-00850,Akoth Akwot,2025-10-13,F,NATIONAL HEALTH INSURANCE,CHW-017,0.6,Akwot Obwony,+211 98 759 6377,9.522989,31.651868,,"Malakal PoC site, Sector 1",toVisit
+C-00851,Adhiambo Awin,2024-12-17,F,NATIONAL HEALTH INSURANCE,CHW-017,1.4,Akwero Opiew,+211 92 748 7886,9.531709,31.642062,,"Malakal PoC site, Sector 3",toVisit
+C-00852,Ochan Ogwang,2025-09-13,M,NATIONAL HEALTH INSURANCE,CHW-017,1.1,Aduol Ochan,+211 98 425 2436,9.520303,31.655086,,"Malakal PoC site, Sector 5",toVisit
+C-00853,Akech Okony,2026-04-14,F,NATIONAL HEALTH INSURANCE,CHW-017,2.8,Achan Ayang,,9.507103,31.6505,,"Malakal PoC site, Sector 2",toVisit
+C-00854,Akoth Awin,2024-01-21,F,NATIONAL HEALTH INSURANCE,CHW-017,2.9,Akech Nyikango,+211 91 873 1973,9.547668,31.655873,,"Malakal PoC site, Sector 5",toVisit
+C-00855,Ojwok Awin,2025-11-26,M,NATIONAL HEALTH INSURANCE,CHW-017,1.3,Ajwang Kwongo,+211 91 807 9799,9.535146,31.656396,,"Malakal PoC site, Sector 5",toVisit
+C-00856,Otor Padiet,2024-03-23,M,NATIONAL HEALTH INSURANCE,CHW-017,1.2,Nyawelo Ayang,+211 98 727 5995,9.519888,31.646681,,"Malakal PoC site, Sector 2",toVisit
+C-00857,Ador Ayang,2024-11-19,M,NATIONAL HEALTH INSURANCE,CHW-017,0.8,Ajulo Ador,+211 98 193 4992,9.522402,31.654383,,"Malakal PoC site, Sector 2",toVisit
+C-00858,Owiti Opiew,2026-06-20,M,NATIONAL HEALTH INSURANCE,CHW-017,2.9,Nyadwai Owiti,+211 91 742 8214,9.543536,31.664559,,"Malakal PoC site, Sector 4",visited
+C-00859,Opiew Owiti,2026-05-15,M,NATIONAL HEALTH INSURANCE,CHW-017,1.9,Nyikwer Ajang,+211 98 789 6915,9.54082,31.653254,,"Malakal PoC site, Sector 4",toVisit
+C-00860,Akwero Aney,2026-04-24,F,NATIONAL HEALTH INSURANCE,CHW-017,2.4,Akwero Nyikango,+211 92 623 6524,9.544261,31.647963,,"Malakal PoC site, Sector 5",visited
+C-00861,Ayang Oyath,2025-04-06,M,NATIONAL HEALTH INSURANCE,CHW-017,1.2,Oyath Otor,+211 92 790 5178,9.520436,31.645875,,"Malakal PoC site, Sector 3",toVisit
+C-00862,Ador Ayang,2023-05-01,M,NATIONAL HEALTH INSURANCE,CHW-017,1.0,Ayang Okech,,9.525235,31.644239,,"Malakal PoC site, Sector 1",toVisit
+C-00863,Nyakuer Okony,2026-02-17,F,NATIONAL HEALTH INSURANCE,CHW-017,2.1,Nyagwang Obuwa,+211 92 354 3459,9.524902,31.666408,,"Malakal PoC site, Sector 4",toVisit
+C-00864,Obuwa Ajang,2025-12-13,M,NATIONAL HEALTH INSURANCE,CHW-017,1.4,Adhiambo Othow,+211 98 401 1214,9.52683,31.661471,,"Malakal PoC site, Sector 5",toVisit
+C-00865,Adhiambo Obuwa,2026-05-04,F,NATIONAL HEALTH INSURANCE,CHW-017,2.3,Nyadwai Obwony,+211 98 341 4203,9.512162,31.644333,,"Malakal PoC site, Sector 2",toVisit
+C-00866,Ogwang Oyath,2025-09-17,M,NATIONAL HEALTH INSURANCE,CHW-017,0.8,Anyango Othow,+211 91 349 4820,9.528281,31.645494,,"Malakal PoC site, Sector 1",visited
+C-00867,Padiet Owiti,2025-02-21,M,NATIONAL HEALTH INSURANCE,CHW-017,2.1,Aduol Aney,+211 91 943 1276,9.532964,31.665469,,"Malakal PoC site, Sector 5",toVisit
+C-00868,Padiet Okony,2025-01-18,M,NATIONAL HEALTH INSURANCE,CHW-017,1.1,Nyagwang Ayang,+211 92 735 8914,9.529375,31.6435,,"Malakal PoC site, Sector 5",toVisit
+C-00869,Akello Padiet,2026-04-09,F,NATIONAL HEALTH INSURANCE,CHW-017,1.5,Adhiambo Ochan,,9.535151,31.643746,,"Malakal village, Block D",missed
+C-00870,Nyikwer Opiew,2025-01-18,F,NATIONAL HEALTH INSURANCE,CHW-017,2.6,Achieng Obwony,+211 91 282 8397,9.521885,31.633051,,"Malakal PoC site, Sector 1",toVisit
+C-00871,Nyadwai Othow,2026-07-03,F,NATIONAL HEALTH INSURANCE,CHW-017,1.5,Akwero Ogwang,+211 92 284 3870,9.517198,31.655232,,"Malakal PoC site, Sector 3",toVisit
+C-00872,Ador Otor,2026-05-30,M,NATIONAL HEALTH INSURANCE,CHW-017,2.9,Ajulo Ador,+211 92 683 9815,9.535671,31.631844,,"Malakal PoC site, Sector 4",toVisit
+C-00873,Adhiambo Obuwa,2026-05-20,F,NATIONAL HEALTH INSURANCE,CHW-017,1.3,Aduol Okony,+211 98 649 8060,9.527319,31.64175,,"Malakal PoC site, Sector 3",toVisit
+C-00874,Nyadwai Ojwok,2024-10-19,F,NATIONAL HEALTH INSURANCE,CHW-017,2.8,Nyakuer Obwony,,9.507396,31.647697,,"Malakal PoC site, Sector 5",toVisit
+C-00875,Akwot Otor,2026-03-24,M,NATIONAL HEALTH INSURANCE,CHW-017,1.0,Aduol Ochan,+211 91 449 3521,9.521253,31.655273,,"Malakal PoC site, Sector 1",toVisit
+C-00876,Kwongo Nyikango,2026-05-05,M,NATIONAL HEALTH INSURANCE,CHW-017,1.3,Achan Okony,+211 98 470 3957,9.534276,31.644942,,"Malakal PoC site, Sector 1",toVisit
+C-00877,Ayaa Kwongo,2026-01-01,F,NATIONAL HEALTH INSURANCE,CHW-017,0.7,Anyango Okech,+211 92 220 1247,9.530812,31.654892,,"Malakal PoC site, Sector 2",visited
+C-00878,Ajang Ochan,2025-08-05,M,NATIONAL HEALTH INSURANCE,CHW-017,1.9,Akwero Nyikango,+211 91 520 8086,9.526434,31.665109,,"Malakal PoC site, Sector 5",visited
+C-00879,Anyango Opiew,2024-10-08,F,NATIONAL HEALTH INSURANCE,CHW-017,0.7,Opiew Ajang,,9.523849,31.64749,,"Malakal village, by the church",missed
+C-00880,Oyath Ayang,2025-08-12,M,NATIONAL HEALTH INSURANCE,CHW-017,1.0,Adhiambo Kwongo,,9.527195,31.658558,,"Malakal PoC site, Sector 3",toVisit
+C-00881,Nyankiir Jok,2025-04-22,F,Baidit PHCC,CHW-018,9.9,Abuk Kuol,,6.466472,31.623978,,"Baidit village, by the church",visited
+C-00882,Kuir Ayuel,2025-09-23,M,Baidit PHCC,CHW-018,6.4,Nyandeng Maker,,6.39491,31.531863,,Near Baidit market,visited
+C-00883,Jok Majok,2025-12-24,M,Baidit PHCC,CHW-018,5.8,Majok Atem,+211 91 975 2020,6.397866,31.535073,,Near Baidit market,toVisit
+C-00884,Abuk Bol,2026-04-15,F,Baidit PHCC,CHW-018,3.8,Aker Ajak,+211 92 735 5067,6.408377,31.545029,,"Baidit, near the borehole",visited
+C-00885,Lual Arok,2025-06-14,M,Baidit PHCC,CHW-018,1.0,Arok Awan,+211 92 803 4188,6.435548,31.558599,,Near Baidit market,visited
+C-00886,Achai Chol,2025-10-20,F,Baidit PHCC,CHW-018,7.1,Aluel Arok,+211 92 959 5648,6.402621,31.518747,,Near Baidit market,toVisit
+C-00887,Aluel Ayuel,2025-04-30,F,Baidit PHCC,CHW-018,1.1,Awut Arok,,6.422452,31.566194,,Near Baidit market,toVisit
+C-00888,Manyang Dau,2026-05-19,M,Baidit PHCC,CHW-018,3.6,Achan Bol,,6.415001,31.540914,,"Baidit village, Block C",toVisit
+C-00889,Apajok Madut,2026-05-21,F,Baidit PHCC,CHW-018,3.0,Akon Mading,,6.447221,31.57504,,"Baidit, near the borehole",toVisit
+C-00890,Akuol Jok,2024-11-01,F,Baidit PHCC,CHW-018,5.7,Abuk Ater,+211 92 508 3466,6.458406,31.533175,,"Baidit village, by the church",missed
+C-00891,Adut Maker,2025-10-06,F,Baidit PHCC,CHW-018,2.2,Amou Dau,+211 92 343 1590,6.415905,31.554366,,"Baidit village, by the church",toVisit
+C-00892,Apajok Akol,2025-04-22,F,Baidit PHCC,CHW-018,5.2,Aker Madut,+211 98 915 7425,6.398923,31.584354,,"Baidit, near the borehole",toVisit
+C-00893,Mabior Atem,2025-10-08,M,Baidit PHCC,CHW-018,3.7,Achol Lual,,6.454182,31.552377,,"Baidit village, by the church",toVisit
+C-00894,Makuei Mabior,2025-11-21,M,Baidit PHCC,CHW-018,4.8,Atong Kuol,+211 91 180 2404,6.399982,31.544422,,"Baidit village, Block A",toVisit
+C-00895,Majur Malual,2026-04-17,M,Baidit PHCC,CHW-018,2.5,Nyibol Thon,+211 91 763 9231,6.411591,31.560665,,"Baidit village, Block D",toVisit
+C-00896,Malual Alier,2026-02-17,M,Baidit PHCC,CHW-018,2.2,Nyandeng Majok,,6.428349,31.578473,,"Baidit village, Block C",visited
+C-00897,Awut Maker,2024-12-23,F,Baidit PHCC,CHW-018,4.0,Nyandeng Lual,+211 91 438 1987,6.406917,31.58058,,"Baidit village, by the church",visited
+C-00898,Adau Alier,2025-07-30,F,Baidit PHCC,CHW-018,2.4,Abiei Lual,,6.446805,31.562833,,"Baidit village, by the church",toVisit
+C-00899,Awan Majur,2024-10-18,M,Baidit PHCC,CHW-018,6.0,Aker Ater,,6.469519,31.579073,,"Baidit village, Block D",toVisit
+C-00900,Ayak Mabior,2025-12-23,F,Baidit PHCC,CHW-018,7.1,Adhieu Achiek,+211 98 204 7135,6.3788,31.55566,,Near Baidit market,missed
+C-00901,Ajok Aguer,2026-03-30,F,Baidit PHCC,CHW-018,10.5,Adau Jok,,6.491576,31.518988,,"Baidit village, by the church",toVisit
+C-00902,Apajok Majur,2024-09-30,F,Baidit PHCC,CHW-018,11.3,Nyibol Thon,+211 98 177 5857,6.365773,31.511541,,Cattle camp near Baidit,toVisit
+C-00903,Ajah Awan,2026-02-18,F,Baidit PHCC,CHW-018,3.8,Apajok Achiek,,6.422931,31.589314,,Near Baidit market,visited
+C-00904,Atem Majok,2024-12-24,M,Baidit PHCC,CHW-018,3.5,Majok Lual,,6.404951,31.556763,,"Baidit, near the borehole",toVisit
+C-00905,Adau Kuol,2024-12-09,F,Baidit PHCC,CHW-018,0.7,Nyankiir Akol,+211 92 398 3759,6.432375,31.566739,,"Baidit village, Block D",visited
+C-00906,Kuol Maker,2026-03-02,M,Baidit PHCC,CHW-018,1.7,Adau Majok,+211 98 314 1310,6.417997,31.558343,,"Baidit village, Block D",toVisit
+C-00907,Achol Kur,2026-04-20,F,Baidit PHCC,CHW-018,1.9,Kur Maker,+211 98 162 1951,6.437598,31.55144,,"Baidit, near the borehole",toVisit
+C-00908,Ajak Ayuel,2025-09-16,M,Baidit PHCC,CHW-018,1.5,Adhieu Mading,+211 92 906 7256,6.436617,31.554362,,Near Baidit market,toVisit
+C-00909,Awan Jok,2026-09-22,M,Baidit PHCC,CHW-018,1.8,Atong Kuir,+211 91 670 6761,6.419471,31.554291,,"Baidit village, by the church",visited
+C-00910,Mayen Anyang,2025-10-27,M,Baidit PHCC,CHW-018,2.3,Aker Ater,+211 92 405 7423,6.446067,31.561745,,"Baidit village, Block D",toVisit
+C-00911,Anyang Bol,2025-06-04,M,Baidit PHCC,CHW-018,5.3,Bol Kuir,,6.427777,31.52416,,"Baidit village, by the church",missed
+C-00912,Mayen Ater,2025-07-25,M,Baidit PHCC,CHW-018,2.1,Abiei Kur,+211 92 436 8516,6.419073,31.55153,,Near Baidit market,visited
+C-00913,Chol Kuir,2025-03-26,M,Baidit PHCC,CHW-018,2.4,Kuir Majok,+211 91 434 4553,6.445658,31.556322,,"Baidit village, Block A",toVisit
+C-00914,Anyieth Alier,2025-11-29,F,Baidit PHCC,CHW-018,1.9,Awut Awan,+211 92 298 4797,6.421636,31.551286,,"Baidit, near the borehole",visited
+C-00915,Abul Majok,2026-05-23,F,Baidit PHCC,CHW-018,4.0,Aluel Mabior,,6.4397,31.535422,,"Baidit village, Block C",toVisit
+C-00916,Aguer Chol,2025-10-24,M,Baidit PHCC,CHW-018,4.4,Chol Akol,,6.432439,31.530784,,"Baidit village, Block D",toVisit
+C-00917,Majur Mabior,2025-10-25,M,Baidit PHCC,CHW-018,5.6,Adhieu Garang,,6.455182,31.53122,,"Baidit, near the borehole",toVisit
+C-00918,Madut Ater,2025-03-28,M,Baidit PHCC,CHW-018,2.3,Ater Anyang,+211 98 925 4990,6.416774,31.551882,,Near Baidit market,toVisit
+C-00919,Adut Malual,2026-04-05,F,Baidit PHCC,CHW-018,1.7,Ayen Atem,+211 92 933 7720,6.439715,31.555737,,"Baidit village, by the church",toVisit
+C-00920,Deng Ayuel,2026-04-21,M,Baidit PHCC,CHW-018,2.0,Achai Deng,+211 92 146 9377,6.415778,31.56697,,"Baidit, near the borehole",missed
+C-00921,Akol Chol,2024-11-07,M,Baidit PHCC,CHW-018,1.4,Akon Arok,+211 92 773 7361,6.42445,31.571345,,"Baidit village, Block D",toVisit
+C-00922,Alier Kuir,2025-09-25,M,Baidit PHCC,CHW-018,4.8,Akuol Achiek,+211 98 292 2504,6.440487,31.595575,,"Baidit village, Block B",toVisit
+C-00923,Amou Kuol,2026-04-27,F,Baidit PHCC,CHW-018,5.9,Akuol Majur,+211 98 106 2805,6.455041,31.52834,,"Baidit, near the borehole",toVisit
+C-00924,Ayuel Majur,2024-09-02,M,Baidit PHCC,CHW-018,11.8,Amou Atem,+211 91 366 6135,6.406926,31.64507,,"Baidit village, by the church",missed
+C-00925,Anyieth Awan,2026-06-30,F,Baidit PHCC,CHW-018,7.7,Ayen Mading,+211 91 577 4665,6.388011,31.599638,,"Baidit village, Block D",toVisit
+C-00926,Malual Ajak,2025-11-08,M,Baidit PHCC,CHW-018,8.4,Adhieu Jok,+211 91 316 7417,6.46458,31.612221,,"Baidit village, Block C",toVisit
+C-00927,Ajok Chol,2025-09-23,F,Baidit PHCC,CHW-018,3.7,Ayak Mading,+211 92 622 8286,6.404388,31.571562,,Near Baidit market,missed
+C-00928,Adau Makuei,2025-04-21,F,Baidit PHCC,CHW-018,2.2,Aluel Akol,+211 91 825 2247,6.434541,31.547428,,"Baidit village, by the church",visited
+C-00929,Alier Madut,2026-07-02,M,Baidit PHCC,CHW-018,6.7,Akon Deng,,6.465452,31.595013,,"Baidit village, Block E",toVisit
+C-00930,Majur Bol,2024-11-17,M,Baidit PHCC,CHW-018,1.1,Akuol Alier,,6.424521,31.55636,,"Baidit village, Block C",toVisit
+C-00931,Abiei Madut,2026-01-08,F,Paliau PHCC,CHW-019,15.6,Atong Arok,,6.85079,31.351796,,Cattle camp near Paliau,missed
+C-00932,Aguer Awan,2026-06-09,M,Paliau PHCC,CHW-019,2.8,Awan Madut,+211 91 276 4292,6.96597,31.397872,,"Paliau village, Block F",toVisit
+C-00933,Ayuel Majur,2024-12-14,M,Paliau PHCC,CHW-019,4.3,Abuk Mayen,+211 98 438 5028,6.935918,31.358867,,"Paliau village, by the church",toVisit
+C-00934,Deng Aguer,2025-02-28,M,Paliau PHCC,CHW-019,1.8,Akuol Bol,,6.969033,31.387879,,Near Paliau market,missed
+C-00935,Amou Ayuel,2025-09-07,F,Paliau PHCC,CHW-019,0.6,Ayuel Mayen,+211 92 616 8202,6.956532,31.380935,,Near Paliau market,toVisit
+C-00936,Achol Arok,2025-09-30,F,Paliau PHCC,CHW-019,3.7,Adhieu Dau,+211 98 733 5342,6.945352,31.400832,,Near Paliau market,missed
+C-00937,Lual Malual,2025-10-27,M,Paliau PHCC,CHW-019,1.1,Malual Ater,,6.952644,31.375633,,"Paliau, near the borehole",toVisit
+C-00938,Malual Lual,2025-10-31,M,Paliau PHCC,CHW-019,6.5,Lual Mayen,,6.915318,31.364474,,Cattle camp near Paliau,toVisit
+C-00939,Madut Makuei,2024-10-31,M,Paliau PHCC,CHW-019,4.1,Abuk Thon,+211 91 828 4212,6.945925,31.404567,,Near Paliau market,toVisit
+C-00940,Kuir Mabior,2026-08-10,M,Paliau PHCC,CHW-019,1.3,Amou Chol,+211 92 751 6315,6.951931,31.373753,,Near Paliau market,toVisit
+C-00941,Apajok Anyang,2024-01-20,F,Paliau PHCC,CHW-019,8.9,Amou Malual,+211 98 383 5973,6.961525,31.443034,,Cattle camp near Paliau,toVisit
+C-00942,Dau Achiek,2024-11-30,M,Paliau PHCC,CHW-019,7.3,Ayak Aguer,+211 92 685 8655,6.911821,31.399565,,Near Paliau market,visited
+C-00943,Nyankiir Atem,2026-07-15,F,Paliau PHCC,CHW-019,8.2,Achai Malual,,6.989887,31.327025,,Cattle camp near Paliau,toVisit
+C-00944,Nyandeng Mading,2024-12-13,F,Paliau PHCC,CHW-019,0.6,Adut Malual,,6.964394,31.378369,,"Paliau, near the borehole",toVisit
+C-00945,Garang Kuir,2026-09-24,M,Paliau PHCC,CHW-019,2.6,Kuir Akol,+211 92 731 7750,6.943257,31.370095,,Near Paliau market,visited
+C-00946,Akol Aguer,2024-09-16,M,Paliau PHCC,CHW-019,1.5,Achai Thon,,6.96305,31.388899,,Near Paliau market,toVisit
+C-00947,Akol Bol,2026-03-08,M,Paliau PHCC,CHW-019,1.8,Nyankiir Mayen,+211 98 588 6252,6.947563,31.374959,,"Paliau village, Block B",toVisit
+C-00948,Ater Ayuel,2026-07-17,M,Paliau PHCC,CHW-019,1.5,Nyankiir Kur,+211 98 191 5351,6.950551,31.373267,,"Paliau, near the borehole",toVisit
+C-00949,Nyandeng Mabior,2024-01-30,F,Paliau PHCC,CHW-019,8.3,Awut Kur,+211 91 189 6120,7.019765,31.382319,,Cattle camp near Paliau,toVisit
+C-00950,Amou Ater,2024-08-15,F,Paliau PHCC,CHW-019,2.1,Akon Ajak,+211 92 381 8450,6.950423,31.366682,,"Paliau village, Block C",toVisit
+C-00951,Atong Ater,2024-06-17,F,Paliau PHCC,CHW-019,6.7,Amou Makuei,+211 98 326 2881,6.937549,31.335398,,Cattle camp near Paliau,toVisit
+C-00952,Akon Awan,2025-08-07,F,Paliau PHCC,CHW-019,2.4,Abul Achiek,+211 91 182 4914,6.971911,31.365727,,"Paliau village, by the church",missed
+C-00953,Abuk Awan,2025-07-31,F,Paliau PHCC,CHW-019,3.9,Apajok Mayen,,6.982867,31.361866,,"Paliau village, Block C",toVisit
+C-00954,Majur Makuei,2026-03-22,M,Paliau PHCC,CHW-019,14.6,Abul Garang,+211 92 482 9299,6.965027,31.484319,,Cattle camp near Paliau,missed
+C-00955,Abul Akol,2024-02-28,F,Paliau PHCC,CHW-019,2.8,Akol Kuol,+211 91 265 7995,6.947674,31.394472,,Near Paliau market,toVisit
+C-00956,Nyandeng Makuei,2026-05-06,F,Paliau PHCC,CHW-019,3.7,Achai Chol,+211 91 686 5599,6.954117,31.404617,,"Paliau village, by the church",toVisit
+C-00957,Ajok Deng,2025-02-20,F,Paliau PHCC,CHW-019,13.7,Nyandeng Malual,+211 92 831 6042,6.872647,31.424669,,Cattle camp near Paliau,missed
+C-00958,Achan Achiek,2026-01-19,F,Paliau PHCC,CHW-019,15.0,Achiek Maker,+211 98 810 2270,6.856468,31.409545,,"Paliau, near the borehole",toVisit
+C-00959,Alier Ater,2026-03-02,M,Paliau PHCC,CHW-019,2.2,Akon Deng,+211 92 113 1436,6.945453,31.38462,,Near Paliau market,toVisit
+C-00960,Atem Maker,2025-05-26,M,Paliau PHCC,CHW-019,2.5,Anyieth Bol,+211 91 627 2255,6.976278,31.386359,,Near Paliau market,toVisit
+C-00961,Atem Makuei,2026-01-04,M,Paliau PHCC,CHW-019,9.8,Achol Chol,+211 91 912 1189,6.957235,31.307332,,Cattle camp near Paliau,visited
+C-00962,Awut Malual,2025-03-15,F,Paliau PHCC,CHW-019,2.7,Apajok Thon,+211 98 374 7097,6.954348,31.397167,,"Paliau village, by the church",visited
+C-00963,Manyang Majur,2025-03-17,M,Paliau PHCC,CHW-019,10.8,Ajok Thon,+211 91 733 2882,7.00074,31.44529,,"Paliau village, Block C",toVisit
+C-00964,Maker Ajak,2024-10-11,M,Paliau PHCC,CHW-019,9.7,Ajah Lual,+211 98 365 5803,7.027598,31.360202,,"Paliau, near the borehole",toVisit
+C-00965,Nyibol Dau,2026-06-21,F,Paliau PHCC,CHW-019,2.1,Adut Bol,,6.974975,31.375782,,"Paliau village, by the church",toVisit
+C-00966,Ayak Majok,2025-10-06,F,Paliau PHCC,CHW-019,2.8,Achan Ayuel,+211 98 367 1103,6.962109,31.358204,,"Paliau, near the borehole",toVisit
+C-00967,Alier Deng,2026-09-08,M,Paliau PHCC,CHW-019,4.5,Apajok Akol,+211 92 498 2350,6.98109,31.403312,,"Paliau, near the borehole",toVisit
+C-00968,Abiei Chol,2024-08-14,F,Paliau PHCC,CHW-019,1.6,Ayen Alier,+211 91 225 5641,6.970317,31.383758,,Near Paliau market,visited
+C-00969,Aker Ayuel,2026-05-19,F,Paliau PHCC,CHW-019,2.1,Anyieth Ayuel,+211 98 442 4711,6.947002,31.370737,,"Paliau, near the borehole",visited
+C-00970,Majur Mabior,2025-02-13,M,Paliau PHCC,CHW-019,7.4,Amou Mading,+211 91 453 6583,6.991268,31.334852,,Cattle camp near Paliau,toVisit
+C-00971,Ater Madut,2024-07-16,M,Paliau PHCC,CHW-019,1.9,Adut Awan,+211 91 897 9106,6.946696,31.375468,,"Paliau village, Block C",toVisit
+C-00972,Alier Atem,2026-04-26,M,Paliau PHCC,CHW-019,2.2,Adut Aguer,+211 92 893 6099,6.956611,31.362841,,"Paliau village, Block D",visited
+C-00973,Awut Mading,2025-09-28,F,Paliau PHCC,CHW-019,3.3,Mading Chol,+211 98 326 8427,6.948467,31.399346,,Near Paliau market,toVisit
+C-00974,Aguer Awan,2025-04-19,M,Paliau PHCC,CHW-019,2.4,Abul Arok,+211 98 768 2219,6.975385,31.37033,,"Paliau, near the borehole",visited
+C-00975,Atem Bol,2025-04-26,M,Paliau PHCC,CHW-019,13.0,Nyandeng Malual,+211 92 545 9413,7.028705,31.442683,,Cattle camp near Paliau,toVisit
+C-00976,Akon Kuol,2024-07-02,F,Paliau PHCC,CHW-019,1.9,Nyibol Kur,+211 98 227 4723,6.966562,31.366284,,"Paliau village, Block C",toVisit
+C-00977,Maker Aguer,2025-03-30,M,Paliau PHCC,CHW-019,2.8,Ayak Mayen,+211 98 594 4954,6.974757,31.392373,,"Paliau village, by the church",toVisit
+C-00978,Nyibol Chol,2024-11-28,F,Paliau PHCC,CHW-019,3.4,Chol Chol,,6.983427,31.370966,,"Paliau village, by the church",toVisit
+C-00979,Awut Ajak,2026-01-28,F,Paliau PHCC,CHW-019,2.1,Akuol Anyang,,6.973603,31.371603,,"Paliau village, Block E",toVisit
+C-00980,Akon Ater,2026-07-21,F,Paliau PHCC,CHW-019,3.2,Atong Kuir,,6.960352,31.401663,,"Paliau village, by the church",toVisit
+C-00981,Ayak Madut,2026-01-24,F,Wernyol PHCC,CHW-020,6.5,Anyieth Deng,+211 98 234 2860,7.283351,31.427671,,"Wernyol, near the borehole",missed
+C-00982,Awut Ater,2026-07-22,F,Wernyol PHCC,CHW-020,6.6,Awut Madut,,7.298065,31.45179,,Near Wernyol market,toVisit
+C-00983,Ajak Deng,2026-02-28,M,Wernyol PHCC,CHW-020,2.8,Deng Kur,+211 91 372 5969,7.312312,31.427106,,Near Wernyol market,toVisit
+C-00984,Ayuel Akol,2025-08-23,M,Wernyol PHCC,CHW-020,1.8,Apajok Garang,,7.332026,31.427463,,"Wernyol village, by the church",toVisit
+C-00985,Ajak Kuol,2026-09-06,M,Wernyol PHCC,CHW-020,4.1,Abiei Mading,+211 98 741 5928,7.299525,31.420983,,"Wernyol, near the borehole",visited
+C-00986,Aker Ater,2026-05-12,F,Wernyol PHCC,CHW-020,3.3,Anyieth Chol,+211 92 456 1917,7.336115,31.39219,,"Wernyol village, Block E",toVisit
+C-00987,Ajah Ater,2025-03-19,F,Wernyol PHCC,CHW-020,7.1,Ater Anyang,+211 98 850 3639,7.321859,31.466053,,Cattle camp near Wernyol,toVisit
+C-00988,Mayen Aguer,2025-11-10,M,Wernyol PHCC,CHW-020,10.8,Achol Jok,+211 91 143 7395,7.373872,31.478621,,Cattle camp near Wernyol,toVisit
+C-00989,Dau Mabior,2026-07-03,M,Wernyol PHCC,CHW-020,1.9,Abul Mabior,+211 98 430 8582,7.315192,31.411433,,"Wernyol village, by the church",visited
+C-00990,Kur Garang,2026-09-16,M,Wernyol PHCC,CHW-020,4.3,Aluel Maker,+211 98 927 9776,7.34223,31.442878,,"Wernyol village, Block E",visited
+C-00991,Deng Garang,2025-12-09,M,Wernyol PHCC,CHW-020,3.1,Apajok Ater,+211 98 373 7790,7.308335,31.405086,,"Wernyol village, by the church",toVisit
+C-00992,Thon Kuir,2025-08-04,M,Wernyol PHCC,CHW-020,1.6,Atong Makuei,+211 98 176 1685,7.33262,31.42573,,Near Wernyol market,toVisit
+C-00993,Dau Arok,2024-09-26,M,Wernyol PHCC,CHW-020,0.7,Arok Majur,+211 91 915 1130,7.326223,31.410326,,"Wernyol village, by the church",toVisit
+C-00994,Ayuel Deng,2025-02-26,M,Wernyol PHCC,CHW-020,0.9,Abuk Mabior,+211 91 534 3104,7.332611,31.419907,,"Wernyol, near the borehole",toVisit
+C-00995,Atong Ayuel,2026-07-16,F,Wernyol PHCC,CHW-020,2.1,Abiei Deng,+211 98 835 7878,7.339429,31.425394,,"Wernyol, near the borehole",toVisit
+C-00996,Malual Lual,2026-05-29,M,Wernyol PHCC,CHW-020,5.2,Anyieth Thon,+211 92 117 5475,7.359336,31.436292,,"Wernyol village, Block A",toVisit
+C-00997,Achan Deng,2026-02-15,F,Wernyol PHCC,CHW-020,1.9,Nyibol Chol,,7.315334,31.410923,,"Wernyol village, Block C",toVisit
+C-00998,Achiek Kuol,2025-08-22,M,Wernyol PHCC,CHW-020,14.9,Ayen Majok,+211 91 848 5906,7.228742,31.455099,,Cattle camp near Wernyol,toVisit
+C-00999,Aker Bol,2025-07-24,F,Wernyol PHCC,CHW-020,2.8,Akuol Majur,+211 92 503 7686,7.309792,31.407137,,"Wernyol village, Block B",visited
+C-01000,Nyankiir Deng,2025-11-04,F,Wernyol PHCC,CHW-020,1.4,Ajok Mading,+211 91 623 4122,7.338285,31.412619,,"Wernyol village, by the church",toVisit
+C-01001,Ajah Malual,2025-05-14,F,Wernyol PHCC,CHW-020,5.6,Achol Chol,+211 91 317 4920,7.367943,31.406499,,Near Wernyol market,missed
+C-01002,Atong Akol,2026-08-23,F,Wernyol PHCC,CHW-020,3.7,Akol Madut,,7.339593,31.390464,,"Wernyol village, by the church",missed
+C-01003,Majur Jok,2025-01-23,M,Wernyol PHCC,CHW-020,10.8,Akon Lual,+211 91 165 3230,7.32099,31.336772,,Cattle camp near Wernyol,toVisit
+C-01004,Anyang Mayen,2025-11-13,M,Wernyol PHCC,CHW-020,4.5,Adhieu Atem,+211 98 791 5004,7.348506,31.440587,,Near Wernyol market,missed
+C-01005,Kuol Kuir,2025-04-04,M,Wernyol PHCC,CHW-020,1.5,Kuir Ajak,+211 91 832 6633,7.3382,31.41018,,"Wernyol, near the borehole",toVisit
+C-01006,Garang Ajak,2025-01-01,M,Wernyol PHCC,CHW-020,9.7,Amou Madut,+211 98 664 7165,7.39261,31.442883,,"Wernyol village, by the church",toVisit
+C-01007,Mayen Dau,2025-02-01,M,Wernyol PHCC,CHW-020,13.1,Ajah Achiek,+211 98 233 3331,7.257411,31.477592,,Cattle camp near Wernyol,missed
+C-01008,Madut Ater,2025-02-26,M,Wernyol PHCC,CHW-020,4.9,Anyieth Kuol,+211 92 321 9375,7.293523,31.409627,,Near Wernyol market,visited
+C-01009,Anyang Alier,2025-03-14,M,Wernyol PHCC,CHW-020,0.6,Alier Atem,+211 92 437 2062,7.330202,31.410904,,"Wernyol village, Block C",toVisit
+C-01010,Anyang Thon,2026-02-01,M,Wernyol PHCC,CHW-020,3.3,Anyieth Bol,+211 91 773 2838,7.344912,31.432198,,"Wernyol village, by the church",missed
+C-01011,Jok Mayen,2025-12-14,M,Wernyol PHCC,CHW-020,5.1,Akuol Deng,,7.291693,31.41489,,"Wernyol village, by the church",visited
+C-01012,Maker Alier,2025-09-12,M,Wernyol PHCC,CHW-020,1.2,Akuol Makuei,+211 92 420 8753,7.336128,31.418903,,"Wernyol village, Block A",toVisit
+C-01013,Thon Garang,2025-07-10,M,Wernyol PHCC,CHW-020,4.5,Ayak Awan,+211 92 411 7946,7.305278,31.392011,,"Wernyol village, by the church",visited
+C-01014,Adau Maker,2025-09-05,F,Wernyol PHCC,CHW-020,2.6,Abul Ater,+211 91 775 2011,7.318827,31.398679,,"Wernyol, near the borehole",toVisit
+C-01015,Alier Kur,2024-12-15,M,Wernyol PHCC,CHW-020,10.1,Abul Ajak,+211 91 614 4428,7.285356,31.355741,,Cattle camp near Wernyol,toVisit
+C-01016,Mabior Majur,2025-04-11,M,Wernyol PHCC,CHW-020,2.5,Akon Ajak,+211 98 135 1727,7.340247,31.428621,,"Wernyol village, Block B",toVisit
+C-01017,Kuir Makuei,2025-10-20,M,Wernyol PHCC,CHW-020,6.0,Ayen Kuir,+211 98 697 3778,7.366235,31.393686,,Cattle camp near Wernyol,toVisit
+C-01018,Mabior Alier,2025-03-08,M,Wernyol PHCC,CHW-020,2.5,Akuol Ater,,7.320439,31.431162,,"Wernyol, near the borehole",visited
+C-01019,Atem Thon,2026-05-17,M,Wernyol PHCC,CHW-020,4.3,Awut Mayen,+211 98 886 7149,7.29807,31.408714,,"Wernyol village, by the church",toVisit
+C-01020,Awan Mabior,2024-10-16,M,Wernyol PHCC,CHW-020,1.3,Anyieth Aguer,+211 91 762 3192,7.333429,31.406888,,"Wernyol village, Block C",toVisit
+C-01021,Ajak Ajak,2024-07-23,M,Wernyol PHCC,CHW-020,2.4,Akuol Alier,+211 98 279 6041,7.34368,31.423158,,"Wernyol village, by the church",toVisit
+C-01022,Madut Mading,2025-10-30,M,Wernyol PHCC,CHW-020,11.1,Abul Garang,+211 98 650 4247,7.338061,31.334815,,Cattle camp near Wernyol,toVisit
+C-01023,Ajah Jok,2025-11-26,F,Wernyol PHCC,CHW-020,4.5,Aluel Jok,,7.360492,31.409831,,"Wernyol, near the borehole",toVisit
+C-01024,Arok Kur,2026-04-08,M,Wernyol PHCC,CHW-020,13.9,Kur Alier,+211 91 760 6758,7.364025,31.509312,,Cattle camp near Wernyol,missed
+C-01025,Abul Ayuel,2024-10-02,F,Wernyol PHCC,CHW-020,6.4,Ayak Manyang,+211 98 816 4161,7.331186,31.461314,,Near Wernyol market,toVisit
+C-01026,Bol Atem,2026-07-26,M,Wernyol PHCC,CHW-020,5.6,Anyieth Madut,+211 98 272 8355,7.368712,31.417729,,"Wernyol village, by the church",visited
+C-01027,Thon Mayen,2026-01-07,M,Wernyol PHCC,CHW-020,3.5,Aluel Arok,+211 92 920 5326,7.307587,31.400595,,"Wernyol, near the borehole",toVisit
+C-01028,Achai Atem,2026-03-24,F,Wernyol PHCC,CHW-020,1.5,Aluel Dau,+211 92 463 8194,7.336744,31.421882,,Near Wernyol market,toVisit
+C-01029,Arok Maker,2024-04-14,M,Wernyol PHCC,CHW-020,14.3,Akon Alier,,7.296431,31.51366,,"Wernyol, near the borehole",toVisit
+C-01030,Nyankiir Chol,2024-08-16,F,Wernyol PHCC,CHW-020,6.8,Chol Maker,,7.36707,31.445311,,"Wernyol village, Block E",toVisit
+C-01031,Mayen Ayuel,2026-04-20,M,Poktap PHCC,CHW-021,3.4,Adut Achiek,,7.434277,31.395322,,"Poktap village, Block F",visited
+C-01032,Malual Maker,2026-01-27,M,Poktap PHCC,CHW-021,1.9,Achai Madut,+211 91 418 2854,7.444028,31.417799,,Near Poktap market,toVisit
+C-01033,Lual Arok,2024-04-30,M,Poktap PHCC,CHW-021,8.2,Anyieth Anyang,+211 98 582 9839,7.403562,31.379089,,"Poktap village, Block E",toVisit
+C-01034,Adhieu Alier,2026-09-11,F,Poktap PHCC,CHW-021,1.3,Akuol Deng,+211 92 215 8530,7.458346,31.400391,,Near Poktap market,visited
+C-01035,Nyankiir Thon,2025-11-04,F,Poktap PHCC,CHW-021,1.8,Ayak Atem,+211 92 167 3218,7.466791,31.404488,,Near Poktap market,visited
+C-01036,Nyibol Aguer,2025-01-21,F,Poktap PHCC,CHW-021,12.1,Aguer Akol,+211 92 239 7845,7.372234,31.437849,,Cattle camp near Poktap,toVisit
+C-01037,Deng Malual,2026-02-18,M,Poktap PHCC,CHW-021,4.1,Ajok Garang,+211 92 237 4150,7.4718,31.384808,,Near Poktap market,toVisit
+C-01038,Mabior Mayen,2024-12-03,M,Poktap PHCC,CHW-021,3.8,Mayen Anyang,+211 91 340 1107,7.447367,31.435699,,"Poktap village, by the church",toVisit
+C-01039,Malual Manyang,2026-07-03,M,Poktap PHCC,CHW-021,3.6,Apajok Ater,+211 98 243 7648,7.429909,31.401158,,"Poktap, near the borehole",toVisit
+C-01040,Nyibol Deng,2024-09-02,F,Poktap PHCC,CHW-021,1.5,Nyibol Lual,,7.46542,31.409887,,"Poktap village, Block A",toVisit
+C-01041,Nyankiir Alier,2024-12-16,F,Poktap PHCC,CHW-021,2.9,Alier Alier,+211 92 624 3053,7.460085,31.429421,,Near Poktap market,toVisit
+C-01042,Makuei Bol,2025-11-27,M,Poktap PHCC,CHW-021,4.1,Bol Ajak,,7.447142,31.437896,,Near Poktap market,toVisit
+C-01043,Ajah Majok,2026-06-11,F,Poktap PHCC,CHW-021,3.0,Ajah Anyang,+211 98 819 1279,7.476183,31.410933,,"Poktap village, by the church",toVisit
+C-01044,Abiei Achiek,2026-07-24,F,Poktap PHCC,CHW-021,14.5,Apajok Chol,+211 91 625 3246,7.377223,31.479866,,Cattle camp near Poktap,visited
+C-01045,Amou Akol,2026-04-08,F,Poktap PHCC,CHW-021,8.7,Abul Aguer,+211 92 230 8819,7.429939,31.350946,,"Poktap village, Block A",toVisit
+C-01046,Alier Thon,2025-01-01,M,Poktap PHCC,CHW-021,5.2,Apajok Malual,,7.441699,31.444542,,"Poktap, near the borehole",toVisit
+C-01047,Achan Kuol,2024-12-14,F,Poktap PHCC,CHW-021,3.1,Amou Anyang,+211 92 552 8865,7.471954,31.423311,,"Poktap, near the borehole",toVisit
+C-01048,Ayen Ater,2025-04-21,F,Poktap PHCC,CHW-021,1.5,Adhieu Ater,+211 92 853 7943,7.443847,31.408442,,Near Poktap market,toVisit
+C-01049,Ajok Ayuel,2025-03-19,F,Poktap PHCC,CHW-021,9.4,Ayuel Ajak,,7.39763,31.372158,,Cattle camp near Poktap,missed
+C-01050,Adut Dau,2026-01-07,F,Poktap PHCC,CHW-021,10.8,Achai Chol,+211 98 118 6803,7.428273,31.48293,,Cattle camp near Poktap,toVisit
+C-01051,Alier Akol,2024-06-14,M,Poktap PHCC,CHW-021,3.1,Akuol Arok,+211 91 658 3017,7.469934,31.392644,,Near Poktap market,toVisit
+C-01052,Achiek Thon,2025-12-17,M,Poktap PHCC,CHW-021,2.1,Apajok Thon,,7.441403,31.41647,,"Poktap village, by the church",toVisit
+C-01053,Mayen Malual,2025-03-04,M,Poktap PHCC,CHW-021,10.3,Akon Bol,,7.465484,31.335006,,"Poktap village, by the church",toVisit
+C-01054,Makuei Ater,2026-01-22,M,Poktap PHCC,CHW-021,4.2,Adau Makuei,+211 91 313 7955,7.424433,31.41104,,"Poktap, near the borehole",toVisit
+C-01055,Amou Jok,2025-04-15,F,Poktap PHCC,CHW-021,2.7,Abiei Mading,,7.474078,31.408146,,"Poktap village, Block B",visited
+C-01056,Nyibol Maker,2024-11-30,F,Poktap PHCC,CHW-021,10.3,Awut Dau,+211 91 247 1146,7.473478,31.336654,,Cattle camp near Poktap,visited
+C-01057,Nyandeng Mayen,2026-06-20,F,Poktap PHCC,CHW-021,1.1,Adau Majok,+211 98 529 8161,7.462085,31.411818,,"Poktap village, Block F",toVisit
+C-01058,Thon Kuir,2025-07-05,M,Poktap PHCC,CHW-021,17.1,Adut Makuei,+211 92 819 5576,7.552284,31.333233,,Cattle camp near Poktap,visited
+C-01059,Aguer Bol,2024-09-28,M,Poktap PHCC,CHW-021,3.1,Apajok Manyang,+211 92 680 2140,7.472101,31.395012,,"Poktap village, by the church",missed
+C-01060,Atem Mading,2025-10-19,M,Poktap PHCC,CHW-021,2.9,Anyieth Madut,+211 91 670 6742,7.444924,31.427733,,"Poktap, near the borehole",visited
+C-01061,Kuol Aguer,2025-11-20,M,Poktap PHCC,CHW-021,11.5,Aker Garang,+211 92 558 4936,7.453049,31.492644,,Near Poktap market,toVisit
+C-01062,Achai Mayen,2025-06-25,F,Poktap PHCC,CHW-021,3.7,Aluel Madut,+211 91 606 2503,7.480843,31.404077,,"Poktap village, Block C",missed
+C-01063,Dau Kuir,2026-09-20,M,Poktap PHCC,CHW-021,2.3,Kuir Bol,+211 98 834 7190,7.438098,31.410149,,"Poktap, near the borehole",visited
+C-01064,Awan Kuir,2025-10-20,M,Poktap PHCC,CHW-021,1.7,Kuir Malual,+211 91 546 4428,7.45643,31.421294,,Near Poktap market,visited
+C-01065,Nyandeng Alier,2025-12-04,F,Poktap PHCC,CHW-021,15.0,Ayak Manyang,,7.505727,31.312982,,"Poktap village, Block C",toVisit
+C-01066,Atong Mabior,2024-03-26,F,Poktap PHCC,CHW-021,1.7,Anyieth Kuol,+211 98 648 8580,7.451759,31.42108,,"Poktap village, by the church",visited
+C-01067,Lual Majur,2026-03-17,M,Poktap PHCC,CHW-021,5.7,Anyieth Thon,+211 91 774 5512,7.437539,31.446741,,"Poktap, near the borehole",visited
+C-01068,Deng Bol,2025-05-27,M,Poktap PHCC,CHW-021,11.1,Apajok Lual,+211 98 929 6039,7.376722,31.390783,,Cattle camp near Poktap,toVisit
+C-01069,Majok Majur,2025-10-16,M,Poktap PHCC,CHW-021,17.3,Amou Bol,+211 98 861 4377,7.579165,31.415432,,Cattle camp near Poktap,toVisit
+C-01070,Ajak Ajak,2025-03-09,M,Poktap PHCC,CHW-021,5.5,Nyankiir Alier,+211 91 828 5308,7.447757,31.3697,,Near Poktap market,toVisit
+C-01071,Ajah Malual,2025-07-06,F,Poktap PHCC,CHW-021,1.2,Nyankiir Bol,+211 91 948 6553,7.461547,31.403821,,"Poktap village, Block B",missed
+C-01072,Achol Aguer,2026-05-01,F,Poktap PHCC,CHW-021,6.8,Abuk Maker,+211 92 157 7773,7.406926,31.420357,,"Poktap village, by the church",visited
+C-01073,Abuk Bol,2024-09-05,F,Poktap PHCC,CHW-021,3.9,Abiei Malual,,7.482232,31.403661,,"Poktap village, by the church",toVisit
+C-01074,Adhieu Ayuel,2026-01-13,F,Poktap PHCC,CHW-021,2.7,Akon Jok,+211 92 533 1913,7.436741,31.41677,,Near Poktap market,toVisit
+C-01075,Makuei Madut,2026-05-16,M,Poktap PHCC,CHW-021,3.3,Nyankiir Deng,+211 91 252 7368,7.472231,31.425213,,"Poktap, near the borehole",toVisit
+C-01076,Kur Ater,2025-09-20,M,Poktap PHCC,CHW-021,16.3,Ajah Bol,+211 91 257 7069,7.531247,31.498893,,Cattle camp near Poktap,toVisit
+C-01077,Abiei Akol,2026-06-05,F,Poktap PHCC,CHW-021,6.9,Nyankiir Mading,,7.504157,31.404437,,"Poktap village, by the church",visited
+C-01078,Chol Achiek,2026-07-11,M,Poktap PHCC,CHW-021,9.3,Aker Deng,+211 98 119 4650,7.431935,31.472672,,"Poktap village, by the church",toVisit
+C-01079,Adau Ayuel,2026-08-13,F,Poktap PHCC,CHW-021,2.4,Ayuel Aguer,+211 98 814 4792,7.464212,31.39454,,"Poktap, near the borehole",toVisit
+C-01080,Ajah Achiek,2026-04-19,F,Poktap PHCC,CHW-021,3.9,Abuk Mayen,+211 98 755 5288,7.428112,31.418439,,"Poktap village, Block E",toVisit
+C-01081,Gatwech Chuol,2026-03-11,M,Mogok PHCU,CHW-022,3.5,Chuol Yiech,+211 91 969 3380,8.423376,31.350608,,Near Mogok market,toVisit
+C-01082,Nyandit Pal,2026-06-27,F,Mogok PHCU,CHW-022,0.9,Nyayien Wuor,+211 91 897 5742,8.408365,31.333909,,"Mogok village, Block E",toVisit
+C-01083,Duol Ruach,2026-02-27,M,Mogok PHCU,CHW-022,2.3,Nyayien Majiok,+211 91 760 5174,8.418749,31.339168,,"Mogok village, by the church",toVisit
+C-01084,Tap Gai,2025-04-04,M,Mogok PHCU,CHW-022,0.4,Nyaduoth Puok,,8.401939,31.339338,,"Mogok, near the borehole",missed
+C-01085,Nyakume Tut,2024-08-22,F,Mogok PHCU,CHW-022,3.4,Tut Puok,,8.42094,31.320275,,"Mogok village, by the church",toVisit
+C-01086,Tap Ter,2024-11-30,M,Mogok PHCU,CHW-022,15.8,Ter Wal,+211 92 962 2628,8.380662,31.449455,,Cattle camp near Mogok,missed
+C-01087,Thok Riek,2025-10-22,M,Mogok PHCU,CHW-022,3.9,Nyathak Gai,+211 92 634 2342,8.429463,31.328819,,"Mogok, near the borehole",toVisit
+C-01088,Nyaduoth Chuol,2025-12-03,F,Mogok PHCU,CHW-022,2.7,Nyakuoth Gach,,8.421795,31.334985,,"Mogok, near the borehole",toVisit
+C-01089,Puok Nhial,2026-04-04,M,Mogok PHCU,CHW-022,2.0,Nhial Duol,+211 98 496 2549,8.413639,31.34557,,"Mogok village, by the church",toVisit
+C-01090,Machar Ter,2025-11-09,M,Mogok PHCU,CHW-022,2.8,Nyanhial Reath,,8.384221,31.345338,,"Mogok, near the borehole",toVisit
+C-01091,Buom Buom,2026-03-27,M,Mogok PHCU,CHW-022,13.0,Nyatuach Dak,,8.336836,31.268792,,Cattle camp near Mogok,visited
+C-01092,Nyawech Majiok,2026-05-17,F,Mogok PHCU,CHW-022,14.8,Majiok Pal,+211 92 365 8594,8.383501,31.44258,,Cattle camp near Mogok,visited
+C-01093,Nyaboth Diew,2026-03-25,F,Mogok PHCU,CHW-022,5.7,Nyathak Thok,+211 91 134 3567,8.419622,31.374157,,"Mogok village, Block C",toVisit
+C-01094,Reath Nhial,2026-05-15,M,Mogok PHCU,CHW-022,5.2,Nyagoa Gai,,8.401671,31.374337,,"Mogok village, Block F",toVisit
+C-01095,Nyaruach Machar,2025-01-11,F,Mogok PHCU,CHW-022,2.6,Nyakuoth Kong,+211 92 524 6078,8.41625,31.323712,,Near Mogok market,toVisit
+C-01096,Nyaluak Kueth,2025-01-29,F,Mogok PHCU,CHW-022,2.0,Nyagai Gach,+211 91 710 3879,8.41005,31.348803,,"Mogok, near the borehole",toVisit
+C-01097,Gatluak Pal,2025-08-15,M,Mogok PHCU,CHW-022,10.1,Nyadak Yiech,+211 98 930 5443,8.4564,31.385792,,Near Mogok market,toVisit
+C-01098,Buom Machar,2024-09-27,M,Mogok PHCU,CHW-022,9.6,Nyadak Tap,,8.470354,31.323355,,Cattle camp near Mogok,visited
+C-01099,Nyabuay Majiok,2024-10-07,F,Mogok PHCU,CHW-022,5.1,Nyathak Biel,+211 98 402 7332,8.418618,31.303122,,"Mogok village, by the church",toVisit
+C-01100,Nyatuach Riek,2025-09-30,F,Mogok PHCU,CHW-022,5.6,Nyadak Jal,,8.363919,31.324124,,"Mogok, near the borehole",toVisit
+C-01101,Nyagoa Dak,2025-12-28,F,Mogok PHCU,CHW-022,6.6,Nyabol Yiech,,8.365423,31.3062,,Cattle camp near Mogok,toVisit
+C-01102,Nyawech Gatwech,2026-04-19,F,Mogok PHCU,CHW-022,8.7,Nyaluak Dak,+211 98 914 5246,8.4518,31.297438,,"Mogok, near the borehole",toVisit
+C-01103,Gatluak Gatkuoth,2024-12-24,M,Mogok PHCU,CHW-022,0.5,Nyandit Thok,,8.404938,31.339036,,"Mogok village, Block A",toVisit
+C-01104,Nyaboth Chuol,2026-06-22,F,Mogok PHCU,CHW-022,4.0,Nyadak Nhial,+211 92 946 7682,8.390895,31.309735,,"Mogok village, by the church",toVisit
+C-01105,Puok Yien,2025-09-25,M,Mogok PHCU,CHW-022,16.5,Nyaluak Chuol,+211 92 882 1539,8.467679,31.436932,,Cattle camp near Mogok,toVisit
+C-01106,Gatkuoth Gach,2025-01-26,M,Mogok PHCU,CHW-022,1.3,Gach Kuany,+211 92 520 3974,8.409702,31.330538,,"Mogok village, by the church",toVisit
+C-01107,Duol Chuol,2026-08-11,M,Mogok PHCU,CHW-022,4.7,Nyaluak Chuol,+211 91 102 7350,8.420789,31.36521,,"Mogok village, Block E",visited
+C-01108,Nyadak Koang,2026-09-23,F,Mogok PHCU,CHW-022,2.7,Nyakong Chuol,+211 98 231 7996,8.393799,31.35411,,"Mogok village, by the church",visited
+C-01109,Nyayien Yien,2024-07-10,F,Mogok PHCU,CHW-022,2.3,Nyakim Majiok,,8.418876,31.338212,,"Mogok village, Block F",toVisit
+C-01110,Nyachuol Lam,2025-10-08,F,Mogok PHCU,CHW-022,1.5,Nyatuach Gatdet,,8.402937,31.325546,,"Mogok village, Block F",toVisit
+C-01111,Yiech Machar,2026-04-23,M,Mogok PHCU,CHW-022,1.0,Nyaboth Gatdet,+211 91 606 8578,8.408287,31.340649,,Near Mogok market,visited
+C-01112,Majiok Wal,2025-11-05,M,Mogok PHCU,CHW-022,3.4,Nyaluak Pal,+211 91 275 9273,8.378688,31.342746,,"Mogok, near the borehole",toVisit
+C-01113,Kong Kuany,2025-03-20,M,Mogok PHCU,CHW-022,2.5,Nyalam Bichiok,+211 92 498 9679,8.397636,31.318892,,"Mogok village, Block E",toVisit
+C-01114,Nyapal Majiok,2025-10-15,F,Mogok PHCU,CHW-022,2.1,Nyaduoth Wal,,8.414509,31.327295,,"Mogok village, Block F",missed
+C-01115,Yien Biel,2024-08-28,M,Mogok PHCU,CHW-022,11.1,Nyaluak Pal,,8.434674,31.410451,,Near Mogok market,toVisit
+C-01116,Koang Tap,2025-12-22,M,Mogok PHCU,CHW-022,1.4,Nyabol Biel,+211 92 156 1755,8.411198,31.331484,,"Mogok village, Block E",visited
+C-01117,Yien Wuor,2026-02-19,M,Mogok PHCU,CHW-022,2.8,Nyachuol Yiech,+211 98 554 9363,8.400631,31.316138,,"Mogok village, by the church",toVisit
+C-01118,Nyatuach Buom,2025-01-22,F,Mogok PHCU,CHW-022,5.5,Nyagoa Puok,+211 91 571 3045,8.363546,31.328471,,"Mogok, near the borehole",toVisit
+C-01119,Buom Pal,2025-08-22,M,Mogok PHCU,CHW-022,4.5,Nyakim Gach,+211 91 251 5752,8.387919,31.3658,,"Mogok village, Block E",toVisit
+C-01120,Nyagai Kueth,2025-10-24,F,Mogok PHCU,CHW-022,3.9,Kueth Majiok,+211 92 862 8402,8.414269,31.362211,,Near Mogok market,toVisit
+C-01121,Nyakume Gai,2026-06-10,F,Mogok PHCU,CHW-022,2.3,Gai Majiok,,8.401003,31.319762,,"Mogok village, by the church",toVisit
+C-01122,Majiok Diew,2024-12-03,M,Mogok PHCU,CHW-022,12.4,Nyawech Gatluak,,8.35424,31.260354,,Cattle camp near Mogok,toVisit
+C-01123,Buom Reath,2025-11-28,M,Mogok PHCU,CHW-022,1.7,Nyachuol Nhial,,8.412958,31.330193,,"Mogok village, by the church",toVisit
+C-01124,Nyatuach Riek,2025-10-09,F,Mogok PHCU,CHW-022,2.2,Nyandit Ruach,+211 91 772 3206,8.398904,31.352096,,Near Mogok market,toVisit
+C-01125,Lam Tut,2026-03-27,M,Mogok PHCU,CHW-022,14.7,Nyathak Biel,+211 92 648 6167,8.38163,31.441479,,"Mogok village, Block E",toVisit
+C-01126,Nyariek Gai,2026-04-03,F,Mogok PHCU,CHW-022,0.7,Nyakuoth Gatluak,,8.405544,31.33248,,"Mogok village, Block C",missed
+C-01127,Nyamal Gai,2025-04-18,F,Mogok PHCU,CHW-022,1.7,Nyakim Bichiok,+211 98 964 2837,8.411189,31.345079,,"Mogok, near the borehole",toVisit
+C-01128,Nyakuoth Gatwech,2026-03-21,F,Mogok PHCU,CHW-022,12.6,Nyakuoth Wuor,,8.491709,31.353031,,Cattle camp near Mogok,missed
+C-01129,Machar Chuol,2024-12-02,M,Mogok PHCU,CHW-022,5.7,Nyandit Ter,+211 92 818 7875,8.425481,31.370806,,"Mogok, near the borehole",toVisit
+C-01130,Nyamuch Bichiok,2025-03-12,F,Mogok PHCU,CHW-022,10.8,Nyandit Puok,,8.404428,31.257805,,"Mogok village, Block E",toVisit
+C-01131,Nyachuol Wal,2025-09-20,F,Pagil PHCU,CHW-023,2.4,Nyaluak Puok,+211 92 736 8411,8.727155,31.263409,,Near Pagil market,toVisit
+C-01132,Gatdet Yiech,2024-10-21,M,Pagil PHCU,CHW-023,2.6,Nyakong Bichiok,+211 92 347 3813,8.702197,31.286065,,"Pagil, near the borehole",toVisit
+C-01133,Tut Nhial,2026-04-25,M,Pagil PHCU,CHW-023,3.3,Nyakong Pal,+211 98 910 4935,8.687249,31.272224,,"Pagil, near the borehole",visited
+C-01134,Nyamuch Gatdet,2024-03-14,F,Pagil PHCU,CHW-023,6.7,Nyakim Bichiok,+211 98 523 5836,8.742275,31.232158,,"Pagil village, Block A",toVisit
+C-01135,Nyandit Biel,2025-09-20,F,Pagil PHCU,CHW-023,6.7,Nyanhial Duol,,8.758405,31.277733,,"Pagil village, by the church",toVisit
+C-01136,Tap Wuor,2025-04-18,M,Pagil PHCU,CHW-023,1.1,Nyalam Thok,+211 91 366 5342,8.718748,31.268551,,"Pagil village, by the church",visited
+C-01137,Nyayien Jal,2025-03-09,F,Pagil PHCU,CHW-023,17.1,Nyaduoth Gatdet,+211 91 556 4229,8.659938,31.155705,,Cattle camp near Pagil,toVisit
+C-01138,Yien Machar,2025-12-29,M,Pagil PHCU,CHW-023,1.4,Nyakume Wuor,,8.716594,31.277642,,"Pagil village, by the church",toVisit
+C-01139,Nyaruach Thok,2025-10-06,F,Pagil PHCU,CHW-023,13.0,Nyaruach Wuor,+211 92 620 9577,8.619822,31.291699,,Cattle camp near Pagil,toVisit
+C-01140,Nyachuol Kuany,2025-03-29,F,Pagil PHCU,CHW-023,2.6,Nyakuoth Ruach,,8.723678,31.255431,,"Pagil, near the borehole",toVisit
+C-01141,Tut Majiok,2024-12-06,M,Pagil PHCU,CHW-023,3.4,Nyatuach Jal,,8.728888,31.28603,,"Pagil village, by the church",toVisit
+C-01142,Nyapal Kuany,2023-07-06,F,Pagil PHCU,CHW-023,5.0,Kuany Thok,,8.678137,31.284542,,"Pagil village, by the church",toVisit
+C-01143,Nyariek Duol,2025-01-16,F,Pagil PHCU,CHW-023,15.0,Nyamal Kuany,,8.604319,31.287866,,"Pagil, near the borehole",toVisit
+C-01144,Kueth Yiech,2025-03-18,M,Pagil PHCU,CHW-023,3.2,Yiech Riek,,8.697853,31.249975,,"Pagil village, Block D",visited
+C-01145,Nyanhial Nhial,2025-02-18,F,Pagil PHCU,CHW-023,8.2,Nyatuach Chuol,+211 98 952 7011,8.673418,31.222983,,"Pagil, near the borehole",toVisit
+C-01146,Nyariek Dak,2025-07-13,F,Pagil PHCU,CHW-023,3.0,Nyaruach Reath,+211 92 445 4695,8.730708,31.277902,,"Pagil village, Block C",toVisit
+C-01147,Gatwech Yiech,2025-02-08,M,Pagil PHCU,CHW-023,3.5,Nyakuoth Dak,+211 92 304 3329,8.721231,31.245991,,"Pagil, near the borehole",toVisit
+C-01148,Biel Majiok,2026-03-12,M,Pagil PHCU,CHW-023,3.9,Majiok Gatkuoth,,8.711929,31.297665,,"Pagil, near the borehole",toVisit
+C-01149,Nyakuoth Bichiok,2025-08-24,F,Pagil PHCU,CHW-023,3.4,Nyakuoth Diew,,8.706595,31.244836,,Near Pagil market,toVisit
+C-01150,Kong Chuol,2025-05-21,M,Pagil PHCU,CHW-023,2.4,Nyamuch Gatkuoth,+211 92 134 4705,8.715356,31.286145,,"Pagil village, Block F",missed
+C-01151,Kuany Koang,2024-12-30,M,Pagil PHCU,CHW-023,5.5,Nyamal Thok,+211 91 516 6822,8.707464,31.229294,,"Pagil, near the borehole",toVisit
+C-01152,Ruach Riek,2025-08-10,M,Pagil PHCU,CHW-023,2.5,Riek Jal,+211 98 748 7228,8.72293,31.255725,,Near Pagil market,toVisit
+C-01153,Tap Gatluak,2026-05-23,M,Pagil PHCU,CHW-023,1.0,Nyadak Gatluak,+211 91 313 7329,8.7173,31.265997,,"Pagil village, by the church",toVisit
+C-01154,Nyapal Reath,2026-08-24,F,Pagil PHCU,CHW-023,12.8,Nyanhial Yien,+211 98 839 3837,8.622351,31.295601,,"Pagil, near the borehole",toVisit
+C-01155,Riek Ruach,2024-12-24,M,Pagil PHCU,CHW-023,2.6,Nyalam Tut,,8.710392,31.288202,,Near Pagil market,toVisit
+C-01156,Riek Yien,2026-06-12,M,Pagil PHCU,CHW-023,7.8,Yien Koang,+211 91 815 2768,8.654656,31.267662,,"Pagil village, Block E",visited
+C-01157,Nyalam Gai,2024-12-04,F,Pagil PHCU,CHW-023,1.3,Nyayien Gatkuoth,,8.714208,31.260401,,"Pagil, near the borehole",toVisit
+C-01158,Gai Duol,2025-11-29,M,Pagil PHCU,CHW-023,2.6,Nyakim Duol,+211 91 946 6860,8.729008,31.273932,,"Pagil village, by the church",visited
+C-01159,Kong Nhial,2025-12-06,M,Pagil PHCU,CHW-023,3.9,Nyatuach Riek,+211 98 482 3737,8.689863,31.250333,,"Pagil village, by the church",toVisit
+C-01160,Nyakim Wal,2026-03-04,F,Pagil PHCU,CHW-023,4.4,Nyathak Reath,+211 92 640 7615,8.708307,31.237272,,"Pagil, near the borehole",missed
+C-01161,Nyanhial Tut,2025-05-09,F,Pagil PHCU,CHW-023,0.9,Nyaduoth Kueth,+211 91 941 1197,8.71726,31.268246,,"Pagil, near the borehole",toVisit
+C-01162,Kong Chuol,2024-12-18,M,Pagil PHCU,CHW-023,3.7,Chuol Diew,+211 91 855 4971,8.729172,31.288851,,Near Pagil market,toVisit
+C-01163,Nyabuay Bichiok,2025-11-24,F,Pagil PHCU,CHW-023,2.2,Nyawech Gatkuoth,+211 92 309 4543,8.706267,31.253894,,"Pagil village, by the church",visited
+C-01164,Duol Wal,2025-04-29,M,Pagil PHCU,CHW-023,7.2,Nyachuol Gatluak,+211 98 377 1063,8.70913,31.321719,,"Pagil, near the borehole",toVisit
+C-01165,Thok Thok,2025-12-27,M,Pagil PHCU,CHW-023,1.8,Nyakume Chuol,+211 98 571 5389,8.71488,31.256775,,"Pagil village, Block E",toVisit
+C-01166,Reath Biel,2026-02-03,M,Pagil PHCU,CHW-023,4.1,Nyakong Tap,,8.729805,31.246316,,"Pagil village, Block A",visited
+C-01167,Reath Majiok,2025-05-01,M,Pagil PHCU,CHW-023,4.5,Nyapal Majiok,,8.682135,31.253998,,"Pagil village, by the church",toVisit
+C-01168,Gatdet Ter,2025-03-07,M,Pagil PHCU,CHW-023,2.0,Nyapal Puok,+211 91 736 3031,8.716528,31.282653,,"Pagil village, Block A",toVisit
+C-01169,Nyaboth Wuor,2026-06-17,F,Pagil PHCU,CHW-023,4.3,Nyanhial Yien,+211 98 317 8547,8.684626,31.252543,,Near Pagil market,toVisit
+C-01170,Tap Gach,2026-03-11,M,Pagil PHCU,CHW-023,9.0,Nyanhial Gai,,8.650582,31.293513,,"Pagil village, by the church",toVisit
+C-01171,Nyakim Tut,2025-03-03,F,Pagil PHCU,CHW-023,1.4,Nyakong Wuor,+211 92 430 4410,8.706924,31.278653,,"Pagil village, Block B",toVisit
+C-01172,Chuol Thok,2025-01-31,M,Pagil PHCU,CHW-023,0.2,Nyaduoth Jal,+211 98 787 7872,8.710136,31.267983,,Near Pagil market,toVisit
+C-01173,Nyalam Gai,2025-06-25,F,Pagil PHCU,CHW-023,7.8,Nyandit Chuol,+211 91 570 7072,8.74691,31.31288,,Cattle camp near Pagil,toVisit
+C-01174,Puok Ruach,2026-03-01,M,Pagil PHCU,CHW-023,3.2,Nyagoa Gach,+211 92 179 9973,8.690679,31.280562,,Near Pagil market,toVisit
+C-01175,Bichiok Tut,2025-01-10,M,Pagil PHCU,CHW-023,11.4,Nyaluak Ter,+211 98 487 5774,8.765827,31.331021,,Cattle camp near Pagil,toVisit
+C-01176,Wal Dak,2026-04-27,M,Pagil PHCU,CHW-023,2.5,Nyandit Yiech,+211 98 447 7890,8.696091,31.279705,,"Pagil village, by the church",toVisit
+C-01177,Nyaluak Puok,2026-08-26,F,Pagil PHCU,CHW-023,1.7,Nyaboth Wuor,,8.699197,31.26542,,Near Pagil market,visited
+C-01178,Wal Kuany,2026-09-16,M,Pagil PHCU,CHW-023,2.3,Nyandit Chuol,+211 98 765 6807,8.724071,31.259134,,"Pagil village, by the church",visited
+C-01179,Nyandit Koang,2025-02-07,F,Pagil PHCU,CHW-023,1.5,Nyathak Buom,+211 91 961 3139,8.7001,31.270412,,Near Pagil market,toVisit
+C-01180,Nyamuch Tap,2026-06-16,F,Pagil PHCU,CHW-023,16.0,Tap Yien,+211 91 766 8970,8.664684,31.162346,,Cattle camp near Pagil,toVisit
+C-01181,Nyatuach Kueth,2026-08-06,F,Ascom Ayod PHCC,CHW-024,9.4,Nyadak Wal,+211 92 621 6559,8.083695,31.453883,,Cattle camp near Ayod,visited
+C-01182,Gai Gatwech,2026-01-15,M,Ascom Ayod PHCC,CHW-024,1.0,Nyabol Kueth,+211 98 589 5839,8.131793,31.40343,,"Ayod, near the borehole",toVisit
+C-01183,Nyatuach Kong,2025-02-03,F,Ascom Ayod PHCC,CHW-024,5.5,Nyakong Buom,+211 91 307 6535,8.171366,31.426633,,"Ayod village, Block A",missed
+C-01184,Nyanhial Wuor,2026-03-26,F,Ascom Ayod PHCC,CHW-024,2.5,Nyatuach Tut,+211 98 813 8681,8.147659,31.423086,,Near Ayod market,toVisit
+C-01185,Nyakuoth Gatwech,2026-03-31,F,Ascom Ayod PHCC,CHW-024,4.6,Gatwech Machar,+211 98 485 6863,8.105369,31.423811,,"Ayod, near the borehole",toVisit
+C-01186,Nyawech Bichiok,2025-06-09,F,Ascom Ayod PHCC,CHW-024,4.5,Nyakim Kong,+211 98 124 8884,8.106672,31.424838,,"Ayod village, Block E",toVisit
+C-01187,Duol Reath,2024-11-18,M,Ascom Ayod PHCC,CHW-024,2.7,Nyaboth Gatkuoth,+211 91 816 5472,8.154117,31.415227,,"Ayod village, by the church",toVisit
+C-01188,Nyakong Gatdet,2025-06-26,F,Ascom Ayod PHCC,CHW-024,1.2,Nyakume Riek,+211 91 695 8841,8.132911,31.401355,,"Ayod village, by the church",toVisit
+C-01189,Koang Gatwech,2025-05-21,M,Ascom Ayod PHCC,CHW-024,7.1,Nyakuoth Riek,+211 92 350 7987,8.143974,31.460677,,Cattle camp near Ayod,toVisit
+C-01190,Yiech Lam,2025-12-10,M,Ascom Ayod PHCC,CHW-024,3.6,Nyakong Duol,+211 91 288 5920,8.129207,31.384268,,"Ayod village, Block F",missed
+C-01191,Chuol Yien,2026-03-25,M,Ascom Ayod PHCC,CHW-024,5.7,Nyariek Tap,+211 91 715 8016,8.164941,31.380831,,Near Ayod market,visited
+C-01192,Majiok Majiok,2025-07-01,M,Ascom Ayod PHCC,CHW-024,8.2,Nyariek Ruach,+211 98 675 7327,8.112064,31.464541,,"Ayod village, by the church",toVisit
+C-01193,Duol Duol,2026-04-18,M,Ascom Ayod PHCC,CHW-024,2.1,Nyaruach Thok,,8.148639,31.402228,,"Ayod village, Block D",missed
+C-01194,Nyapal Ter,2025-12-12,F,Ascom Ayod PHCC,CHW-024,1.6,Nyakume Ruach,+211 98 489 2354,8.139156,31.398683,,"Ayod village, by the church",toVisit
+C-01195,Wuor Kong,2024-12-07,M,Ascom Ayod PHCC,CHW-024,1.0,Nyachuol Diew,+211 92 224 4980,8.134662,31.402472,,"Ayod village, Block F",toVisit
+C-01196,Yiech Lam,2026-06-30,M,Ascom Ayod PHCC,CHW-024,5.6,Lam Nhial,+211 91 149 3228,8.133187,31.450417,,Near Ayod market,toVisit
+C-01197,Wal Pal,2025-08-10,M,Ascom Ayod PHCC,CHW-024,5.6,Nyakume Dak,+211 92 139 7121,8.135581,31.45048,,Near Ayod market,toVisit
+C-01198,Ruach Nhial,2025-06-24,M,Ascom Ayod PHCC,CHW-024,16.1,Nyakume Koang,,8.231751,31.475086,,Cattle camp near Ayod,visited
+C-01199,Nyalam Machar,2026-08-16,F,Ascom Ayod PHCC,CHW-024,7.4,Nyalam Bichiok,,8.083069,31.399522,,Cattle camp near Ayod,missed
+C-01200,Gai Gai,2026-09-14,M,Ascom Ayod PHCC,CHW-024,1.3,Nyathak Nhial,,8.143253,31.404486,,"Ayod village, Block E",visited
+C-01201,Gai Dak,2025-06-05,M,Ascom Ayod PHCC,CHW-024,2.5,Nyaduoth Gatdet,,8.129902,31.42703,,"Ayod, near the borehole",toVisit
+C-01202,Nyagai Gach,2025-11-01,F,Ascom Ayod PHCC,CHW-024,3.8,Nyapal Yien,+211 98 818 3301,8.154772,31.390113,,"Ayod village, by the church",toVisit
+C-01203,Buom Ruach,2024-11-22,M,Ascom Ayod PHCC,CHW-024,17.0,Nyakuoth Kong,+211 91 538 2678,8.171058,31.528133,,Cattle camp near Ayod,toVisit
+C-01204,Nyapal Kuany,2026-06-03,F,Ascom Ayod PHCC,CHW-024,1.2,Kuany Puok,+211 92 180 9924,8.14296,31.414025,,"Ayod, near the borehole",visited
+C-01205,Majiok Riek,2026-04-26,M,Ascom Ayod PHCC,CHW-024,2.7,Nyakume Bichiok,+211 92 151 8081,8.153189,31.401652,,"Ayod village, Block B",toVisit
+C-01206,Gatwech Kuany,2024-09-08,M,Ascom Ayod PHCC,CHW-024,2.5,Nyaluak Gatdet,+211 98 849 4600,8.151743,31.40196,,"Ayod, near the borehole",toVisit
+C-01207,Gatwech Kong,2026-01-28,M,Ascom Ayod PHCC,CHW-024,7.1,Kong Gach,+211 91 991 9965,8.124277,31.460156,,"Ayod, near the borehole",toVisit
+C-01208,Tut Yiech,2025-03-22,M,Ascom Ayod PHCC,CHW-024,12.4,Nyabuay Gatwech,+211 98 913 2409,8.223197,31.392639,,Cattle camp near Ayod,toVisit
+C-01209,Gatluak Duol,2025-02-19,M,Ascom Ayod PHCC,CHW-024,2.5,Nyakim Lam,,8.152507,31.403874,,"Ayod village, Block B",toVisit
+C-01210,Pal Nhial,2026-02-05,M,Ascom Ayod PHCC,CHW-024,3.5,Nyaboth Yiech,+211 92 430 9186,8.110237,31.408643,,Near Ayod market,toVisit
+C-01211,Wal Gai,2025-12-10,M,Ascom Ayod PHCC,CHW-024,1.6,Gai Riek,,8.124136,31.412012,,Near Ayod market,toVisit
+C-01212,Nyanhial Jal,2026-03-03,F,Ascom Ayod PHCC,CHW-024,8.6,Nyawech Nhial,+211 91 122 4978,8.078994,31.383845,,"Ayod village, by the church",visited
+C-01213,Gatkuoth Thok,2025-01-16,M,Ascom Ayod PHCC,CHW-024,7.6,Nyakim Koang,+211 91 185 8354,8.127628,31.354944,,"Ayod, near the borehole",toVisit
+C-01214,Nyalam Gatkuoth,2025-12-13,F,Ascom Ayod PHCC,CHW-024,1.6,Nyabol Kueth,+211 91 205 6130,8.13099,31.398964,,Near Ayod market,visited
+C-01215,Nyakim Chuol,2025-08-22,F,Ascom Ayod PHCC,CHW-024,12.3,Chuol Gai,,8.078814,31.34081,,Cattle camp near Ayod,toVisit
+C-01216,Gatkuoth Thok,2026-03-17,M,Ascom Ayod PHCC,CHW-024,2.1,Thok Duol,,8.148427,31.417562,,"Ayod village, by the church",toVisit
+C-01217,Gai Gai,2026-03-06,M,Ascom Ayod PHCC,CHW-024,2.2,Nyakong Diew,+211 98 700 7228,8.140837,31.394649,,"Ayod village, by the church",toVisit
+C-01218,Duol Machar,2025-10-12,M,Ascom Ayod PHCC,CHW-024,1.7,Machar Biel,+211 92 359 7967,8.138858,31.421595,,"Ayod village, by the church",toVisit
+C-01219,Thok Kong,2026-03-22,M,Ascom Ayod PHCC,CHW-024,9.1,Nyaduoth Gatwech,,8.115609,31.472861,,Cattle camp near Ayod,toVisit
+C-01220,Nyandit Ruach,2024-12-30,F,Ascom Ayod PHCC,CHW-024,1.4,Nyamuch Pal,,8.142436,31.402366,,"Ayod village, by the church",toVisit
+C-01221,Nyanhial Yiech,2024-08-15,F,Ascom Ayod PHCC,CHW-024,15.0,Nyaduoth Kong,+211 91 799 2245,8.028753,31.392062,,"Ayod, near the borehole",toVisit
+C-01222,Nyaruach Reath,2024-11-13,F,Ascom Ayod PHCC,CHW-024,4.1,Nyaduoth Tap,+211 91 388 8000,8.133122,31.379952,,"Ayod village, Block C",toVisit
+C-01223,Kuany Kuany,2025-12-13,M,Ascom Ayod PHCC,CHW-024,7.3,Nyakuoth Dak,+211 98 489 4643,8.110983,31.456766,,"Ayod village, Block D",toVisit
+C-01224,Kong Gai,2026-09-09,M,Ascom Ayod PHCC,CHW-024,1.5,Nyaluak Ruach,+211 91 820 7682,8.145863,31.41261,,Near Ayod market,toVisit
+C-01225,Nyakong Reath,2025-07-23,F,Ascom Ayod PHCC,CHW-024,5.5,Reath Tap,+211 91 966 4039,8.162976,31.438514,,"Ayod village, Block C",toVisit
+C-01226,Nyawech Wal,2025-11-18,F,Ascom Ayod PHCC,CHW-024,7.9,Wal Tap,+211 91 986 3902,8.191091,31.397555,,Cattle camp near Ayod,toVisit
+C-01227,Jal Nhial,2026-04-22,M,Ascom Ayod PHCC,CHW-024,9.0,Nyatuach Gatkuoth,+211 91 969 4404,8.085173,31.368297,,Cattle camp near Ayod,toVisit
+C-01228,Nyanhial Lam,2026-06-04,F,Ascom Ayod PHCC,CHW-024,17.5,Nyakume Nhial,,8.253424,31.364674,,Cattle camp near Ayod,toVisit
+C-01229,Nyadak Kueth,2026-07-21,F,Ascom Ayod PHCC,CHW-024,12.4,Nyalam Kong,+211 98 352 6738,8.134972,31.499987,,"Ayod village, Block D",toVisit
+C-01230,Nyalam Buom,2026-01-06,F,Ascom Ayod PHCC,CHW-024,7.5,Nyachuol Tut,,8.087107,31.385261,,Cattle camp near Ayod,visited

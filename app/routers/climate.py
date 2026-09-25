@@ -15,11 +15,12 @@ from fastapi import (
     Query,
     UploadFile,
 )
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from app.core.security import get_current_worker
 from app.db.database import SessionLocal, get_db
-from app.db.models import CDIScore, Facility, Worker
+from app.db.models import CDIScore, Facility, VVHistory, Worker
 from app.schemas.climate import CDIComponents, CDIOut, SarUploadResult
 from app.schemas.common import Message
 from app.services import ingest, scoring
@@ -28,7 +29,23 @@ from app.services.pipeline import run_weekly_cdi_pipeline
 router = APIRouter()
 
 
-def _to_out(db: Session, f: Facility, row: CDIScore) -> CDIOut:
+def _latest_sar(db: Session, facility_ids: list[str]) -> dict:
+    """Latest radar observation date per facility, in one grouped query.
+
+    Done in bulk so the facility list does not fan out into one query per row.
+    """
+    if not facility_ids:
+        return {}
+    rows = (
+        db.query(VVHistory.facility_id, func.max(VVHistory.observed_at))
+        .filter(VVHistory.facility_id.in_(facility_ids))
+        .group_by(VVHistory.facility_id)
+        .all()
+    )
+    return {fid: observed for fid, observed in rows}
+
+
+def _to_out(db: Session, f: Facility, row: CDIScore, sar_at=None) -> CDIOut:
     return CDIOut(
         facility_id=f.id,
         facility_name=f.name,
@@ -47,6 +64,7 @@ def _to_out(db: Session, f: Facility, row: CDIScore) -> CDIOut:
             p_disp=row.p_disp or 0.0,
         ),
         scored_at=row.scored_at,
+        sar_observed_at=sar_at,
     )
 
 
@@ -67,7 +85,8 @@ def get_all_cdi(
     if region:
         q = q.filter(Facility.state == region)
     facilities = q.all()
-    return [_to_out(db, f, _ensure_cdi(db, f)) for f in facilities]
+    sar = _latest_sar(db, [f.id for f in facilities])
+    return [_to_out(db, f, _ensure_cdi(db, f), sar.get(f.id)) for f in facilities]
 
 
 @router.get("/facilities/{facility_id}", response_model=CDIOut)
@@ -79,7 +98,7 @@ def get_facility_cdi(
     f = db.query(Facility).filter(Facility.id == facility_id).first()
     if not f:
         raise HTTPException(status_code=404, detail="Facility not found")
-    return _to_out(db, f, _ensure_cdi(db, f))
+    return _to_out(db, f, _ensure_cdi(db, f), _latest_sar(db, [f.id]).get(f.id))
 
 
 @router.post("/upload-sar", response_model=SarUploadResult)
