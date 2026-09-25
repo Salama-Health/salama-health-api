@@ -1,6 +1,11 @@
 name: Deploy to EC2
 
 # Deploys on every push to main, or manually from the Actions tab.
+#
+# The runner pushes code to the instance with rsync rather than having the
+# instance pull from GitHub. The Salama-Health org disables deploy keys, and
+# this way no GitHub credential ever lives on the server: a compromised box
+# cannot read the repository.
 on:
   push:
     branches: [main]
@@ -15,7 +20,38 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy over SSH
+      - name: Check out the code to ship
+        uses: actions/checkout@v4
+
+      - name: Set up SSH for the instance
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # Pin the host key instead of disabling strict checking.
+          ssh-keyscan -p "${{ secrets.EC2_PORT }}" -H "${{ secrets.EC2_HOST }}" \
+            >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Sync code to the instance
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: |
+          # --delete keeps the box identical to main, but everything excluded
+          # here lives ONLY on the server and must survive a deploy:
+          #   .env          secrets (SECRET_KEY, DB password)
+          #   models/       ML artifacts, git-ignored, shipped out of band
+          #   secrets/      GEE service-account key
+          #   nginx/certs/  TLS certificates
+          rsync -az --delete \
+            --exclude '.git' \
+            --exclude '.env' \
+            --exclude 'models/' \
+            --exclude 'secrets/' \
+            --exclude 'nginx/certs/' \
+            -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.EC2_PORT }}" \
+            ./ "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:${DEPLOY_PATH}/"
+
+      - name: Rebuild and restart containers
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.EC2_HOST }}
@@ -26,9 +62,6 @@ jobs:
           script: |
             set -e
             cd ${{ secrets.DEPLOY_PATH }}
-            echo "Fetching latest code"
-            git fetch --all
-            git reset --hard origin/main
             echo "Rebuilding and restarting containers"
             docker compose up -d --build
             echo "Applying database migrations"
@@ -42,6 +75,7 @@ jobs:
           for i in $(seq 1 20); do
             if curl -fsS "http://${{ secrets.EC2_HOST }}/health" > /dev/null; then
               echo "API is healthy"
+              curl -fsS "http://${{ secrets.EC2_HOST }}/health"
               exit 0
             fi
             echo "Attempt $i not ready yet, retrying in 6s"
@@ -49,3 +83,7 @@ jobs:
           done
           echo "API did not become healthy in time"
           exit 1
+
+      - name: Remove the deploy key from the runner
+        if: always()
+        run: rm -f ~/.ssh/deploy_key
