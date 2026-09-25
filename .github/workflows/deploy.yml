@@ -63,7 +63,10 @@ jobs:
             set -e
             cd ${{ secrets.DEPLOY_PATH }}
             echo "Rebuilding and restarting containers"
-            docker compose up -d --build
+            # --remove-orphans: a service deleted from docker-compose.yml is
+            # NOT stopped by `up` on its own. Without this, the old nginx
+            # container kept holding ports 80/443 and Caddy could not bind.
+            docker compose up -d --build --remove-orphans
             echo "Applying database migrations"
             docker compose exec -T api alembic upgrade head || echo "No migrations to apply"
             echo "Cleaning up old images"
