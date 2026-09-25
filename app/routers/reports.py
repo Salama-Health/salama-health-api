@@ -93,6 +93,7 @@ def summary(
         coverage_rate=coverage_rate,
         children_reached=reached,
         dropout_rate=max(dropout_rate, 0.0),
+        period=month_start.strftime("%B %Y"),
     )
 
 

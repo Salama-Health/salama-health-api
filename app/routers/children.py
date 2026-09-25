@@ -21,6 +21,7 @@ def _to_out(db: Session, child: Child) -> ChildOut:
     if risk:
         out.risk_score = risk.risk_score
         out.risk_band = risk.risk_label
+        out.risk_pending = False
     out.due_vaccines = scoring.due_vaccines_for(child)
     return out
 
@@ -31,6 +32,7 @@ def _to_detail(db: Session, child: Child) -> ChildDetail:
     if risk:
         detail.risk_score = risk.risk_score
         detail.risk_band = risk.risk_label
+        detail.risk_pending = False
     detail.due_vaccines = scoring.due_vaccines_for(child)
     detail.history = [VaccinationOut.from_orm_record(v) for v in child.vaccinations]
     return detail

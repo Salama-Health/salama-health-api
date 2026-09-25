@@ -25,6 +25,12 @@ class ChildOut(CamelModel):
     # Enriched fields (from cached risk score + due-vaccine computation)
     risk_score: Optional[float] = None
     risk_band: Optional[str] = None
+    # True when no score has been computed for this child yet. The client must
+    # use this rather than inferring it from risk_score == 0: the IGS is
+    # multiplicative, so a child with no vaccination debt scores EXACTLY 0.0,
+    # which is a real score meaning "fully up to date", not a missing one.
+    # 11% of seeded children are in that state.
+    risk_pending: bool = True
     due_vaccines: List[str] = []
 
 
