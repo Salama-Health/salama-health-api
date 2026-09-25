@@ -71,6 +71,9 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
       - ./nginx/certs:/etc/nginx/certs:ro
+      # Webroot for the ACME HTTP-01 challenge. certbot writes tokens here on
+      # the host; nginx only ever reads them.
+      - ./nginx/acme-webroot:/var/www/certbot:ro
 
 volumes:
   pgdata:
