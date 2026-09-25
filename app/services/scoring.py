@@ -33,6 +33,7 @@ from app.ml import epi
 from app.ml.features import (
     FeatureInputs,
     compute_feature_vector,
+    compute_named_features,
     estimated_inputs,
     is_rainy_season,
 )
@@ -107,6 +108,10 @@ def build_inputs(db: Session, facility: Facility, climate: Optional[dict] = None
         flood_affected_norm=facility.flood_affected_norm or 0.0,
         idp_normalised=idp,
     )
+    # Not in the 30-feature flood vector, but the Random Forest was trained on
+    # where the facility sits, so it has to be carried through.
+    inputs.latitude = facility.latitude or 0.0
+    inputs.longitude = facility.longitude or 0.0
 
     vv = ingest.get_vv_history(db, facility.id, n=3)
     if vv:
@@ -131,8 +136,9 @@ def build_inputs(db: Session, facility: Facility, climate: Optional[dict] = None
 
 def score_facility(db: Session, facility: Facility, climate: Optional[dict] = None) -> dict:
     """Run inference + CDI assembly for one facility. Pure (no DB writes)."""
-    vec = compute_feature_vector(build_inputs(db, facility, climate))
-    p_flood = model_manager.predict_flood_proba(vec)
+    inputs = build_inputs(db, facility, climate)
+    vec = compute_feature_vector(inputs)
+    p_flood = model_manager.predict_flood_proba(vec, compute_named_features(inputs))
 
     rain_mm = float(vec[6])
     low_elev = float(vec[5])
