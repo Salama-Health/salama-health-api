@@ -9,7 +9,7 @@ from app.db.database import get_db
 from app.db.models import Child, Worker
 from app.schemas.child import ChildCreate, ChildDetail, ChildOut, ChildUpdate
 from app.schemas.vaccination import VaccinationOut
-from app.services import scoring
+from app.services import registration, scoring
 from app.services.activity_service import log_activity
 
 router = APIRouter()
@@ -92,20 +92,7 @@ def create_child(
         if existing:
             return _to_detail(db, existing)
 
-    child = Child(
-        name=payload.name,
-        gender=payload.gender,
-        born_date=payload.born_date,
-        facility_id=payload.facility_id or current.facility_id,
-        worker_id=payload.worker_id or current.id,
-        parent_name=payload.parent_name,
-        parent_phone=payload.parent_phone,
-        current_location=payload.current_location,
-        distance_km=payload.distance_km,
-        latitude=payload.latitude,
-        longitude=payload.longitude,
-        qr_code=payload.qr_code or payload.client_uuid,
-    )
+    child = registration.build_child(payload, current)
     db.add(child)
     db.commit()
     db.refresh(child)

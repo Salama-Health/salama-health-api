@@ -87,6 +87,20 @@ class Child(Base):
     qr_code          = Column(String, unique=True, index=True)
     last_seen        = Column(DateTime)
     status           = Column(String, default="toVisit")  # toVisit | visited | missed
+
+    # ── Registration record ──────────────────────────────────────────────
+    # consent_at is the consent record itself: the moment the caregiver gave
+    # consent, as captured on the device. Keep it even if consent_given is
+    # false, so a refusal is auditable too.
+    consent_given      = Column(Boolean)
+    consent_at         = Column(DateTime)
+    # True when born_date is an age bracket the worker estimated rather than
+    # a date from a card. Everything downstream (EPI schedule, vaccination
+    # debt, age urgency) treats it as exact, so consumers need to know.
+    born_date_estimated = Column(Boolean, default=False)
+    notes              = Column(Text)
+    registered_by      = Column(String)    # worker code as typed, e.g. CHW-001
+    registered_at      = Column(DateTime)
     created_at       = Column(DateTime, server_default=func.now())
     updated_at       = Column(DateTime, server_default=func.now(), onupdate=func.now())
 
@@ -106,6 +120,7 @@ class Vaccination(Base):
     date_given      = Column(DateTime)
     status          = Column(String, default="given")     # given | due | missed
     batch_number    = Column(String)
+    site            = Column(String)       # injection site, e.g. "Left arm"
     administered_by = Column(String, ForeignKey("workers.id"))
     notes           = Column(Text)
     # idempotency key from the client so re-uploaded offline records de-dupe

@@ -33,6 +33,7 @@ class VaccinationCreate(CamelModel):
     date_given: Optional[datetime] = None
     status: str = "given"
     batch_number: Optional[str] = None
+    site: Optional[str] = None               # injection site, e.g. "Left arm"
     notes: Optional[str] = None
     # Client-generated idempotency key so offline re-uploads de-duplicate.
     client_uuid: Optional[str] = None
