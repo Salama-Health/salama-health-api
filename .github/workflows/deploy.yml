@@ -73,12 +73,23 @@ jobs:
             docker image prune -f
 
       - name: Health check
+        # Checks the public HTTPS endpoint, not http://<ip>/health. Caddy
+        # serves only the configured hostname and 308-redirects everything
+        # else; `curl -fsS` does not follow redirects and only fails on >=400,
+        # so the old IP check passed on the redirect alone and would have
+        # reported healthy with the API completely down.
+        #
+        # The hostname is not a secret - it is in the Caddyfile in this repo -
+        # and keeping it unmasked makes a failed deploy readable in the log.
+        env:
+          HEALTH_URL: https://salamahealth.duckdns.org/health
         run: |
-          echo "Waiting for the API to report healthy"
+          echo "Waiting for the API to report healthy at $HEALTH_URL"
           for i in $(seq 1 20); do
-            if curl -fsS "http://${{ secrets.EC2_HOST }}/health" > /dev/null; then
+            body=$(curl -fsS --max-time 15 "$HEALTH_URL" 2>/dev/null || true)
+            if echo "$body" | grep -q '"status":"ok"'; then
               echo "API is healthy"
-              curl -fsS "http://${{ secrets.EC2_HOST }}/health"
+              echo "$body"
               exit 0
             fi
             echo "Attempt $i not ready yet, retrying in 6s"
