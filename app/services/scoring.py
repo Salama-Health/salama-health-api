@@ -157,12 +157,32 @@ def score_facility(db: Session, facility: Facility, climate: Optional[dict] = No
 
 
 # ── IGS (child risk) helpers ──────────────────────────────────────────────────
+# Fixed band cut-offs, set once from the observed IGS distribution across all
+# 1,230 seeded children (p40 / p70 / p90). They are deliberately constants, not
+# percentiles recomputed each run: a band has to mean the same thing from one
+# week to the next, or "High" silently redefines itself as the data shifts.
+#
+# The previous cut-offs (0.90 / 0.80 / 0.72) predated any real data. The IGS is
+# soft-capped at 5.0 and then normalised, so scores cluster low - p90 is 0.212.
+# Those thresholds put 79 of 80 children in the bottom band, including a child
+# scoring 0.649 with six overdue doses, which makes the visit list useless.
+#
+# Resulting split: High 10.1%, Medium 19.9%, Watch 29.9%, Low 40.1%, or roughly
+# 7-14 High children per worker - a realistic weekly visit list.
+#
+# Revisit once pilot data replaces the seed. The client bands independently, so
+# any change here has to be mirrored in the app.
+RISK_BAND_HIGH = 0.21
+RISK_BAND_MEDIUM = 0.075
+RISK_BAND_WATCH = 0.025
+
+
 def risk_label(score: float) -> str:
-    if score >= 0.90:
+    if score >= RISK_BAND_HIGH:
         return "High"
-    if score >= 0.80:
+    if score >= RISK_BAND_MEDIUM:
         return "Medium"
-    if score >= 0.72:
+    if score >= RISK_BAND_WATCH:
         return "Watch"
     return "Low"
 
