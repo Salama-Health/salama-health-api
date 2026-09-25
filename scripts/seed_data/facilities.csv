@@ -1,0 +1,94 @@
+name,county,state,latitude,longitude,elevation_m,flood_affected_norm,active
+Walgak PHCC,Akobo,Jonglei,8.16075,32.23865,407.9,,true
+Ascom Ayod PHCC,Ayod,Jonglei,8.13544,31.40971,407.2,,true
+Ayod PHCC,Ayod,Jonglei,8.12281,31.41356,408.0,,true
+Mogok PHCU,Ayod,Jonglei,8.40239,31.33646,405.3,,true
+Pagil PHCU,Ayod,Jonglei,8.71085,31.26925,402.5,,true
+Wan Machar PHCC,Ayod,Jonglei,8.23199,30.59433,400.9,,true
+Anyidi PHCU,Bor South,Jonglei,6.17755,31.81293,434.7,,true
+Baidit PHCC,Bor South,Jonglei,6.42951,31.56256,426.0,,true
+Bor Prison PHCC,Bor South,Jonglei,6.22521,31.59697,430.9,,true
+Jalle PHCC,Bor South,Jonglei,6.67182,31.77659,423.1,,true
+Kolnyang PHCC,Bor South,Jonglei,6.13708,31.73185,432.5,,true
+Makuac PHCC,Bor South,Jonglei,6.26155,31.7308,430.0,,true
+Malual Agor Baar PHCC,Bor South,Jonglei,6.12538,31.58084,432.6,,true
+Pariak PHCC,Bor South,Jonglei,5.97102,31.66066,431.9,,true
+Khorfulus PHCC,Canal/Pigi,Jonglei,9.31355,31.58603,398.9,,true
+Dok Lost Clinic PHCU,Duk,Jonglei,7.48253,31.51073,413.9,,true
+Duk/Paborkoi PHCC,Duk,Jonglei,7.72603,31.4058,411.4,,true
+Poktap PHCC,Duk,Jonglei,7.45464,31.40907,414.5,,true
+Juaibor PHCC,Fangak,Jonglei,9.40076,30.66977,401.0,,true
+Keew PHCC,Fangak,Jonglei,9.26357,30.63544,402.1,,true
+Kuernyang PHCC,Fangak,Jonglei,9.32275,30.88692,402.4,,true
+Nyadiu PHCC,Fangak,Jonglei,8.79966,30.66906,401.8,,true
+Old Fangak Hosp,Fangak,Jonglei,9.06672,30.88009,401.6,,true
+Lankien PHCC,Nyirol,Jonglei,8.52622,32.06143,403.5,,true
+Pultruk PHCC,Nyirol,Jonglei,8.59479,31.94841,403.2,,true
+Churi PHCC,Pibor,Jonglei,6.56997,34.62081,555.3,,true
+Oang PHCC,Pibor,Jonglei,6.16799,34.4131,681.1,,true
+Pochalla PHCC,Pochalla,Jonglei,7.17761,34.08731,442.6,,true
+Paliau PHCC,Twic East,Jonglei,6.96007,31.37843,417.2,,true
+Wernyol PHCC,Twic East,Jonglei,7.32845,31.41489,414.2,,true
+Yuai PHCC,Uror,Jonglei,7.90507,31.89112,411.0,,true
+ABIEMNOM PHCC,Abiemnhom,Unity,9.039874,28.08234,409.5,,true
+GUIT PHCC,Guit,Unity,9.15831,29.9106,396.5,,true
+BOAW PHCC,Koch,Unity,8.84379,29.7296,391.6,,true
+KOCH PHCC,Koch,Unity,8.59984,29.98989,396.7,,true
+MIRMIR PHCC,Koch,Unity,8.4646,30.10225,397.7,,true
+THONYOR PHCC,Leer,Unity,8.22265,30.21959,398.0,,true
+ADOKBAK PHCC,Mayendit,Unity,8.18798,30.30636,399.4,,true
+PHCC,Mayendit,Unity,8.39178,30.07858,396.4,,true
+PRIMARY HEALTH CARE,Mayendit,Unity,8.13179,30.01659,396.4,,true
+MANKIEN,Mayom,Unity,9.05212,29.09001,397.7,,true
+MAYOM PHCC,Mayom,Unity,9.022217,29.017567,399.0,,true
+WANG KAI PHCC,Mayom,Unity,9.008799,29.045546,396.5,,true
+GAYANYLIEL PHCC,Panyijiar,Unity,7.40497,30.47237,408.3,,true
+NYAL PHCC,Panyijiar,Unity,7.72375,30.24858,401.7,,true
+BIU PHCC,Pariang,Unity,9.064571,30.029749,397.3,,true
+PARIANG,Pariang,Unity,9.091134,29.098214,395.9,,true
+CARE BENTIU,Rubkona,Unity,9.25603,29.79563,397.2,,true
+CARE RUBKONA,Rubkona,Unity,9.29023,29.78955,398.1,,true
+KHAL JAAK PHCC,Rubkona,Unity,9.27611,29.53649,396.9,,true
+NHIAL DIU PHCC,Rubkona,Unity,9.02619,29.68332,393.8,,true
+NILE GANGAH B-V,Rubkona,Unity,9.29186,29.7952,398.3,,true
+REANG PHCC,Rubkona,Unity,9.35665,29.49027,399.2,,true
+WAAK PHCC,Rubkona,Unity,8.92965,29.61618,393.0,,true
+BALIET PHCC,Baliet,Upper Nile,9.29581,32.05748,397.0,,true
+KODOK HOSPITAL,Fashoda,Upper Nile,9.89161,32.11523,394.4,,true
+KODOK PHCC,Fashoda,Upper Nile,9.89049,32.11621,394.1,,true
+ORINY PHCC,Fashoda,Upper Nile,9.86784,31.88998,396.2,,true
+CHUTBORA PHCC,Longochuk,Upper Nile,9.20598,33.75315,438.7,,true
+DAJOK PHCC,Longochuk,Upper Nile,9.20541,33.95824,489.9,,true
+GUELGUK PHCC,Longochuk,Upper Nile,9.75551,32.98008,398.3,,true
+JIKMIR PHCC,Luakpiny/Nasir,Upper Nile,8.4533,33.189117,404.9,,true
+KIECH KUON,Luakpiny/Nasir,Upper Nile,8.95105,32.92966,401.3,,true
+MADING PHCC,Luakpiny/Nasir,Upper Nile,8.77265,33.32174,406.3,,true
+BOUNY PHCC,Maban,Upper Nile,9.95867,33.71172,449.8,,true
+DOROW PHCC,Maban,Upper Nile,9.97687,33.75492,453.3,,true
+MAIWUT PHCC,Maiwut,Upper Nile,8.60622,33.92406,432.5,,true
+PAGAT PHCC,Maiwut,Upper Nile,8.47334,34.02072,434.9,,true
+ULENG PHCC,Maiwut,Upper Nile,8.71154,33.72795,411.1,,true
+BAM PHCC,Malakal,Upper Nile,9.50328,31.65897,399.4,,true
+ECS PHCC,Malakal,Upper Nile,9.5252,31.6583,402.4,,true
+GLOBAL HEALTH PHCC,Malakal,Upper Nile,9.53797,31.65365,400.0,,true
+MULUKIA PHCC,Malakal,Upper Nile,9.54469,31.64673,401.4,,true
+NATIONAL HEALTH INSURANCE,Malakal,Upper Nile,9.52727,31.65125,399.3,,true
+NATURAL HEALTH,Malakal,Upper Nile,9.54716,31.65022,401.0,,true
+SSC PHCC,Malakal,Upper Nile,9.53088,31.66129,400.6,,true
+WAU SHILLUK HEALTH,Malakal,Upper Nile,9.66133,31.745889,393.9,,true
+AWETH PHCC,Manyo,Upper Nile,10.34117,32.22318,392.4,,true
+KAKA PHCC,Manyo,Upper Nile,10.57906,32.1574,392.2,,true
+N.H.I,Manyo,Upper Nile,11.61003,32.72532,389.7,,true
+WADAKON PHCC,Manyo,Upper Nile,11.60811,32.72836,388.2,,true
+MELUF PHCC,Melut,Upper Nile,10.43713,32.18979,394.0,,true
+NYILUAK PHCC,Panyikang,Upper Nile,9.41241,31.29539,399.1,,true
+OBEI PHCC,Panyikang,Upper Nile,9.37605,31.57264,398.1,,true
+OWECI PHCC,Panyikang,Upper Nile,9.43371,31.57591,398.8,,true
+TONGA PHCC,Panyikang,Upper Nile,9.47,31.04944,399.8,,true
+GIEGER PHCC,Renk,Upper Nile,11.99026,32.75879,385.4,,true
+N.H INSURACE F PHCC,Renk,Upper Nile,11.7424,32.81175,390.6,,true
+N.H.I FUND PHCC,Renk,Upper Nile,11.74819,32.79985,388.0,,true
+NATIONAL INSURANCE F,Renk,Upper Nile,11.98475,32.76228,387.6,,true
+WANTHAW PHCC,Renk,Upper Nile,12.26292,32.76522,387.2,,true
+RUP BOARD PHCC,Ulang,Upper Nile,8.66914,32.79145,404.9,,true
+ULANG PHCC,Ulang,Upper Nile,8.65595,32.7204,402.3,,true
