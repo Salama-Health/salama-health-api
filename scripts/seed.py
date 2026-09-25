@@ -13,6 +13,7 @@ from datetime import datetime, timedelta
 from app.db.database import Base, SessionLocal, engine
 from app.db.models import Child, County, Facility, Vaccination, Worker
 from app.core.security import hash_pin
+from app.ml.model_loader import model_manager
 from app.services.scoring import refresh_all_scores
 
 Base.metadata.create_all(bind=engine)
@@ -118,6 +119,12 @@ def run():
             print(f"  + child {cd['name']}")
 
         db.commit()
+
+        # Load the models first: this is a CLI process, so the FastAPI
+        # lifespan that normally calls load() never runs here. Without it,
+        # every p_flood silently falls back to the rule-based heuristic.
+        model_manager.load()
+        print(f"Models: predicting_with={model_manager.status()['predicting_with']}")
 
         print("Computing initial CDI + risk scores...")
         result = refresh_all_scores(db)

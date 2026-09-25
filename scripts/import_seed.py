@@ -42,6 +42,7 @@ from app.db.models import (
     Worker,
 )
 from app.ml.epi import EPI_SCHEDULE
+from app.ml.model_loader import model_manager
 from app.services.scoring import refresh_all_scores
 
 DATA = Path(__file__).resolve().parent / "seed_data"
@@ -235,6 +236,20 @@ def run() -> None:
         db.commit()
 
         # ── scores ────────────────────────────────────────────────────────────
+        # ModelManager.load() normally runs in the FastAPI lifespan. This is a
+        # plain CLI process, so without loading here every p_flood silently
+        # comes from the rule-based fallback instead of the model - and
+        # /health would not show it, because that reports the API workers'
+        # state, not this process's.
+        model_manager.load()
+        st = model_manager.status()
+        print(f"\nModels: predicting_with={st['predicting_with']} "
+              f"source={st['source']} widths={st['feature_widths']}")
+        if st["predicting_with"] == "rule_based_fallback":
+            print("  WARNING: no model loaded - scores below are heuristic, not ML")
+        for issue in st["issues"]:
+            print(f"  - {issue}")
+
         print("\nComputing CDI + child risk scores ...")
         result = refresh_all_scores(db)
         print(f"  scored {result['facilities']} facilities, {result['children']} children")
