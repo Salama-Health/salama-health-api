@@ -43,7 +43,11 @@ services:
       DB_POOL_SIZE: ${DB_POOL_SIZE:-10}
       DB_MAX_OVERFLOW: ${DB_MAX_OVERFLOW:-10}
       ENABLE_SCHEDULER: ${ENABLE_SCHEDULER:-true}
-      HF_MODEL_REPO: ${HF_MODEL_REPO:-}
+      # NOTE: HF_MODEL_REPO is deliberately NOT overridden here. An
+      # `environment` entry beats env_file, so `${HF_MODEL_REPO:-}`
+      # pushed an empty string whenever the host .env omitted the key,
+      # silently disabling the Hugging Face fallback. Let .env (or the
+      # default in app/config.py) supply it.
       CORS_ORIGINS: ${CORS_ORIGINS:-*}
     volumes:
       - ./models:/app/models:ro
