@@ -16,17 +16,39 @@ router = APIRouter()
 
 @router.get("", response_model=list[VaccinationOut])
 def list_vaccinations(
-    child_id: str = Query(..., alias="childId"),
+    child_id: Optional[str] = Query(None, alias="childId"),
+    limit: int = Query(200, ge=1, le=1000),
     db: Session = Depends(get_db),
     current: Worker = Depends(get_current_worker),
 ):
-    records = (
-        db.query(Vaccination)
-        .filter(Vaccination.child_id == child_id)
+    """Doses for one child, or every dose this worker has administered.
+
+    With `childId` this is the child's timeline. Without it, it is the
+    worker's own record of what they have given, across all their children -
+    which the client cannot otherwise assemble without one request per child.
+
+    The worker view joins the child so each row can name them; the per-child
+    view leaves `childName` null, since it is already scoped to one child.
+    """
+    if child_id:
+        records = (
+            db.query(Vaccination)
+            .filter(Vaccination.child_id == child_id)
+            .order_by(Vaccination.date_given.desc().nullslast())
+            .limit(limit)
+            .all()
+        )
+        return [VaccinationOut.from_orm_record(v) for v in records]
+
+    rows = (
+        db.query(Vaccination, Child.name)
+        .join(Child, Child.id == Vaccination.child_id)
+        .filter(Vaccination.administered_by == current.id)
         .order_by(Vaccination.date_given.desc().nullslast())
+        .limit(limit)
         .all()
     )
-    return [VaccinationOut.from_orm_record(v) for v in records]
+    return [VaccinationOut.from_orm_record(v, child_name=name) for v, name in rows]
 
 
 @router.post("", response_model=VaccinationOut, status_code=201)

@@ -12,9 +12,14 @@ class VaccinationOut(CamelModel):
     date: Optional[datetime] = None      # maps from date_given
     status: str
     batch: Optional[str] = None          # maps from batch_number
+    site: Optional[str] = None           # injection site, when recorded
+    # Only populated when listing a worker's doses across children, where the
+    # client has no other way to name the child. Null on a per-child history,
+    # which is already scoped to one child.
+    child_name: Optional[str] = None
 
     @classmethod
-    def from_orm_record(cls, v) -> "VaccinationOut":
+    def from_orm_record(cls, v, child_name: Optional[str] = None) -> "VaccinationOut":
         return cls(
             id=v.id,
             child_id=v.child_id,
@@ -23,6 +28,8 @@ class VaccinationOut(CamelModel):
             date=v.date_given,
             status=v.status,
             batch=v.batch_number,
+            site=v.site,
+            child_name=child_name,
         )
 
 
