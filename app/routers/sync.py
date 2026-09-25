@@ -15,7 +15,7 @@ from app.core.security import get_current_worker
 from app.db.database import get_db
 from app.db.models import Child, SyncRecord, Vaccination, Worker
 from app.schemas.sync import SyncStatus, SyncUploadRequest, SyncUploadResult
-from app.services import scoring
+from app.services import registration, scoring
 from app.services.activity_service import log_activity
 
 router = APIRouter()
@@ -36,15 +36,7 @@ def upload(
             result.duplicates_skipped += 1
             continue
         try:
-            child = Child(
-                name=c.name, gender=c.gender, born_date=c.born_date,
-                facility_id=c.facility_id or current.facility_id,
-                worker_id=c.worker_id or current.id,
-                parent_name=c.parent_name, parent_phone=c.parent_phone,
-                current_location=c.current_location, distance_km=c.distance_km,
-                latitude=c.latitude, longitude=c.longitude,
-                qr_code=c.qr_code or c.client_uuid,
-            )
+            child = registration.build_child(c, current)
             db.add(child)
             db.flush()
             touched_children.add(child.id)
@@ -60,12 +52,7 @@ def upload(
             result.duplicates_skipped += 1
             continue
         try:
-            rec = Vaccination(
-                child_id=v.child_id, vaccine=v.vaccine, dose=v.dose,
-                date_given=v.date_given, status=v.status,
-                batch_number=v.batch_number, administered_by=current.id,
-                notes=v.notes, client_uuid=v.client_uuid, synced=True,
-            )
+            rec = registration.build_vaccination(v, current)
             db.add(rec)
             touched_children.add(v.child_id)
             result.vaccinations_saved += 1

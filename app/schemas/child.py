@@ -53,6 +53,26 @@ class ChildCreate(CamelModel):
     qr_code: Optional[str] = None
     client_uuid: Optional[str] = None
 
+    # ── Registration record ──────────────────────────────────────────────
+    # consent_at is the consent record: when the caregiver gave consent, as
+    # captured on the device. Stored even when consent_given is false, so a
+    # refusal is auditable too.
+    consent_given: Optional[bool] = None
+    consent_at: Optional[datetime] = None
+    # True when born_date is an estimated age bracket rather than a date from
+    # a card. Everything downstream treats born_date as exact, so this is the
+    # only signal that it is not.
+    born_date_estimated: Optional[bool] = None
+    notes: Optional[str] = None
+    registered_by: Optional[str] = None      # worker code as typed, e.g. CHW-001
+    registered_at: Optional[datetime] = None
+
+    # Accepted so it is not rejected, but deliberately NOT stored: the server
+    # computes due vaccines from the EPI schedule and the child's age, and
+    # persisting the client's view would create a second source of truth that
+    # silently goes stale as the child ages.
+    due_vaccines: Optional[List[str]] = None
+
 
 class ChildUpdate(CamelModel):
     name: Optional[str] = None
