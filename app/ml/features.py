@@ -31,6 +31,48 @@ from app.config import settings
 
 NUM_FEATURES = 30
 
+# The training feature order, by name. This is the contract the model
+# artifacts are checked against at load time (see app/ml/model_loader.py):
+# a model that exposes `feature_names_in_` must match a prefix of this list,
+# in this order, or it is refused rather than allowed to fail silently at
+# inference. Keep in sync with `compute_feature_vector` below.
+FEATURE_NAMES = [
+    "VV_backscatter",       # 0
+    "VV_7day_mean",         # 1
+    "VV_delta",             # 2
+    "flood_signal",         # 3
+    "elevation_m",          # 4
+    "low_elevation",        # 5
+    "chirps_rainfall_mm",   # 6
+    "chirps_anomaly",       # 7
+    "rainfall_roll30d",     # 8
+    "rainfall_lag7d",       # 9
+    "rainfall_lag14d",      # 10
+    "rainfall_lag28d",      # 11
+    "rainfall_anomaly",     # 12
+    "temp_max_celsius",     # 13
+    "temp_min_celsius",     # 14
+    "temp_anomaly",         # 15
+    "temp_excess_8c",       # 16
+    "ccf_risk",             # 17
+    "cumulative_heat_7d",   # 18
+    "freeze_risk",          # 19
+    "humidity_pct",         # 20
+    "evapotranspiration",   # 21
+    "water_deficit",        # 22
+    "drought_signal",       # 23
+    "idp_normalised",       # 24
+    "season_sin",           # 25
+    "season_cos",           # 26
+    "rainy_season",         # 27
+    "month",                # 28
+    # NOTE: the Phase 2 XGBoost artifact was trained WITHOUT this last
+    # feature - it expects the 29 above. The loader detects that by name and
+    # trims the vector for that model rather than dropping it.
+    "flood_affected_norm",  # 29
+]
+assert len(FEATURE_NAMES) == NUM_FEATURES
+
 
 def is_rainy_season(month: int) -> bool:
     """South Sudan rainy season ~April–November."""
